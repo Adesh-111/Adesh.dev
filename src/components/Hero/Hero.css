@@ -99,6 +99,7 @@ button:hover{
 
 .Image img{
     width: 450px;
+    height: 450px;
     margin-right: 30px;
     border: 3px solid #ff8911;
     border-radius: 40px;
@@ -111,10 +112,78 @@ button:hover{
     margin-top: 1px;
 }
 
-@media screen and (min-width: 1160px) {
+@media screen and (max-width: 1170px) {
     .Image img{
         width: 430px;
+        height: 430px;
+    }
+
+    h1{
+        font-size: 3.3rem;
     }
   }
 
-  @media screen and (min-width)
+  @media screen and (max-width: 950px){
+    .button{
+        flex-direction: column;
+        gap : 0px;
+    }
+
+    button{
+        padding: 10px;
+        margin-top: 0px;
+    }
+
+    .Image img{
+        width: 350px;
+        height: 350px;
+        margin-top: 0px;
+    }
+
+    .Image img:hover{
+        margin-top: 0px;
+    }
+  }
+
+  @media screen and (max-width: 850px){
+
+    .Hero{
+        flex-direction: column-reverse;
+    }
+
+    .Image img{
+        width: 450px;
+        height: 450px;
+        margin-top: 0px;
+    }
+
+    .button{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    button{
+        width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .Image img{
+        width: 280px;
+        height: 280px;
+        margin-top: 0px;
+    }
+
+    h1{
+        font-size: 2rem;
+        margin-left: 35px;
+    }
+    p{
+        margin-left: 40px;
+        font-size: 15px;
+    }
+    button{
+        margin: 10px;
+        margin-left: 0px;
+    }
+  }
