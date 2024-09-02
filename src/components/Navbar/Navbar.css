@@ -9,10 +9,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    margin-top: 20px;
     background-color: black;
     color: white;
     padding: 0px 10px;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
 }
 
 .navbar{

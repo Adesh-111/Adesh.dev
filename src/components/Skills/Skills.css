@@ -1,0 +1,30 @@
+.skills-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+    transform: skewY(-8deg);
+    padding: 20px 0;
+    margin-top: 150px;
+  }
+  
+  .skills-marquee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+  }
+  
+  .skills-marquee img {
+    margin: 0;
+    padding: 0 20px; 
+    width: 70px; 
+    height: auto;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5)); 
+  }
+  
+  @media screen and (max-width: 600px) {
+    .skills-marquee img {
+      width: 40px; 
+    }
+  }
+  
