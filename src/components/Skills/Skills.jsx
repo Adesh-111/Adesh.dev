@@ -22,6 +22,7 @@ function Skills() {
     assets.vscode,
     assets.windows,
     assets.materialui,
+    assets.vite
   ];
 
   const Images = Array(100).fill(images).flat();

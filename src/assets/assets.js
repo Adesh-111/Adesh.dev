@@ -20,6 +20,7 @@ import java from './java.svg'
 import vscode from './vscode.svg'
 import windows from './windows.svg'
 import materialui from './material-ui.svg'
+import vite from './vite.svg'
 
 const assets = {
     profile : profile,
@@ -43,7 +44,8 @@ const assets = {
     java : java,
     vscode : vscode,
     windows : windows,
-    materialui : materialui
+    materialui : materialui,
+    vite : vite
 }
 
 export default assets;
