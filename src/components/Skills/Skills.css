@@ -5,6 +5,7 @@
     transform: skewY(-8deg);
     padding: 20px 0;
     margin-top: 120px;
+    border: 2px solid white;
   }
   
   .skills-marquee {
