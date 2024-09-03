@@ -4,6 +4,7 @@ import App from './components/App.jsx'
 import './components/Navbar/Navbar.css'
 import './components/Hero/Hero.css'
 import './components/Skills/Skills.css'
+import './components/Services/Services.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

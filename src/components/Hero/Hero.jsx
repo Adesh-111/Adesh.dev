@@ -6,7 +6,7 @@ import assets from "../../assets/assets";
 function Hero() {
   return (
     <>
-      <div className="Hero">
+      <div className="Hero" id="Home">
         <div>
           <h1 className="title">
             <span className="intro">I'm</span>

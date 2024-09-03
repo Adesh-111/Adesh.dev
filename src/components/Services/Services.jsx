@@ -1,20 +1,22 @@
 import React from "react";
 
-function Services(props) {
-    return ( <>
-    <div className="services">
-        <h2 className="service-title">
-        Find out how I can <span>help you.</span>
-        </h2>
-        <p>As a full-stack developer, I offer a comprehensive range of services to build dynamic, high-performing web applications.</p>
-        <div className="section-cards">
-            <div className="section-card">
-                <h3>{props.title}</h3>
-                
+function Services({ services }) {
+  return (
+    <div className="services-container">
+      {services.map((service, index) => (
+        <div key={index} className="section-card-wrapper">
+          <div className="section-card">
+            <img src={service.img} alt={service.title} />
+            <hr className="line" />
+            <div>
+              <h3>{service.title}</h3>
+              <p>{service.desc}</p>
             </div>
+          </div>
         </div>
+      ))}
     </div>
-    </> );
+  );
 }
 
 export default Services;

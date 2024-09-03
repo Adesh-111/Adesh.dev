@@ -21,6 +21,9 @@ import vscode from './vscode.svg'
 import windows from './windows.svg'
 import materialui from './material-ui.svg'
 import vite from './vite.svg'
+import web from './webdev.svg'
+import backend from './backend.svg'
+import frontend from './frontend.svg'
 
 const assets = {
     profile : profile,
@@ -45,7 +48,10 @@ const assets = {
     vscode : vscode,
     windows : windows,
     materialui : materialui,
-    vite : vite
+    vite : vite,
+    web : web,
+    backend : backend,
+    frontend : frontend
 }
 
 export default assets;

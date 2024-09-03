@@ -98,6 +98,8 @@ a:hover{
     .navbar{
         width: 100%;
         height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .navbar .dropdown{
         width: 100px;

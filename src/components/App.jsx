@@ -1,14 +1,14 @@
 import Navbar from "./Navbar/Navbar";
 import Hero from "./Hero/Hero";
 import Skills from "./Skills/Skills";
-import Services from "./Services/Services";
+import AllServices from "./Services/AllServices";
 
 function App() {
     return ( <>
     <Navbar />
     <Hero />
     <Skills />
-    <Services />
+    <AllServices />
     </> );
 }
 

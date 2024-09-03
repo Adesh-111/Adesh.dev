@@ -1,31 +1,42 @@
 .skills-container {
-    width: 100%;
-    overflow: hidden;
-    background-color: #000;
-    transform: skewY(-8deg);
-    padding: 20px 0;
-    margin-top: 120px;
-    border: 2px solid white;
-  }
-  
-  .skills-marquee {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 150px;
-  }
-  
+  width: 100%;
+  overflow: hidden;
+  background-color: #000;
+  transform: skewY(-8deg);
+  padding: 20px 0;
+  margin-top: 200px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.skills-marquee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+
+.skills-marquee img {
+  margin: 0;
+  padding: 0 20px;
+  width: 70px;
+  height: auto;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+}
+
+@media screen and (max-width: 600px) {
   .skills-marquee img {
-    margin: 0;
-    padding: 0 20px; 
-    width: 70px; 
-    height: auto;
-    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5)); 
+    width: 40px;
   }
-  
-  @media screen and (max-width: 600px) {
-    .skills-marquee img {
-      width: 40px; 
-    }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
