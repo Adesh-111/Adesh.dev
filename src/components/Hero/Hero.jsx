@@ -33,7 +33,7 @@ function Hero() {
             </div>
             <div className="from">
               from
-              <span>Chennai</span>
+              <span>One of you</span>
             </div>
           </h1>
           <p>

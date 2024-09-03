@@ -24,6 +24,7 @@ import vite from './vite.svg'
 import web from './webdev.svg'
 import backend from './backend.svg'
 import frontend from './frontend.svg'
+import aboutImg from './About.jpg'
 
 const assets = {
     profile : profile,
@@ -51,7 +52,8 @@ const assets = {
     vite : vite,
     web : web,
     backend : backend,
-    frontend : frontend
+    frontend : frontend,
+    aboutImg: aboutImg
 }
 
 export default assets;

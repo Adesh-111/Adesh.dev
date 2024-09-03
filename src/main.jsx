@@ -5,6 +5,7 @@ import './components/Navbar/Navbar.css'
 import './components/Hero/Hero.css'
 import './components/Skills/Skills.css'
 import './components/Services/Services.css'
+import './components/About/About.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

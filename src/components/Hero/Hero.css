@@ -66,7 +66,7 @@ h1 {
     margin-left: 45px;
 }
 
-button{
+.button button{
     background-color: white;
     padding: 20px;
     color: black;
@@ -85,7 +85,7 @@ button{
     justify-content: center;
 }
 
-button:hover{
+.button button:hover{
     background-color: #ff8911;
     margin-top: 1px;
 }
@@ -134,7 +134,7 @@ button:hover{
         gap : 0px;
     }
 
-    button{
+    .button button{
         padding: 10px;
         margin-top: 0px;
     }
@@ -168,7 +168,7 @@ button:hover{
         margin-left: 0px;
     }
 
-    button{
+    .button button{
         width: 80%;
     }
   }
@@ -190,7 +190,7 @@ button:hover{
         font-size: 15px;
         text-align: left;
     }
-    button{
+    .button button{
         margin: 10px;
         margin-left: 0px;
         font-size: 15px;

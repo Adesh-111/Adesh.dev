@@ -1,0 +1,20 @@
+.about{
+    display: flex;
+    margin-top: 700px;
+}
+
+.about-image{
+    margin: 10px;
+    padding: 20px;
+}
+
+.about-image img{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+}
+
+.about-details{
+    margin: 20px;
+    padding: 20px;
+}
