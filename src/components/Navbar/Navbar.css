@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    background-color: black;
+    /* background-color: black; */
     color: white;
     padding: 0px 10px;
     position: sticky;
@@ -28,6 +28,7 @@
     display: flex;
     box-shadow: 6px 6px 2px 0px #FF8911;
     justify-content: space-around;
+    background-color: black;
 }
 
 .navbar ul{

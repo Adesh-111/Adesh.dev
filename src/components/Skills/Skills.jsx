@@ -22,14 +22,20 @@ function Skills() {
     assets.vscode,
     assets.windows,
     assets.materialui,
-    assets.vite
+    assets.vite,
   ];
 
   const Images = Array(100).fill(images).flat();
 
   return (
     <div className="skills-container">
-      <marquee className="skills-marquee" behavior="scroll" direction="left" scrollamount="5" loop="infinite">
+      <marquee
+        className="skills-marquee"
+        behavior="scroll"
+        direction="left"
+        scrollamount="5"
+        loop="infinite"
+      >
         {Images.map((src, index) => (
           <img key={index} src={src} alt="skill" />
         ))}
