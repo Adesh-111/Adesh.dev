@@ -67,16 +67,15 @@
   animation: jump 0.5s ease-out forwards;
 }
 
-/* Keyframe for jumping effect */
 @keyframes jump {
   0% {
     transform: rotate(-30deg) skew(25deg) translate(0, 0);
   }
   50% {
-    transform: rotate(-30deg) skew(25deg) translate(0, -20px); /* Jump up */
+    transform: rotate(-30deg) skew(25deg) translate(0, -20px); 
   }
   100% {
-    transform: rotate(-30deg) skew(25deg) translate(0, 0); /* Back to position */
+    transform: rotate(-30deg) skew(25deg) translate(0, 0); 
   }
 }
 
@@ -93,7 +92,7 @@
 }
 
 .links ul li.instagram a:hover {
-  background: #a8274d;
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D); 
 }
 
 
@@ -102,3 +101,47 @@
         color: white;
     }
 }
+
+.links ul li a.jump,
+.links ul li a.jump:hover {
+  background: #0a66c2;
+  color: white;
+  box-shadow: -20px 30px 20px rgba(81, 80, 80, 0.3);
+}
+
+.links ul li.linkedIn a.jump {
+  background: #0a66c2;
+}
+
+.links ul li.github a.jump {
+  background: #7b9cb050;
+}
+
+.links ul li.Mail a.jump {
+  background: #b33729;
+}
+
+.links ul li.instagram a.jump {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D); 
+}
+
+.links ul li a.jump span,
+.links ul li a.jump i {
+  color: white;
+}
+
+
+.link-title{
+    font-family: "Poppins";
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 500;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.link-title span{
+    background-color: #ff8911;
+    padding: 5px;
+}
+
