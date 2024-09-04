@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 .links-container {
   margin-top: 150px;
+  position: relative;
 }
 
 .links ul {
@@ -14,92 +15,90 @@
   gap: 20px;
 }
 
-.links ul li a .fa {
-  font-size: 40px;
-  color: #262626;
-  line-height: 80px;
+.links ul li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 70px;
+  background: #fff;
+  text-align: center;
   transition: 0.5s;
-  padding-right: 14px;
+  transform: rotate(-30deg) skew(25deg) translate(0, 0);
+  box-shadow: -20px 20px 10px rgba(81, 80, 80, 0.5);
+}
+
+.links ul li a:hover {
+  transform: rotate(-30deg) skew(25deg) translate(0, -5px);
+  box-shadow: -20px 30px 20px rgba(81, 80, 80, 0.3);
+}
+
+.links ul li a i {
+  font-size: 20px;
+  color: #262626;
+  transition: 0.5s;
+  padding-right: 10px;
 }
 
 .links ul li a span {
   padding: 0;
   margin: 0;
-  top: 30px;
   color: #262626;
   letter-spacing: 4px;
   transition: 0.5s;
-  padding: 10px;
   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: 550;
   font-style: normal;
-}
-
-.links ul li a {
-  text-decoration: none;
-  display: block;
-  width: 200px;
-  height: 70px;
-  background: #fff;
-  text-align: left;
-  padding-left: 20px;
-  transform: rotate(-30deg) skew(25deg) translate(0, 0);
-  transition: 0.5s;
-  box-shadow: -20px 20px 10px rgba(81, 80, 80, 0.5);
-}
-
-.links ul li a:hover {
-  transform: rotate(-30deg) skew(25deg) translate(0, -5px); /* Lift up on hover */
-  box-shadow: -20px 30px 20px rgba(81, 80, 80, 0.3); /* Adjust shadow for lifting effect */
+  margin-left: 20px;
+  padding-right: 10px;
 }
 
 .links ul li a:before {
   content: "";
   height: 100%;
   width: 20px;
-  background: #b1b1b1;
   transform: rotate(0deg) skewY(-45deg);
   transition: 0.5s;
 }
 
-/* Specific styling for each social link */
-.links ul li.facebook a {
-  background: #ffffff;
-  color: white;
-  transition: transform 0.3s ease, background 0.3s ease;
+.links ul li a.jump {
+  animation: jump 0.5s ease-out forwards;
 }
 
-.links ul li.facebook a:hover {
-  background: #2d4373;
+/* Keyframe for jumping effect */
+@keyframes jump {
+  0% {
+    transform: rotate(-30deg) skew(25deg) translate(0, 0);
+  }
+  50% {
+    transform: rotate(-30deg) skew(25deg) translate(0, -20px); /* Jump up */
+  }
+  100% {
+    transform: rotate(-30deg) skew(25deg) translate(0, 0); /* Back to position */
+  }
 }
 
-.links ul li.twitter a {
-  background: #ffffff;
-  color: white;
-  transition: transform 0.3s ease, background 0.3s ease;
+.links ul li.linkedIn a:hover {
+  background: #0a66c2;
 }
 
-.links ul li.twitter a:hover {
-  background: #0c85d0;
+.links ul li.github a:hover {
+  background: #7b9cb050;
 }
 
-.links ul li.google a {
-  background: #db4437;
-  color: white;
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.links ul li.google a:hover {
+.links ul li.Mail a:hover {
   background: #b33729;
-}
-
-.links ul li.instagram a {
-  background: #e1306c;
-  color: white;
-  transition: transform 0.3s ease, background 0.3s ease;
 }
 
 .links ul li.instagram a:hover {
   background: #a8274d;
+}
+
+
+.links ul li a:hover{
+    span,i{
+        color: white;
+    }
 }

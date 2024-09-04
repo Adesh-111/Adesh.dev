@@ -1,37 +1,55 @@
-function Links() {
-    return ( <>
-    <div className="links-container">
-    <div className="links">
-    <ul>
-  <li className="facebook">
-    <a href="#">
-      <i className="fa fa-facebook" aria-hidden="true"></i>
-      <span> - Facebook</span>
-    </a>
-  </li>
-  <li className="twitter">
-    <a href="#">
-      <i className="fa fa-twitter" aria-hidden="true"></i>
-      <span> Twitter</span>
-    </a>
-  </li>
-  <li className="google">
-    <a href="#">
-      <i className="fa fa-google-plus" aria-hidden="true"></i>
-      <span> Google</span>
-    </a>
-  </li>
-  <li className="instagram">
-    <a href="#">
-      <i className="fa fa-instagram" aria-hidden="true"></i>
-      <span> - Instagram</span>
-    </a>
-  </li>
-</ul>
+import { useEffect } from "react";
 
-    </div>
-    </div>
-    </> );
+function Links() {
+  useEffect(() => {
+    const links = document.querySelectorAll(".links ul li a");
+    let currentIndex = 0;
+
+    function jumpSequence() {
+      links.forEach((link) => link.classList.remove("jump"));
+      links[currentIndex].classList.add("jump");
+      currentIndex = (currentIndex + 1) % links.length;
+    }
+    const intervalId = setInterval(jumpSequence, 500);
+    return () => clearInterval(intervalId);
+  }, []);
+
+  return (
+    <>
+    
+      <div className="links-container">
+        
+        <div className="links">
+          <ul>
+            <li className="linkedIn">
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+                <span> LinkedIn</span>
+              </a>
+            </li>
+            <li className="github">
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+                <span> Github</span>
+              </a>
+            </li>
+            <li className="Mail">
+              <a href="#">
+                <i className="fa-solid fa-envelope"></i>
+                <span> Google</span>
+              </a>
+            </li>
+            <li className="instagram">
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+                <span> Instagram</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </>
+  );
 }
 
 export default Links;
