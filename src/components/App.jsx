@@ -5,13 +5,15 @@ import AllServices from "./Services/AllServices";
 import About from "./About/About";
 
 function App() {
-    return ( <>
-    <Navbar />
-    <Hero />
-    <Skills />
-    <AllServices />
-    <About />
-    </> );
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <Skills />
+      <AllServices />
+      <About />
+    </>
+  );
 }
 
 export default App;

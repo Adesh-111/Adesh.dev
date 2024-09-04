@@ -1,123 +1,119 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-
-.about{
-    display: flex;
-    margin-top: 700px;
-    flex-direction: row-reverse;
-    margin-left: 50px;
-    margin-right: 50px;
-    
+.about {
+  display: flex;
+  margin-top: 700px;
+  flex-direction: row-reverse;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-.about-image{
-    margin: 10px;
-    padding: 20px;
-    display: inline-flex;
-    justify-content: center;
+.about-image {
+  margin: 10px;
+  padding: 20px;
+  display: inline-flex;
+  justify-content: center;
 }
 
-.about-image img{
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    box-shadow: 8px 8px 0px 0px grey ;
+.about-image img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  box-shadow: 8px 8px 0px 0px grey;
 }
 
-.about-image img:hover{
-    box-shadow: 11px 11px 0px 0px gray;
+.about-image img:hover {
+  box-shadow: 11px 11px 0px 0px gray;
 }
 
-.about-details{
-    margin: 20px;
-    padding: 20px;
-    margin-top: 50px;
+.about-details {
+  margin: 20px;
+  padding: 20px;
+  margin-top: 50px;
 }
 
-.about h3{
-    font-family: 'Poppins';
-    font-weight: 500;
-    color: white;
-    font-size: 3.5rem;
+.about h3 {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: white;
+  font-size: 3.5rem;
 }
 
-.about span{
-    background-color: rgb(55, 55, 166);
-    padding: 10px;
+.about span {
+  background-color: rgb(55, 55, 166);
+  padding: 10px;
 }
 
-.about p{
-    color: white;
-    margin-top: 50px;
-    font-family: "Montserrat", system-ui;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1.2rem;
+.about p {
+  color: white;
+  margin-top: 50px;
+  font-family: "Montserrat", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2rem;
 }
 
-.about button{
-    padding: 20px;
-    border: none;
-    border-radius: 10px;
-    font-family: "Outfit";
-    margin-top: 50px;
-    width: 60%;
-    transition: 0.7s ease;
-    font-size: 18px;
+.about button {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Outfit";
+  margin-top: 50px;
+  width: 60%;
+  transition: 0.7s ease;
+  font-size: 18px;
 }
 
-.about button:hover{
-    background-color: rgb(55, 55, 166);
-    color: white;
+.about button:hover {
+  background-color: rgb(55, 55, 166);
+  color: white;
+  box-shadow: 5px 5px 0px 0px white;
+  margin-bottom: 10px;
 }
 
-@media screen and (max-width : 1280px) {
-    .about{
-       margin-top: 1100px;
-    }
+@media screen and (max-width: 1280px) {
+  .about {
+    margin-top: 1100px;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .about-image img {
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+  }
+
+  .about-details h3 {
+    font-size: 2.7rem;
+  }
+
+  .about-details p {
+    font-size: 1rem;
+  }
 }
 
-@media screen and (max-width : 1170px) {
-    .about-image img{
-        width: 400px;
-        height: 400px;
-        margin-top: 20px;
-    }
-
-    .about-details h3{
-        font-size: 2.7rem;
-    }
-
-    .about-details p{
-        font-size: 1rem;
-    }
-    
+@media screen and (max-width: 900px) {
+  .about {
+    flex-direction: column;
+  }
 }
 
-@media screen and (max-width : 900px){
-    .about{
-        flex-direction: column;
-    }
-    
-}
-
-@media screen and (max-width : 600px) {
-    .about-image img{
-        width: 300px;
-        height: 300px;
-    }
-    .about-details{
-        margin: 0px;
-        padding: 0px;
-    }
-    .about-details h3{
-        font-size: 2rem;
-    }
-    .about-details p{
-        text-align: left;
-    }
+@media screen and (max-width: 600px) {
+  .about-image img {
+    width: 300px;
+    height: 300px;
+  }
+  .about-details {
+    margin: 0px;
+    padding: 0px;
+  }
+  .about-details h3 {
+    font-size: 2rem;
+  }
+  .about-details p {
+    text-align: left;
+  }
 }

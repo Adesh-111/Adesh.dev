@@ -41,8 +41,14 @@ function Hero() {
             continuously learning, and building impactful projects.
           </p>
           <div className="button">
-            <button><img src={assets.mailIcon} alt="mail" />Get in Touch</button>
-            <button><img src={assets.project} alt="projects" />View projects</button>
+            <button>
+              <img src={assets.mailIcon} alt="mail" />
+              Get in Touch
+            </button>
+            <button>
+              <img src={assets.project} alt="projects" />
+              View projects
+            </button>
           </div>
         </div>
         <div className="Image">
