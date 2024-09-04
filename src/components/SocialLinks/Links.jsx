@@ -2,22 +2,26 @@ import { useEffect } from "react";
 
 function Links() {
   useEffect(() => {
-    const links = document.querySelectorAll(".links ul li a");
+    const links = Array.from(document.querySelectorAll(".links ul li a"));
     let currentIndex = 0;
 
     function jumpSequence() {
-      links.forEach((link) => link.classList.remove("jump"));
-      links[currentIndex].classList.add("jump");
-      currentIndex = (currentIndex + 1) % links.length;
+      const isSmallScreen = window.innerWidth <= 600;
+      const sequence = isSmallScreen ? links.slice().reverse() : links;
+
+      sequence.forEach((link) => link.classList.remove("jump"));
+      sequence[currentIndex].classList.add("jump");
+      currentIndex = (currentIndex + 1) % sequence.length;
     }
+
     const intervalId = setInterval(jumpSequence, 700);
     return () => clearInterval(intervalId);
   }, []);
 
   return (
     <>
-      <h3 className="link-title"><span>Let's Connect</span>, Find Me on Social Media</h3>
       <div className="links-container">
+        <h3 className="link-title"><span>Let's Connect</span>, Find Me on Social Media</h3>
         <div className="links">
           <ul>
             <li className="linkedIn">

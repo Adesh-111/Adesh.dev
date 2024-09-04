@@ -72,10 +72,10 @@
     transform: rotate(-30deg) skew(25deg) translate(0, 0);
   }
   50% {
-    transform: rotate(-30deg) skew(25deg) translate(0, -20px); 
+    transform: rotate(-30deg) skew(25deg) translate(0, -20px);
   }
   100% {
-    transform: rotate(-30deg) skew(25deg) translate(0, 0); 
+    transform: rotate(-30deg) skew(25deg) translate(0, 0);
   }
 }
 
@@ -92,14 +92,22 @@
 }
 
 .links ul li.instagram a:hover {
-    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D); 
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
 }
 
-
-.links ul li a:hover{
-    span,i{
-        color: white;
-    }
+.links ul li a:hover {
+  span,
+  i {
+    color: white;
+  }
 }
 
 .links ul li a.jump,
@@ -122,7 +130,15 @@
 }
 
 .links ul li.instagram a.jump {
-    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D); 
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
 }
 
 .links ul li a.jump span,
@@ -130,18 +146,52 @@
   color: white;
 }
 
-
-.link-title{
-    font-family: "Poppins";
-    font-size: 2.5rem;
-    color: white;
-    font-weight: 500;
-    margin-top: 50px;
-    text-align: center;
+.link-title {
+  font-family: "Poppins";
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 200px;
+  text-align: center;
 }
 
-.link-title span{
-    background-color: #ff8911;
-    padding: 5px;
+.link-title span {
+  background-color: #ff8911;
+  padding: 5px;
 }
 
+@media screen and (max-width: 1100px) {
+  .links ul li {
+    width: 150px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .links ul li a {
+    height: 60px;
+  }
+  .links ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .links ul {
+    margin-right: 85px;
+  }
+
+  .link-title {
+    font-size: 1.8rem;
+    margin-bottom: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .links ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 90px;
+  }
+}
