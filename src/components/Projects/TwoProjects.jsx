@@ -26,6 +26,7 @@ function TwoProjects() {
 
   return (
     <div className="two-projects-container">
+         <h2>From <span>Code to Creation,</span> Noteworthy Additions to My Portfolio</h2>
       {projectsData.map((project, index) => (
         <Project key={index} project={project} />
       ))}
