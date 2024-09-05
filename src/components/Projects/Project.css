@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  margin-bottom: 20px;
 }
 
 .project {
@@ -26,13 +27,12 @@
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  /* gap: 10px; */
   background-color: white;
   width: 80%;
   height: 400px;
   margin: 10px;
-  /* margin-left: 150px; */
-  /* margin-right: 30px; */
+  margin-left: 30px;
+  margin-right: 30px;
   margin-bottom: 50px;
   border: 3px solid black;
   border-radius: 20px;
@@ -52,8 +52,8 @@
 }
 
 .project-image img {
-  width: 500px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   padding: 20px;
   background-color: orange;
   overflow: hidden;
@@ -66,6 +66,8 @@
   flex-shrink: 0;
   background-color: orange;
   overflow: hidden;
+  width: 500px;
+  height: 400px;
 }
 
 .project-domain p {
@@ -123,6 +125,7 @@
   margin-top: 40px;
   font-family: "Nunito sans";
   font-size: 14px;
+  padding-bottom: 5px;
 }
 
 .project-container:hover {
@@ -147,7 +150,7 @@
   border: none;
   cursor: pointer;
   box-shadow: 5px 5px 0px 0px grey;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   transition: 0.3s ease-in;
 }
 
@@ -163,7 +166,7 @@
   box-shadow: 5px 5px 0px 0px white;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .description {
     font-size: 15px;
   }
@@ -174,9 +177,13 @@
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 1160px) {
   .description {
     font-size: 14px;
+  }
+
+  .project-container h3 {
+    font-size: 1.5rem;
   }
 
   .project-image img {
@@ -184,17 +191,63 @@
     height: 200px;
   }
 
+  .project-image {
+    width: 400px;
+    height: auto;
+  }
+
   .project-container .project-domain p {
     font-size: 12px;
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 908px) {
   .project-container {
-    flex-direction: column-reverse;
+    flex-direction: column;
+    z-index: 999;
+    width: 90%;
+    height: 600px;
+  }
+
+  .project-image {
+    width: 99.99%;
+    height: 307px;
+    overflow: hidden;
   }
 
   .project-image img {
-    width: 200px;
+    /* width: 300px; */
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .project-description {
+    border: none;
+  }
+
+  .two-projects-container {
+    margin-top: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .description {
+    font-size: 12px;
+  }
+  .project-description{
+    margin-left: 20px;
+  }
+
+  .two-projects-container h2{
+    font-size: 1.5rem;
+  }
+
+  .project-container{
+    width: 350px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .project-domain{
+    margin-top: 20px;
   }
 }
