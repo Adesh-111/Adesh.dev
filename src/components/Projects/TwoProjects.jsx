@@ -30,7 +30,7 @@ function TwoProjects() {
       {projectsData.map((project, index) => (
         <Project key={index} project={project} />
       ))}
-      <button className="more-projects">More Projects</button>
+      <button className="more-projects"><i class="fa-solid fa-bars"></i>View all Projects</button>
     </div>
   );
 }
