@@ -1,18 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "./Project.css"
 
 function Project({ project }) {
   return (
-    <div className="project-container">
-      <div className="project-description">
-        <div className="project-domain">
-          <img src={project.icon} alt="Project Icon" /> 
-          <button>{project.buttonText}</button> 
+    <div className="project">
+      <div className="project-container">
+        <div className="project-description">
+          <div className="project-domain">
+            <img src={project.icon} alt="Project Icon" />
+            <p>{project.domain}</p>
+            <button>{project.buttonText}</button>
+          </div>
+          <p>{project.description}</p>
         </div>
-        <p>{project.description}</p> 
-      </div>
-      <div className="project-image">
-        <img src={project.image} alt={project.imageAlt || "Project Image"} /> 
+        <div className="project-image">
+          <img src={project.image} alt={project.imageAlt || "Project Image"} />
+        </div>
       </div>
     </div>
   );
