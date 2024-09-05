@@ -29,6 +29,10 @@ import Gmail from "./Gmail.svg"
 import linkedIn from "./linkedIn.svg"
 import instagram from "./instagram.svg"
 import githubBlack from "./github-black.svg"
+import BookNotes from "./BookNotes.svg"
+import Gemini from "./Gemini.svg"
+import bookIcon from "./bookIcon.svg"
+import geminiIcon from "./shine.svg"
 
 const assets = {
     profile : profile,
@@ -61,7 +65,11 @@ const assets = {
     linkedIn: linkedIn,
     instagram : instagram,
     Gmail : Gmail,
-    githubBlack: githubBlack
+    githubBlack: githubBlack,
+    Gemini : Gemini,
+    BookNotes : BookNotes,
+    geminiIcon : geminiIcon,
+    bookIcon : bookIcon
 }
 
 export default assets;

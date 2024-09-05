@@ -37,13 +37,13 @@ function Links() {
               </a>
             </li>
             <li className="Mail">
-              <a href="#">
+              <a href="mailto: adeshabinesh25@gmail.com">
                 <i className="fa-solid fa-envelope"></i>
                 <span> Google</span>
               </a>
             </li>
             <li className="instagram">
-              <a href="#">
+              <a href="https://www.instagram.com/adesh_abin/">
                 <i className="fa-brands fa-instagram"></i>
                 <span> Instagram</span>
               </a>
