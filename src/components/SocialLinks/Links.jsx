@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import "./Links.css"
 
 function Links() {
   useEffect(() => {

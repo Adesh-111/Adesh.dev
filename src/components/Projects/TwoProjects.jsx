@@ -30,6 +30,7 @@ function TwoProjects() {
       {projectsData.map((project, index) => (
         <Project key={index} project={project} />
       ))}
+      <button className="more-projects">More Projects</button>
     </div>
   );
 }

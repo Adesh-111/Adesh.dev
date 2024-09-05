@@ -112,6 +112,19 @@
     margin-top: 40px;
     font-family: "Nunito sans";
     font-size: 14px;
+    
    
+}
+
+.project-container:hover{
+
+    span{
+        margin-left: 10px;
+        transition: 1.2s ease;
+    }
+    transition: 1.2s ease;
+    box-shadow: 7px 7px 0px 0px white;
+    margin-right: 7px;
+    margin-bottom: 57px;
 }
 
