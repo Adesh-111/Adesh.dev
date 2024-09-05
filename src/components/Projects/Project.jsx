@@ -10,9 +10,9 @@ function Project({ project }) {
           <div className="project-domain">
             <img src={project.icon} alt="Project Icon" />
             <p>{project.domain}</p>
-            <button>{project.buttonText}</button>
           </div>
-          <p>{project.description}</p>
+          <h3>{project.title}</h3>
+          <p className="description">{project.description}</p>
         </div>
         <div className="project-image">
           <img src={project.image} alt={project.imageAlt || "Project Image"} />

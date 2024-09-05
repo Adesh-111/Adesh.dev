@@ -2,38 +2,79 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.project{
-    
+.two-projects-container {
+  margin-top: 200px;
 }
 
-.project-container{
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    gap: 10px;
-    background-color: white;
-    width: 80%;
-    padding: 10px;
-    height: 400px;
-    margin: 10px;
-    margin-left: 120px;
-    margin-right: 40px;
-    border: 3px solid black;
-    border-radius: 20px;
+.project-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* gap: 10px; */
+  background-color: white;
+  width: 80%;
+  height: 400px;
+  margin: 10px;
+  margin-left: 120px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  border: 3px solid black;
+  border-radius: 20px;
 }
 
-.project-domain{
-    display: inline-flex;
+.project-domain {
+  display: inline-flex;
+  padding: 20px 0px;
+  justify-content: center;
+  align-items: center;
 }
 
-.project-domain img{
-    width: 40px;
+.project-domain img {
+  width: 40px;
+  margin-right: 50px;
+}
+
+.project-image img {
+  width: 500px;
+  height: 350px;
+  padding: 20px;
+  border-left: 3px solid black;
+}
+
+.project-domain p{
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  padding: 12px;
+  border-radius: 15px;
 }
 
 
+.project-description{
+    margin-left: 50px;
+}
+
+.project-container h3{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 30px;
+    font-optical-sizing: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.description{
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 20px;
+    font-family: "Montserrat";
+}

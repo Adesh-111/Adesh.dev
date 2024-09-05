@@ -6,6 +6,7 @@ function TwoProjects() {
   const projectsData = [
     {
       icon: assets.bookIcon,
+      title : "Book Notes",
       domain: "Backend Development",
       description:
         "Book Notes is a web app for managing book information, integrating Express/Node.js with a PostgreSQL database. It supports CRUD operations and uses public APIs to fetch book covers. Users can add, update, sort, and view book entries with a user-friendly interface, ensuring seamless data management and presentation.",
@@ -14,6 +15,7 @@ function TwoProjects() {
     },
     {
       icon: assets.geminiIcon,
+      title : "Gemini AI Clone",
       domain : "Web Development",
       description:
         "This project is a ReactJS-based application designed to replicate the functionality and user experience of Google Gemini AI. The app provides an interactive platform where users can ask questions and receive AI-generated responses in real-time, all within a clean and user-friendly interface.",
