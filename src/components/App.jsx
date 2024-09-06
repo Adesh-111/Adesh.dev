@@ -6,6 +6,7 @@ import About from "./About/About";
 import Links from "./SocialLinks/Links";
 import TwoProjects from "./Projects/TwoProjects";
 import Experiences from "./Experiences/Experiences";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Links />
       <TwoProjects />
       <Experiences />
+      <Footer />
     </>
   );
 }

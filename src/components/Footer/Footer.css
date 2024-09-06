@@ -1,0 +1,69 @@
+.footer{
+    padding: 10px;
+    margin-top: 30px;
+    color: white;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+}
+
+.footer-description{
+    margin-left: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.footer-description h3{
+    font-size: 1.5rem;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.footer-description .footer-profile{
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 0px 0px rgb(223, 122, 21);
+    margin-bottom: 5px;
+}
+
+.footer-description p{
+    font-family: "Montserrat";
+}
+
+.footer-description ul{
+    display: inline-flex;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.footer-description ul li{
+    list-style: none;
+    background-color: white;
+    border-radius: 50%;
+    padding: 6px;
+    color: black;
+}
+
+.footer-description ul li i{
+    font-size: 22px;
+    padding: 5px;
+}
+
+.footer-pages h3{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.footer-pages ul li{
+    list-style: none;
+    padding-bottom: 5px;
+    font-family: "Outfit";
+}
+
+.footer-pages

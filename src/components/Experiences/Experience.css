@@ -5,6 +5,7 @@
   background-color: white;
   margin-top: 300px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .Experiences-container {
@@ -231,7 +232,6 @@
 
   .card .top {
     gap: 50px;
-    justify-content: ;
   }
   .card .bottom p {
     font-size: 13px;
