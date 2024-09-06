@@ -33,6 +33,9 @@ import BookNotes from "./BookNotes.svg";
 import Gemini from "./Gemini.svg";
 import bookIcon from "./bookIcon.svg";
 import geminiIcon from "./shine.svg";
+import afame from "./Afame.jpeg";
+import thinkDigital from "./thinkdigital.png"
+import zenhook from "./Zenhook.jpeg"
 
 const assets = {
   profile: profile,
@@ -70,6 +73,9 @@ const assets = {
   BookNotes: BookNotes,
   geminiIcon: geminiIcon,
   bookIcon: bookIcon,
+  afame : afame,
+  thinkDigital: thinkDigital,
+  zenhook: zenhook
 };
 
 export default assets;

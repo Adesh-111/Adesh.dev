@@ -1,13 +1,29 @@
-function Experience() {
-    return ( <>
-    <div className="card">
-        <h4 className="duration"></h4>
-        <img src="" alt="" />
-        <h3 className="Experience--title"></h3>
-        <a href=""></a>
-        <p className="ex-desc"></p>
-    </div>
-    </> );
+import React from "react";
+import "./Experience.css";
+
+function Experience({ details }) {
+  return (
+    <>
+      {details.map((service, index) => (
+        <div className="card" key={index}>
+          <div className="top">
+            <h4 className="duration">{service.duration}</h4>
+            <img src={service.image} alt={service.role} />
+          </div>
+          <div className="bottom">
+            <h3 className="Experience--title">{service.role}</h3>
+            <a
+              href={service.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >{service.name}</a>
+            <p className="ex-desc">{service.desc}</p>
+            <button>{service.level}</button>
+          </div>
+        </div>
+      ))}
+    </>
+  );
 }
 
 export default Experience;
