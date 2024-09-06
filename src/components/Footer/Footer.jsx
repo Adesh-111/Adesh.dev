@@ -15,16 +15,16 @@ function Footer() {
             <div>
               <ul>
                 <li>
-                <i className="fa-brands fa-linkedin"></i>
+                  <i className="fa-brands fa-linkedin"></i>
                 </li>
                 <li>
-                <i className="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </li>
                 <li>
-                <i className="fa-brands fa-github"></i>
+                  <i className="fa-brands fa-github"></i>
                 </li>
                 <li>
-                <i className="fa-solid fa-envelope"></i>
+                  <i className="fa-solid fa-envelope"></i>
                 </li>
               </ul>
             </div>
@@ -51,6 +51,22 @@ function Footer() {
                 <a href="#">Certificates</a>
               </li>
             </ul>
+          </div>
+          <div className="contact">
+            <h3>Contact me</h3>
+            <a href="mailto: adeshabinesh25@gmail.com">
+            <i className="fa-solid fa-envelope"></i> adeshabinesh25@gmail.com
+            </a>
+            <form action="">
+              <label>Name</label>
+              <input type="text" />
+              <label htmlFor="email">Email</label>
+              <input type="text" />
+              <label htmlFor="Subject">Subject</label>
+              <input type="text" />
+              <label htmlFor="Message">Message</label>
+              <textarea name="" id=""></textarea>
+            </form>
           </div>
         </div>
       </div>

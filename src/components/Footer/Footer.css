@@ -2,12 +2,17 @@
     padding: 10px;
     margin-top: 30px;
     color: white;
+    display: flex;
+    gap: 50px;
 }
 
 .footer-container{
     display: flex;
     justify-content: center;
-    gap: 500px;
+    gap: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100%;
 }
 
 .footer-description{
@@ -64,6 +69,41 @@
     list-style: none;
     padding-bottom: 5px;
     font-family: "Outfit";
+    transition: 0.7s ease;
 }
 
-.footer-pages
+.footer-pages ul li:hover{
+    transform: translate(3px, 0px);
+}
+
+
+.footer-description ul li:hover{
+    background-color: orange;
+    color: white;
+    box-shadow: 3px 3px 0px 0px white;
+    transform: translate(0px,-3px);
+}
+
+.footer .contact{
+    margin-left: 100px;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+}
+
+.contact h3{
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contact a{
+    font-family: "Outfit";
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
