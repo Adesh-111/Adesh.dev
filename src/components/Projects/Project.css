@@ -234,20 +234,20 @@
   .description {
     font-size: 12px;
   }
-  .project-description{
+  .project-description {
     margin-left: 20px;
   }
 
-  .two-projects-container h2{
+  .two-projects-container h2 {
     font-size: 1.5rem;
   }
 
-  .project-container{
+  .project-container {
     width: 350px;
     margin: 0;
     margin-bottom: 20px;
   }
-  .project-domain{
+  .project-domain {
     margin-top: 20px;
   }
 }

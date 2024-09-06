@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "./Links.css"
+import "./Links.css";
 
 function Links() {
   useEffect(() => {
@@ -22,17 +22,19 @@ function Links() {
   return (
     <>
       <div className="links-container">
-        <h3 className="link-title"><span>Let's Connect</span>, Find Me on Social Media</h3>
+        <h3 className="link-title">
+          <span>Let's Connect</span>, Find Me on Social Media
+        </h3>
         <div className="links">
           <ul>
             <li className="linkedIn">
-              <a href="https://www.linkedin.com/in/adesh07/" >
+              <a href="https://www.linkedin.com/in/adesh07/">
                 <i className="fa-brands fa-linkedin"></i>
                 <span> LinkedIn</span>
               </a>
             </li>
             <li className="github">
-              <a href="https://github.com/Adesh-111" >
+              <a href="https://github.com/Adesh-111">
                 <i className="fa-brands fa-github"></i>
                 <span> Github</span>
               </a>

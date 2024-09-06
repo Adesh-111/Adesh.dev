@@ -1,4 +1,5 @@
 import assets from "../../assets/assets";
+import "./About.css";
 
 function About() {
   return (

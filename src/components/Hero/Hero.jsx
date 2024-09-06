@@ -1,6 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import assets from "../../assets/assets";
+import "./Hero.css";
 // import Bootstrap from "bootstrap";
 
 function Hero() {

@@ -6,7 +6,6 @@ import About from "./About/About";
 import Links from "./SocialLinks/Links";
 import TwoProjects from "./Projects/TwoProjects";
 
-
 function App() {
   return (
     <>

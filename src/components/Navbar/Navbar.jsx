@@ -1,4 +1,5 @@
 import assets from "../../assets/assets";
+import "./Navbar.css";
 
 function Navbar() {
   return (
