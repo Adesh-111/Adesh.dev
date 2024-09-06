@@ -5,6 +5,7 @@ import AllServices from "./Services/AllServices";
 import About from "./About/About";
 import Links from "./SocialLinks/Links";
 import TwoProjects from "./Projects/TwoProjects";
+import Experiences from "./Experiences/Experiences";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Links />
       <TwoProjects />
+      <Experiences />
     </>
   );
 }
