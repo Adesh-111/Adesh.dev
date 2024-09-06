@@ -8,7 +8,7 @@ function Experience({ details }) {
         <div className="card" key={index}>
           <div className="top">
             <h4 className="duration">{service.duration}</h4>
-            <img src={service.image} alt={service.role} />
+            <img className="ex-image" src={service.image} alt={service.role} />
           </div>
           <div className="bottom">
             <h3 className="Experience--title">{service.role}</h3>

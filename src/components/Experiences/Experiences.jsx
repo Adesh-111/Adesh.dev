@@ -39,12 +39,12 @@ function Experiences() {
       <div className="Experiences">
         <div className="Experiences-container">
           <div className="Experience-description">
-            <h3>Take a closer look at my professional track record</h3>
+            <h3>Take a closer look at <span>my professional track record</span></h3>
             <p>
               Every experience is more impactful when it’s backed by a drive for
               personal development and full contribution
             </p>
-            <button>View Resume</button>
+            <button> <i class="fa-solid fa-bars"></i>View Resume</button>
           </div>
           <div className="Experience-cards">
             <Experience details={experienceData} />
