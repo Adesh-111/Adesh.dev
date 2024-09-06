@@ -27,11 +27,11 @@
   gap: 20px;
   flex-direction: column;
   width: 70%;
-  padding-right: 10px; 
+  padding-right: 10px;
 }
 
 .Experience-description::-webkit-scrollbar {
-  width: 0px; 
+  width: 0px;
 }
 
 .Experience-description::-webkit-scrollbar-thumb {
@@ -62,116 +62,188 @@
   margin: 20px;
   padding: auto;
   position: sticky;
-  max-height: 600px; 
+  max-height: 600px;
   overflow-y: scroll;
 }
 
 .Experience-description {
-  position: sticky; 
-  top: 20px; 
-  background-color: white; 
-  z-index: 100; 
+  position: sticky;
+  top: 20px;
+  background-color: white;
+  z-index: 100;
   padding: 10px;
   display: block;
   width: 500px;
 }
 
-
-.top h4{
-    font-family: "Nunito sans";
-    font-size: 20px;
-    font-weight: 500;
+.top h4 {
+  font-family: "Nunito sans";
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.bottom{
-    padding: 20px;
+.bottom {
+  padding: 20px;
 }
 
-.bottom h3{
-    font-size: 22px;
-    font-weight: 500;
-    font-family: "Poppins";
+.bottom h3 {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Poppins";
 }
 
-.bottom a{
-    text-decoration: none;
-    color: black;
-    font-family: "Nunito sans";
-    transition: 0.3s ease;
+.bottom a {
+  text-decoration: none;
+  color: black;
+  font-family: "Nunito sans";
+  transition: 0.3s ease;
 }
 
-.bottom a:hover{
-    color: rgb(46, 79, 227);
+.bottom a:hover {
+  color: rgb(46, 79, 227);
 }
 
-.bottom p{
-    font-family: "";
+.bottom p {
+  font-family: "";
 }
 
-.bottom .ex-desc{
-    font-family: "Montserrat";
-    font-size: 15px;
-    font-weight: 400;
-    text-align: justify;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.bottom .ex-desc {
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 400;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.bottom button{
-    background-color: black;
-    padding: 8px;
-    margin-top: 10px;
-    border-radius: 10px;
-    color: white;
-    border: none;
-    font-family: "Nunito sans";
-    margin-left: 0;
-
+.bottom button {
+  background-color: black;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  font-family: "Nunito sans";
+  margin-left: 0;
 }
 
-.Experience-description h3{
- font-family: "Poppins";
- font-weight: 500;
- font-size: 2.8rem;   
+.Experience-description h3 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 2.8rem;
 }
 
-.Experience-description p{
-    font-family: "Outfit";
-    font-size: 1.1rem;
-    font-weight: 400;
+.Experience-description p {
+  font-family: "Outfit";
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
-.Experience-description button{
-    border: none;
-    background-color: black;
-    border-radius: 8px;
-    padding: 10px;
-    color: white;
-    font-family: "Nunito sans";
-    margin-top: 20px;
-  
-    transition: 0.5s ease;
+.Experience-description button {
+  border: none;
+  background-color: black;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  font-family: "Nunito sans";
+  margin-top: 20px;
+
+  transition: 0.5s ease;
 }
 
-.Experience-description span{
-    background-color: orange;
-  
+.Experience-description span {
+  background-color: orange;
 }
 
-.Experience-description button i{
-    padding-right: 10px;
+.Experience-description button i {
+  padding-right: 10px;
 }
 
-.Experience-description button:hover{
-    background-color: orange;
-    box-shadow: 3px 3px 0px 0px black;
-    color: black;
+.Experience-description button:hover {
+  background-color: orange;
+  box-shadow: 3px 3px 0px 0px black;
+  color: black;
 }
 
-.Experience-cards .card img:hover{
+.Experience-cards .card:hover {
+  img {
     box-shadow: 5px 5px 0px 0px black;
+  }
 }
 
-.card{
-    box-shadow: 6px 6px 10px 1px black;
+.card {
+  box-shadow: 6px 6px 10px 1px black;
+}
+
+@media screen and (max-width: 1200px) {
+  .Experience-cards .card {
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Experience-cards .card {
+    height: 400px;
+    margin: 0;
+  }
+  .Experiences-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Experience-description {
+    position: relative;
+    max-height: 600px;
+    overflow-y: 0;
+  }
+  .Experiences {
+    margin-top: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Experience-cards {
+    width: 100%;
+  }
+
+  .Experiences {
+    margin-top: 500px;
+  }
+  .Experience-description {
+    width: 100%;
+  }
+
+  .Experience-cards {
+    margin-top: 50px;
+  }
+  .Experience-cards .card .top img {
+    background-color: white;
+  }
+  .Experience-description h3 {
+    font-size: 2rem;
+  }
+  .Experiences {
+    margin-top: 400px;
+  }
+  .card .top h4 {
+    font-size: 0.99rem;
+    width: 200px;
+  }
+
+  .card .top {
+    gap: 50px;
+    justify-content: ;
+  }
+  .card .bottom p {
+    font-size: 13px;
+  }
+  .Experience-cards .card {
+    height: 400px;
+  }
+}
+
+
+@media screen and (min-width : 600px) {
+    .Experiences{
+        margin-top: 500px;
+    }
 }

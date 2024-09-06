@@ -11,7 +11,7 @@ const experienceData = [
     name: "Zenhook",
     level: "Internship",
     link: "https://www.linkedin.com/company/zen-hook/",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas soluta nihil fugit. Eius quibusdam magni, ut omnis saepe, at eveniet hic nobis consequatur animi, eum esse sapiente doloribus perferendis consequuntur in voluptatum! Veritatis iste pariatur molestias totam rerum corrupti, explicabo dolorum cum expedita quo sequi fugit, quos soluta alias dignissimos",
+    desc: "Lorem ipsum dolor sit amet consectetihic nobis consequatur animi, eum esse sapiente doloribus perferendis consequuntur in voluptatum! Veritatis iste pariatur molestias totam rerum corrupti, explicabo dolorum cum expedita quo sequi fugit, quos soluta alias dignissimos",
   },
   {
     duration: "July 2024 - Present",
