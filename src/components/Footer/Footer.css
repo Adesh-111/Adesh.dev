@@ -1,109 +1,419 @@
-.footer{
-    padding: 10px;
-    margin-top: 30px;
-    color: white;
-    display: flex;
-    gap: 50px;
+.footer {
+  padding: 10px;
+  margin-top: 30px;
+  color: white;
+  display: flex;
+  gap: 50px;
 }
 
-.footer-container{
-    display: flex;
-    justify-content: center;
-    gap: 0px;
-    margin-left: 100px;
-    margin-right: 100px;
-    width: 100%;
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 100%;
 }
 
-.footer-description{
+.footer-description {
+  margin-left: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.footer-description h3 {
+  font-size: 1.5rem;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.footer-description .footer-profile {
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 0px 0px rgb(223, 122, 21);
+  margin-bottom: 5px;
+}
+
+.footer-description p {
+  font-family: "Montserrat";
+}
+
+.footer-description ul {
+  display: inline-flex;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.footer-description ul li {
+  list-style: none;
+  background-color: white;
+  border-radius: 50%;
+  padding: 6px;
+  color: black;
+}
+
+.footer-description ul li i {
+  font-size: 22px;
+  padding: 5px;
+}
+
+.footer-pages h3 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.footer-pages ul li {
+  list-style: none;
+  padding-bottom: 5px;
+  font-family: "Outfit";
+  transition: 0.7s ease;
+}
+
+.footer-pages ul li:hover {
+  transform: translate(3px, 0px);
+}
+
+.footer-description ul li:hover {
+  background-color: orange;
+  color: white;
+  box-shadow: 3px 3px 0px 0px white;
+  transform: translate(0px, -3px);
+}
+
+.footer .contact {
+  margin-left: 100px;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  width: 600px;
+  min-height: 500px;
+  background-color: #f9f9f9;
+  /* box-shadow: 8px 8px 0 0 #8f8a8a; */
+  position: relative;
+}
+
+.contact h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #000000;
+  text-align: center; 
+}
+
+.contact a {
+  font-family: "Outfit", sans-serif;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  text-decoration: none;
+  color: #000000;
+}
+
+.contact a:hover {
+  background-color: #ddd;
+  box-shadow: 5px 5px 0 0 rgb(0, 0, 0);
+}
+
+.contact form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+
+.contact form label {
+  font-size: 1.2rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.contact input,
+.contact textarea,
+.contact select {
+  width: 90%;
+  padding: 12px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.contact input:hover,
+.contact textarea:hover,
+.contact select:hover {
+  box-shadow: 7px 7px 0 0 rgb(0, 0, 0);
+  border-color: #000000;
+}
+
+.contact input:focus,
+.contact textarea:focus,
+.contact select:focus {
+  border-color: black;
+  box-shadow: 7px 7px 0 0 black;
+}
+
+.contact button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: orange;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  width: 95%;
+}
+
+.contact button:hover {
+  background-color: orange;
+  box-shadow: 5px 5px 0 0 rgb(0, 0, 0);
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .footer .contact {
     margin-left: 20px;
-    display: inline-flex;
+    width: 90%;
+  }
+}
+
+.contact textarea {
+  width: 92%;
+  padding: 10px;
+  height: 100px;
+}
+
+.contact .email-input {
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-description ul li i {
+  color: #000000;
+}
+
+.contact a i {
+  margin-right: 5px;
+}
+
+@media (max-width: 1024px) {
+  .footer-container {
     flex-direction: column;
-    width: 300px;
+    align-items: center;
+    gap: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .footer-description {
+    width: 80%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .footer-pages ul li {
+    padding-bottom: 10px;
+  }
+
+  .footer .contact {
+    width: 90%;
+    margin-left: 0;
+  }
 }
 
-.footer-description h3{
-    font-size: 1.5rem;
-    font-family: "Poppins";
-    font-weight: 400;
-}
-
-.footer-description .footer-profile{
-    width: 50px;
-    border-radius: 50%;
-    box-shadow: 2px 2px 0px 0px rgb(223, 122, 21);
-    margin-bottom: 5px;
-}
-
-.footer-description p{
-    font-family: "Montserrat";
-}
-
-.footer-description ul{
-    display: inline-flex;
-    gap: 8px;
-    margin-top: 20px;
-}
-
-.footer-description ul li{
-    list-style: none;
-    background-color: white;
-    border-radius: 50%;
-    padding: 6px;
-    color: black;
-}
-
-.footer-description ul li i{
-    font-size: 22px;
-    padding: 5px;
-}
-
-.footer-pages h3{
-    font-family: "Poppins";
-    font-weight: 400;
-    font-size: 1.1rem;
-    margin-bottom: 20px;
-}
-
-.footer-pages ul li{
-    list-style: none;
-    padding-bottom: 5px;
-    font-family: "Outfit";
-    transition: 0.7s ease;
-}
-
-.footer-pages ul li:hover{
-    transform: translate(3px, 0px);
-}
-
-
-.footer-description ul li:hover{
-    background-color: orange;
-    color: white;
-    box-shadow: 3px 3px 0px 0px white;
-    transform: translate(0px,-3px);
-}
-
-.footer .contact{
-    margin-left: 100px;
-    border: 2px solid white;
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
     padding: 20px;
-    border-radius: 10px;
-    width: 600px;
-    height: 400px;
+  }
+
+  .footer-description {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .footer-description ul {
+    justify-content: center;
+  }
+
+  .footer-pages {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer .contact {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
-.contact h3{
-    font-family: "Poppins";
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-bottom: 20px;
-}
+@media (max-width: 600px) {
+  .footer-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 10px;
+  }
 
-.contact a{
-    font-family: "Outfit";
-    border: 2px solid white;
+  .footer-description {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .footer-description ul {
+    gap: 5px;
+  }
+
+  .footer-pages ul li {
+    font-size: 0.9rem;
+  }
+
+  .footer .contact {
     padding: 10px;
-    border-radius: 8px;
-    font-size: 1.1rem;
+    width: 95%;
+  }
+
+  .contact button {
+    width: 100%;
+  }
+
+  .contact input,
+  .contact textarea {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 15px;
+    gap: 20px;
+  }
+
+  .footer-description h3 {
+    font-size: 1.3rem;
+  }
+
+  .footer-pages h3 {
+    font-size: 1rem;
+  }
+
+  .contact h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .contact button {
+    font-size: 1rem;
+  }
+
+  .footer-description ul li i {
+    font-size: 18px;
+    padding: 3px;
+  }
+}
+
+@media (max-width: 778px) {
+  .footer {
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px; 
+    margin: 0 20px; 
+  }
+
+  .footer-container {
+    flex-direction: column; 
+    margin: 0;
+    gap: 20px; 
+  }
+
+  .footer-description,
+  .footer-pages,
+  .contact {
+    width: 100%; 
+    margin-left: 0; 
+    margin-right: 0;
+  }
+
+  .contact {
+    padding: 15px; 
+    min-height: 450px; 
+  }
+
+  .contact h3 {
+    font-size: 1.3rem; 
+  }
+
+  .contact form {
+    gap: 10px; 
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    margin-top: 40px;
+    padding: 5px; 
+    gap: 10px; 
+  }
+
+  .footer-container {
+    margin-left: 10px; 
+    margin-right: 10px;
+  }
+
+  .footer-description {
+    width: 100%; 
+    margin-left: 0;
+  }
+
+  .footer-description h3,
+  .footer-pages h3 {
+    font-size: 1.2rem; 
+  }
+
+  .contact {
+    width: 95%; 
+    padding: 10px; 
+    min-height: 400px;
+    
+  }
+
+  .contact form label {
+    font-size: 1rem;
+  }
+
+  .contact input,
+  .contact textarea {
+    width: 95%;
+    padding: 10px;
+    font-size: 0.9rem;
+    padding-right: 5px;
+  }
+
+  .contact button {
+    width: 100%;
+    padding: 10px;
+  }
 }
