@@ -156,7 +156,8 @@
 
 .more-projects i {
   width: 25px;
-  padding-right: 30px;
+  margin-right: 20px;
+  margin-top: 2px;
 }
 
 .more-projects:hover {
