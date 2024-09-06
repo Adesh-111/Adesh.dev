@@ -161,7 +161,7 @@
 }
 
 .more-projects:hover {
-  background-color: #ff8911;
+  background-color: orange;
   color: white;
   transform: translate(0px, 5px);
   box-shadow: 5px 5px 0px 0px white;

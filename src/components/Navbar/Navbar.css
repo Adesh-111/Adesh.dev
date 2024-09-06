@@ -20,13 +20,13 @@
 
 .navbar {
   flex-direction: row;
-  border: 2px solid #ff8911;
+  border: 2px solid orange;
   padding: 20px;
   border-radius: 20px;
   width: 600px;
   align-items: center;
   display: flex;
-  box-shadow: 6px 6px 2px 0px #ff8911;
+  box-shadow: 6px 6px 2px 0px orange;
   justify-content: space-around;
   background-color: black;
 }
@@ -65,7 +65,7 @@
   position: absolute;
   z-index: 999;
   display: none;
-  border: 2px solid #ff8911;
+  border: 2px solid orange;
   border-radius: 20px;
   text-align: justify;
 }
@@ -85,7 +85,7 @@ a {
 }
 
 a:hover {
-  color: #ff8911;
+  color: orange;
   transition: 0.8s ease;
 }
 

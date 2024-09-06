@@ -18,12 +18,12 @@
 }
 
 .services span {
-  background-color: #ff8911;
+  background-color: orange;
   padding: 15px;
 }
 
 .services p {
-  color: #ff8911;
+  color: orange;
   font-family: "Nunito Sans", system-ui;
   font-optical-sizing: auto;
   font-style: normal;
