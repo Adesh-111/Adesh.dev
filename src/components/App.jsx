@@ -1,4 +1,4 @@
-import Navbar from "./Navbar/Navbar";
+import Navbar from "../components/Navbar/Navbar.jsx"
 import Hero from "./Hero/Hero";
 import Skills from "./Skills/Skills";
 import AllServices from "./Services/AllServices";

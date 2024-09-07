@@ -27,7 +27,7 @@ function Navbar() {
               <a href="#About">About</a>
             </li>
             <li className="nav-item">
-              <a href="#Project">Projects</a>
+              <a href="/">Projects</a>
             </li>
             <li className="nav-item">
               <a href="#Contact">Contact</a>
@@ -38,7 +38,7 @@ function Navbar() {
               </a>
               <ul className="dropdown">
                 <li>
-                  <a href="">Certificates</a>
+                  <a href="/certificates">Certificates</a>
                 </li>
                 <li>
                   <a href="">Resume</a>

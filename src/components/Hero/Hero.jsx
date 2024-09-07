@@ -48,7 +48,7 @@ function Hero() {
             </button>
             <button>
               <img src={assets.project} alt="projects" />
-              View projects
+              <a href="/projects">View projects</a>
             </button>
           </div>
         </div>
