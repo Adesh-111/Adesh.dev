@@ -1,0 +1,24 @@
+.all-projects-container h2 {
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Poppins";
+  font-weight: 500;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.all-projects-container h2 span{
+    background-color: orange;
+  color: black;
+  padding: 5px;
+}
+
+@media screen and (max-width:600px) {
+    .all-projects-container h2{
+        font-size: 1.5rem;
+    }
+    
+}

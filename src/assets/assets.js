@@ -62,6 +62,15 @@ import greatLearningIcon from "./glIcon.jpg"
 import reactCert from "./Certificates-images/reactCert.png"
 import ibm from "./IBM.jpeg"
 import resume from "./Adesh_Resume.pdf"
+import UdemyClone from "./UdemyClone.svg"
+import APIIcon from "./apiIcon.svg"
+import APIexplorer from "./APIexplorer.svg"
+import WordIcon from "./wordIcon.svg"
+import Word from "./Word.svg"
+import assignmnetIcon from "./assignmentIcon.svg"
+import Assignment from "./Assignment.svg"
+import PersonalWebsite from "./PersonalWebsite.svg"
+import PersonalWebsiteIcon from "./PersonalWebsiteIcon.svg"
 
 const assets = {
   profile: profile,
@@ -127,7 +136,16 @@ const assets = {
   greatLearningIcon : greatLearningIcon,
   reactCert: reactCert,
   ibm: ibm,
-  resume: resume
+  resume: resume,
+  UdemyClone: UdemyClone,
+  APIIcon: APIIcon,
+  APIexplorer: APIexplorer,
+  Word: Word,
+  WordIcon: WordIcon,
+  Assignment: Assignment,
+  assignmnetIcon: assignmnetIcon,
+  PersonalWebsite: PersonalWebsite,
+  PersonalWebsiteIcon: PersonalWebsiteIcon
 };
 
 export default assets;

@@ -27,89 +27,57 @@ function AllProjects() {
       image: assets.Gemini,
       imageAlt: "Gemini AI Project",
       linktitle: "gemini-clone",
-    }, {
-        icon: assets.geminiIcon,
-        title: "Udemy Clone",
-        domain: "Frontend Development",
-        description:
-          "Welcome to my Udemy clone project! This project is a replication of the popular online learning platform Udemy, built entirely from scratch. It has been developed to enhance my proficiency in HTML, CSS, and responsive design, providing me with valuable front-end development skills.",
-        image: assets.Gemini,
-        imageAlt: "Udemy clone Project",
-        linktitle: "udemy-clone",
-      }, {
-        icon: assets.geminiIcon,
-        title: "Gemini AI Clone",
-        domain: "Web Development",
-        description:
-          "This project is a ReactJS-based application designed to replicate the functionality and user experience of Google Gemini AI. The app provides an interactive platform where users can ask questions and receive AI-generated responses in real-time, all within a clean and user-friendly interface.",
-        image: assets.Gemini,
-        imageAlt: "Gemini AI Project",
-        linktitle: "gemini-clone",
-      }, {
-        icon: assets.geminiIcon,
-        title: "Gemini AI Clone",
-        domain: "Web Development",
-        description:
-          "This project is a ReactJS-based application designed to replicate the functionality and user experience of Google Gemini AI. The app provides an interactive platform where users can ask questions and receive AI-generated responses in real-time, all within a clean and user-friendly interface.",
-        image: assets.Gemini,
-        imageAlt: "Gemini AI Project",
-        linktitle: "gemini-clone",
-      }, {
-        icon: assets.geminiIcon,
-        title: "Gemini AI Clone",
-        domain: "Web Development",
-        description:
-          "This project is a ReactJS-based application designed to replicate the functionality and user experience of Google Gemini AI. The app provides an interactive platform where users can ask questions and receive AI-generated responses in real-time, all within a clean and user-friendly interface.",
-        image: assets.Gemini,
-        imageAlt: "Gemini AI Project",
-        linktitle: "gemini-clone",
-      }, {
-        icon: assets.geminiIcon,
-        title: "Gemini AI Clone",
-        domain: "Web Development",
-        description:
-          "This project is a ReactJS-based application designed to replicate the functionality and user experience of Google Gemini AI. The app provides an interactive platform where users can ask questions and receive AI-generated responses in real-time, all within a clean and user-friendly interface.",
-        image: assets.Gemini,
-        imageAlt: "Gemini AI Project",
-        linktitle: "gemini-clone",
-      }, {
-        icon: assets.geminiIcon,
-        title: "Gemini AI Clone",
-        domain: "Web Development",
-        description:
-          "This project is a ReactJS-based application designed to replicate the functionality and user experience of Google Gemini AI. The app provides an interactive platform where users can ask questions and receive AI-generated responses in real-time, all within a clean and user-friendly interface.",
-        image: assets.Gemini,
-        imageAlt: "Gemini AI Project",
-        linktitle: "gemini-clone",
-      }, {
-        icon: assets.geminiIcon,
-        title: "Gemini AI Clone",
-        domain: "Web Development",
-        description:
-          "This project is a ReactJS-based application designed to replicate the functionality and user experience of Google Gemini AI. The app provides an interactive platform where users can ask questions and receive AI-generated responses in real-time, all within a clean and user-friendly interface.",
-        image: assets.Gemini,
-        imageAlt: "Gemini AI Project",
-        linktitle: "gemini-clone",
-      }, {
-        icon: assets.geminiIcon,
-        title: "Gemini AI Clone",
-        domain: "Web Development",
-        description:
-          "This project is a ReactJS-based application designed to replicate the functionality and user experience of Google Gemini AI. The app provides an interactive platform where users can ask questions and receive AI-generated responses in real-time, all within a clean and user-friendly interface.",
-        image: assets.Gemini,
-        imageAlt: "Gemini AI Project",
-        linktitle: "gemini-clone",
-      }, {
-        icon: assets.geminiIcon,
-        title: "Gemini AI Clone",
-        domain: "Web Development",
-        description:
-          "This project is a ReactJS-based application designed to replicate the functionality and user experience of Google Gemini AI. The app provides an interactive platform where users can ask questions and receive AI-generated responses in real-time, all within a clean and user-friendly interface.",
-        image: assets.Gemini,
-        imageAlt: "Gemini AI Project",
-        linktitle: "gemini-clone",
-      },
-
+    },
+    {
+      icon: assets.Udemy,
+      title: "Udemy Clone",
+      domain: "Frontend Development",
+      description:
+        "Welcome to my Udemy clone project! This project is a replication of the popular online learning platform Udemy, built entirely from scratch. It has been developed to enhance my proficiency in HTML, CSS, and responsive design, providing me with valuable front-end development skills.",
+      image: assets.UdemyClone,
+      imageAlt: "Udemy clone Project",
+      linktitle: "udemy-clone",
+    },
+    {
+      icon: assets.APIIcon,
+      title: "API Explorer",
+      domain: "Backend Development",
+      description:
+        "This project aims to create a web application named API Explorer using Express/Node.js platform, Axios HTTP client, and a chosen public API from the provided list. The website will interact with the chosen API, retrieve data, and present it in a user-friendly manner.",
+      image: assets.APIexplorer,
+      imageAlt: "API Explorer",
+      linktitle: "api-explorer",
+    },
+    {
+      icon: assets.WordIcon,
+      title: "Interactive Word guessing ",
+      domain: "Frontend Development",
+      description:
+        "The interactive word guessing tool helps novice coders and job seekers improve technical vocabulary and skills. It features Coding tutorials and exercises, and an Aptitude section for problem-solving in job assessments.",
+      image: assets.Word,
+      imageAlt: "Word guesser",
+      linktitle: "word-guesser",
+    },
+    {
+      icon: assets.assignmnetIcon,
+      title: "Assignment Manager",
+      domain: "Backend Development",
+      description:
+        "Assignment Manager is a web application built with Node.js, Express.js, and EJS that allows users to create, view, update, and delete assignments effortlessly. It provides a user-friendly interface for managing assignments and ensures a seamless experience across desktop and mobile devices.",
+      image: assets.Assignment,
+      imageAlt: "Assignment Manager",
+      linktitle: "assignment-manager",
+    },
+    {
+      icon: assets.PersonalWebsiteIcon,
+      title: "Personal Website",
+      domain: "Frontend Development",
+      description:
+        "This is the first version of my portfolio, built using HTML and styled with CSS. Here, you'll find information about me, my skills, projects I've worked on, and how to get in touch with me. Feel free to explore and get to know more about my journey and expertise.",
+      image: assets.PersonalWebsite,
+      imageAlt: "Personal-website",
+      linktitle: "personal-website",
+    }
   ];
 
   return (
