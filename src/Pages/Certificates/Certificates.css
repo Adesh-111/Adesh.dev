@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+.certificates{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.certificates-container{
+    /* margin: 10px; */
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificate-card{
+    padding: 24px;
+    width: 350px;
+    height: 500px;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+.certificate-card .certificate-img{
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.certificate-img img{
+    width: 300px;
+}
+
+.certificate-card .img-links img, .cert-link {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    overflow: hidden;
+    object-fit: cover; 
+    object-position: center; 
+    border: 2px solid white;
+   margin-right: 8px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+
+.img-links{
+    display: inline-flex;
+}
+
+.certificate-card h3{
+    font-size: 1.3rem;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 400;
+    padding: 5px 0px;
+}
+
+.certificate-card p{
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+.certificate-card:hover{
+    box-shadow: 8px 8px 0 0 white;
+    transform: translateY(-5px);
+}
+
+.img-links img:hover,.cert-link:hover{
+    box-shadow: 3px 3px 0 0 white;
+}
+
+.cert-link i{
+    color: black;
+    text-align: center; 
+    padding: 11px;
+    font-size: 1.5rem;
+}

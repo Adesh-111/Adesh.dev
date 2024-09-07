@@ -1,5 +1,10 @@
 import assets from "../../assets/assets";
+import Footer from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
 import Certificates from "./Certificate";
+import React from "react";
+import "./Certificates.css";
+
 
 function AllCertificates() {
   const certData = [
@@ -95,7 +100,7 @@ function AllCertificates() {
       link: "https://www.guvi.in/certificate.html?id=Y33l1tW0707O72Zs14",
     },
     {
-      name: "FullStack Workshop",
+      name: "FullStack Development Workshop",
       image: assets.guviWorkshop,
       icon: assets.guvi,
       Date: "Apr 10 2024",
@@ -103,7 +108,7 @@ function AllCertificates() {
     },
     {
       name: "Programming in Java",
-      image: assets.java,
+      image: assets.javaCert,
       icon: assets.nptel,
       Date: "Apr 29 2024",
       link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS43S105350595330378538",
@@ -112,11 +117,15 @@ function AllCertificates() {
 
   return (
     <>
-      <div className="certificates">
+      <Navbar />
+      <div className="certificates" data-aos = "fade-up">
         <div className="certificates-container">
-          <Certificates />
+          {certData.map((cert, index) => (
+            <Certificates key={index} cert={cert} />
+          ))}
         </div>
       </div>
+      <Footer />
     </>
   );
 }
