@@ -7,7 +7,7 @@ function Navbar() {
   useEffect(() => {
     AOS.init({
       duration: 2000,
-      once: true, 
+      once: false, 
     });
     AOS.refresh(); 
   }, []);
@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="nav-container" data-aos = "fade-up">
+      <div className="nav-container" >
         <div className="navbar">
           <img src={assets.profile} alt="" />
           {/* <a href="#"><img src={assets.profile} alt="" /></a> */}
