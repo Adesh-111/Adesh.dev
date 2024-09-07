@@ -9,13 +9,16 @@
 }
 
 .two-projects-container {
-  margin-top: 400px;
+  margin-top: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   margin-bottom: 20px;
+}
+
+.projects-container {
 }
 
 .project {

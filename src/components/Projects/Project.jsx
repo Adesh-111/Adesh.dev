@@ -4,7 +4,7 @@ import "./Project.css";
 
 function Project({ project }) {
   return (
-    <div className="project">
+    <div className="project" data-aos = "fade-right">
       <div className="project-container">
         <div className="project-description">
           <div className="project-domain">

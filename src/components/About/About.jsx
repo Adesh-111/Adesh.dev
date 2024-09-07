@@ -4,7 +4,7 @@ import "./About.css";
 function About() {
   return (
     <>
-      <div className="about-container">
+      <div className="about-container" data-aos = "fade-right">
         <div className="about" id="About">
           <div className="about-image">
             <img src={assets.aboutImg} alt="" />

@@ -23,9 +23,9 @@ function AllServices() {
   ];
 
   return (
-    <>
+    <> <div className="all-services" data-aos = "fade-up">
       <ServiceTitle />
-      <Services services={servicesData} />
+      <Services services={servicesData} /></div>
     </>
   );
 }

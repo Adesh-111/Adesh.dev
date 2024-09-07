@@ -1,10 +1,21 @@
+import { useEffect } from "react";
 import assets from "../../assets/assets";
 import "./Navbar.css";
+import AOS from "aos";
 
 function Navbar() {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      once: true, 
+    });
+    AOS.refresh(); 
+  }, []);
+  
+
   return (
     <>
-      <div className="nav-container">
+      <div className="nav-container" data-aos = "fade-up">
         <div className="navbar">
           <img src={assets.profile} alt="" />
           {/* <a href="#"><img src={assets.profile} alt="" /></a> */}

@@ -7,7 +7,7 @@ import "./Hero.css";
 function Hero() {
   return (
     <>
-      <div className="Hero" id="Home">
+      <div className="Hero" id="Home" data-aos="zoom">
         <div>
           <h1 className="title">
             <span className="intro">I'm</span>
@@ -52,7 +52,7 @@ function Hero() {
             </button>
           </div>
         </div>
-        <div className="Image">
+        <div className="Image" >
           <img src={assets.profile} alt="profile-picture" />
         </div>
       </div>

@@ -21,7 +21,7 @@ function Links() {
 
   return (
     <>
-      <div className="links-container">
+      <div className="links-container" data-aos = "fade-down">
         <h3 className="link-title">
           <span>Let's Connect</span>, Find Me on Social Media
         </h3>

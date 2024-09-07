@@ -25,7 +25,8 @@ function TwoProjects() {
   ];
 
   return (
-    <div className="two-projects-container">
+    <div className="projects-container" data-aos = "fade-up">
+      <div className="two-projects-container">
       <h2>
         From <span>Code to Creation,</span> Noteworthy Additions to My Portfolio
       </h2>
@@ -36,6 +37,8 @@ function TwoProjects() {
         <i class="fa-solid fa-bars"></i>View all Projects
       </button>
     </div>
+    </div>
+    
   );
 }
 

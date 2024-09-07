@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <>
-      <div className="footer">
+      <div className="footer" data-aos="fade-up">
         <div className="footer-container">
           <div className="footer-description">
             <div>
@@ -48,7 +48,7 @@ function Footer() {
               <li><a href="#">Certificates</a></li>
             </ul>
           </div>
-          <div className="contact">
+          <div className="contact" data-aos="fade-right">
             <h3>Contact me</h3>
             <a href="mailto:adeshabinesh25@gmail.com">
               <i className="fa-solid fa-envelope"></i> adeshabinesh25@gmail.com

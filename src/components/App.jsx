@@ -7,6 +7,7 @@ import Links from "./SocialLinks/Links";
 import TwoProjects from "./Projects/TwoProjects";
 import Experiences from "./Experiences/Experiences";
 import Footer from "./Footer/Footer";
+import "aos/dist/aos.css"
 
 function App() {
   return (

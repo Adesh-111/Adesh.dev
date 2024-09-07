@@ -28,7 +28,7 @@ function Skills() {
   const Images = Array(100).fill(images).flat();
 
   return (
-    <div className="skills-container">
+    <div className="skills-container" >
       <marquee
         className="skills-marquee"
         behavior="scroll"

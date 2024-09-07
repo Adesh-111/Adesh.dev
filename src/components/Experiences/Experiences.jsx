@@ -36,7 +36,7 @@ const experienceData = [
 function Experiences() {
   return (
     <>
-      <div className="Experiences">
+      <div className="Experiences" data-aos ="zoom">
         <div className="Experiences-container">
           <div className="Experience-description">
             <h3>Take a closer look at <span>my professional track record</span></h3>
