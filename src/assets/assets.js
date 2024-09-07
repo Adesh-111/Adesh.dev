@@ -36,6 +36,28 @@ import geminiIcon from "./shine.svg";
 import afame from "./Afame.jpeg";
 import thinkDigital from "./thinkdigital.png"
 import zenhook from "./Zenhook.jpeg"
+import cursaCert from "./Certificates-images/cursa certificate.png"
+import emc from "./Certificates-images/EMC.png";
+import freeCodeCamp from "./Certificates-images/FreeCodeCamp.png";
+import googleAnalytics from "./Certificates-images/Google Analytics.png";
+import greatLearning from "./Certificates-images/Great Learning.jpg";
+import guviCertification from "./Certificates-images/GUVI cetification.png";
+import guviWorkshop from "./Certificates-images/Guvi Fulstck workshop certificate.png";
+import ibmCertificate from "./Certificates-images/IBM-certificate.png";
+import javaCert from "./Certificates-images/Java.png";
+import javascriptCert from "./Certificates-images/Javascript.png";
+import nodeCert from "./Certificates-images/Node.png";
+import postmanCert from "./Certificates-images/Postman certificate.png";
+import sqlCert from "./Certificates-images/SQL.png";
+import udemyCert from "./Certificates-images/Udemy certificate.jpg";
+import emcIcon from "./emc.png"
+import cursa from "./cursa.png"
+import fccIcon from "./freecodecamp.jpg"
+import guvi from "./guvi.png"
+import google from "./google.png"
+import hackerRank from "./hackerrank.png"
+import nptel from "./nptel.png"
+import Udemy from "./Udemy.jpeg"
 
 const assets = {
   profile: profile,
@@ -75,7 +97,29 @@ const assets = {
   bookIcon: bookIcon,
   afame : afame,
   thinkDigital: thinkDigital,
-  zenhook: zenhook
+  zenhook: zenhook,
+  emc: emc,
+  freeCodeCamp: freeCodeCamp,
+  googleAnalytics: googleAnalytics,
+  greatLearning: greatLearning,
+  guviCertification: guviCertification,
+  guviWorkshop: guviWorkshop,
+  ibmCertificate: ibmCertificate,
+  javaCert: javaCert,
+  javascriptCert: javascriptCert,
+  nodeCert: nodeCert,
+  postmanCert: postmanCert,
+  sqlCert: sqlCert,
+  udemyCert: udemyCert,
+  emcIcon: emcIcon,
+  fccIcon: fccIcon,
+  hackerRank: hackerRank,
+  nptel: nptel,
+  google: google,
+  guvi: guvi,
+  cursa: cursa,
+  Udemy: Udemy,
+  cursaCert : cursaCert
 };
 
 export default assets;

@@ -7,15 +7,15 @@ import Certificates from "../../Pages/Certificates/Certificates";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />, 
+    element: <App />,
   },
   {
     path: "/projects",
-    element: <TwoProjects />, 
+    element: <TwoProjects />,
   },
   {
     path: "/certificates",
-    element: <Certificates />, 
+    element: <Certificates />,
   },
 ]);
 
