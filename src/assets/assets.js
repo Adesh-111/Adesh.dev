@@ -58,6 +58,9 @@ import google from "./google.png"
 import hackerRank from "./hackerrank.png"
 import nptel from "./nptel.png"
 import Udemy from "./Udemy.jpeg"
+import greatLearningIcon from "./glIcon.jpg"
+import reactCert from "./Certificates-images/reactCert.png"
+import ibm from "./IBM.jpeg"
 
 const assets = {
   profile: profile,
@@ -119,7 +122,10 @@ const assets = {
   guvi: guvi,
   cursa: cursa,
   Udemy: Udemy,
-  cursaCert : cursaCert
+  cursaCert : cursaCert,
+  greatLearningIcon : greatLearningIcon,
+  reactCert: reactCert,
+  ibm: ibm
 };
 
 export default assets;
