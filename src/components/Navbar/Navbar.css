@@ -3,7 +3,9 @@
 * {
   margin: 0;
   padding: 0;
+
 }
+
 
 .nav-container {
   display: flex;
@@ -121,4 +123,15 @@ a:hover {
   .dropdown a {
     padding-left: 10px;
   }
+
+  [data-aos] {
+    transform: scale(0.8);  
+    opacity: 0;
+  }
+
+  [data-aos].aos-animate {
+    transform: scale(1);    
+    opacity: 1;             
+  }
 }
+

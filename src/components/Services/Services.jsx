@@ -3,7 +3,7 @@ import "./Services.css";
 
 function Services({ services }) {
   return (
-    <div className="services-container">
+    <div className="services-container" data-aos ="zoom-in">
       {services.map((service, index) => (
         <div key={index} className="section-card-wrapper">
           <div className="section-card">

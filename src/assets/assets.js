@@ -61,6 +61,7 @@ import Udemy from "./Udemy.jpeg"
 import greatLearningIcon from "./glIcon.jpg"
 import reactCert from "./Certificates-images/reactCert.png"
 import ibm from "./IBM.jpeg"
+import resume from "./Adesh_Resume.pdf"
 
 const assets = {
   profile: profile,
@@ -125,7 +126,8 @@ const assets = {
   cursaCert : cursaCert,
   greatLearningIcon : greatLearningIcon,
   reactCert: reactCert,
-  ibm: ibm
+  ibm: ibm,
+  resume: resume
 };
 
 export default assets;

@@ -5,6 +5,7 @@
 * {
   padding: 0;
   margin: 0;
+  /* box-sizing: border-box; */
 }
 
 .Hero {
@@ -66,6 +67,11 @@ h1 {
   margin-left: 45px;
 }
 
+.button a {
+  text-decoration: none;
+  width: 100%;
+}
+
 .button button {
   background-color: white;
   padding: 20px;
@@ -83,6 +89,8 @@ h1 {
   align-items: center;
   gap: 20px;
   justify-content: center;
+  border: none;
+  cursor: pointer;
 }
 
 .button button:hover {
@@ -92,6 +100,18 @@ h1 {
 
 .button img {
   width: 30px;
+}
+
+.Hero button a {
+  color: black;
+}
+
+.Hero button:hover {
+  box-shadow: 3px 3px 0px 0px white;
+}
+
+.button a:hover button {
+  background-color: orange;
 }
 
 .Image {
@@ -115,6 +135,8 @@ h1 {
   margin-top: 2px;
   margin-left: 2px;
 }
+
+/* Media Queries */
 
 @media screen and (max-width: 1170px) {
   .Image img {
@@ -182,26 +204,21 @@ h1 {
     font-size: 2rem;
     margin-left: 35px;
   }
+
   .Hero p {
     margin-left: 40px;
     font-size: 15px;
     text-align: left;
   }
+
   .button button {
     margin: 10px;
-    margin-left: 0px;
+    margin-left: 50px;
     font-size: 15px;
     width: 75%;
   }
+
   .button img {
     width: 20px;
   }
-}
-
-.Hero button a{
-  color: black;
-}
-
-.Hero button:hover{
-  box-shadow: 3px 3px 0px 0px white;
 }

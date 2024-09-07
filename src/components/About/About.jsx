@@ -21,7 +21,7 @@ function About() {
               developing products, improving services and delivering value. My
               core ideals are of consistency, hard work, discipline, and grit.
             </p>
-            <button>More about me</button>
+            <a href="/about"><button>More about me</button></a>
           </div>
         </div>
       </div>

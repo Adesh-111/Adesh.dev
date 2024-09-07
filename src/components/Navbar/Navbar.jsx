@@ -21,16 +21,16 @@ function Navbar() {
           {/* <a href="#"><img src={assets.profile} alt="" /></a> */}
           <ul className="nav-list">
             <li className="nav-item">
-              <a href="#Home">Home</a>
+              <a href="/">Home</a>
             </li>
             <li className="nav-item">
               <a href="#About">About</a>
             </li>
             <li className="nav-item">
-              <a href="/">Projects</a>
+              <a href="/projects">Projects</a>
             </li>
             <li className="nav-item">
-              <a href="#Contact">Contact</a>
+              <a href="/contact">Contact</a>
             </li>
             <li className="nav-item">
               <a href="#" className="more">
@@ -41,13 +41,13 @@ function Navbar() {
                   <a href="/certificates">Certificates</a>
                 </li>
                 <li>
-                  <a href="">Resume</a>
+                  <a href={assets.resume} download="Adesh Resume.pdf">Resume</a>
                 </li>
                 <li>
-                  <a href="">Story</a>
+                  <a href="/story">Story</a>
                 </li>
                 <li>
-                  <a href="">Links</a>
+                  <a href="https://linktr.ee/adesh_d" target="__blank">Links</a>
                 </li>
               </ul>
             </li>

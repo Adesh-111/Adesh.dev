@@ -24,7 +24,7 @@
     border: 3px solid white;
     border-radius: 10px;
     box-sizing: border-box;
-    transition: all 0.5s ease;
+    transition: 0.5s ease;
 }
 
 .certificate-card .certificate-img{
@@ -74,7 +74,7 @@
 
 .certificate-card:hover{
     box-shadow: 8px 8px 0 0 white;
-    transform: translateY(-5px);
+    transform: translateY(8px);
 }
 
 .img-links img:hover,.cert-link:hover{

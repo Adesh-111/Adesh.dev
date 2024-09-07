@@ -13,10 +13,11 @@ function Project({ project }) {
           </div>
           <h3>{project.title}</h3>
           <p className="description">{project.description}</p>
+          <a href={`/projects/${project.linktitle}`}>
           <button>
             {"More about " + project.title}
             <span>→</span>
-          </button>
+          </button></a>
         </div>
         <div className="project-image">
           <img src={project.image} alt={project.imageAlt || "Project Image"} />

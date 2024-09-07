@@ -8,29 +8,49 @@ function Footer() {
         <div className="footer-container">
           <div className="footer-description">
             <div>
-              <img src={assets.profile} alt="Profile" className="footer-profile" />
+              <img
+                src={assets.profile}
+                alt="Profile"
+                className="footer-profile"
+              />
               <h3>Adesh D</h3>
               <p>Student 🖊. Creator 🚀. Developer</p>
             </div>
             <div>
               <ul className="social-links">
                 <li>
-                  <a href="https://linkedin.com/in/adesh07" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://linkedin.com/in/adesh07"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa-brands fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://instagram.com/adeshabin" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://instagram.com/adeshabin"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa-brands fa-instagram"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/adesh-111" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://github.com/adesh-111"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa-brands fa-github"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:adeshabinesh25@gmail.com">
+                  <a
+                    href="mailto:adeshabinesh25@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa-solid fa-envelope"></i>
                   </a>
                 </li>
@@ -40,17 +60,46 @@ function Footer() {
           <div className="footer-pages">
             <h3>Pages</h3>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Resume</a></li>
-              <li><a href="#">Links</a></li>
-              <li><a href="#">Certificates</a></li>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/about">About</a>
+              </li>
+              <li>
+                <a href="/projects">Projects</a>
+              </li>
+              <li>
+                <a
+                  href={assets.resume}
+                  download="Adesh Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://linktr.ee/adesh_d"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Links
+                </a>
+              </li>
+              <li>
+                <a href="/certificates">Certificates</a>
+              </li>
             </ul>
           </div>
           <div className="contact" data-aos="fade-right">
             <h3>Contact me</h3>
-            <a href="mailto:adeshabinesh25@gmail.com">
+            <a
+              href="mailto:adeshabinesh25@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fa-solid fa-envelope"></i> adeshabinesh25@gmail.com
             </a>
             <form action="#" method="post" className="contact-form">

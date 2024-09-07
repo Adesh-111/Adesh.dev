@@ -2,7 +2,6 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import assets from "../../assets/assets";
 import "./Hero.css";
-// import Bootstrap from "bootstrap";
 
 function Hero() {
   return (
@@ -42,17 +41,22 @@ function Hero() {
             continuously learning, and building impactful projects.
           </p>
           <div className="button">
-            <button>
-              <img src={assets.mailIcon} alt="mail" />
-              Get in Touch
-            </button>
-            <button>
-              <img src={assets.project} alt="projects" />
-              <a href="/projects">View projects</a>
-            </button>
+            <a href="mailto:adeshabinesh25@gmail.com">
+              <button>
+                <img src={assets.mailIcon} alt="mail" />
+                Get in Touch
+              </button>
+            </a>
+           <a href="/projects">
+              <button>
+                <img src={assets.project} alt="projects" />
+            
+                View projects
+              </button></a>
+            
           </div>
         </div>
-        <div className="Image" >
+        <div className="Image">
           <img src={assets.profile} alt="profile-picture" />
         </div>
       </div>
