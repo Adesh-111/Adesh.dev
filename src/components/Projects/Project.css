@@ -134,10 +134,17 @@
     margin-left: 10px;
     transition: 1.2s ease;
   }
-  transition: 1.2s ease;
+  transition: 0.5s ease;
   box-shadow: 7px 7px 0px 0px white;
-  margin-right: 7px;
+  transform: translateY(-7px); 
   margin-bottom: 57px;
+
+  .project-image img{
+    width: 330px;
+    height: 330px;
+    transition: 0.5s ease;
+  }
+  
 }
 
 .more-projects {

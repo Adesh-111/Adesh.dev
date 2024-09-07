@@ -4,6 +4,7 @@ import App from "../App";
 import TwoProjects from "../Projects/TwoProjects";
 import Certificates from "../../Pages/Certificates/Certificates";
 import AllProjects from "../../Pages/AllProjects/AllProjects";
+import Contact from "../../Pages/Contact/Contact";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/projects",
     element: <AllProjects />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 

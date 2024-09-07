@@ -50,6 +50,12 @@
   flex-wrap: wrap;
 }
 
+.service-image{
+  background-color: rgb(88, 96, 186);
+  display: flex;
+  justify-content: center;
+}
+
 .section-card-wrapper {
   display: flex;
   max-width: 600px;
@@ -72,10 +78,11 @@
   box-shadow: 7px 7px 0px 0px white;
   margin-bottom: 7px;
   margin-right: 7px;
+
 }
 
 .section-card img {
-  width: 100%;
+  width: 300px;
   padding: 10px 0px;
   height: 240px;
   background: rgb(88, 96, 186);
@@ -118,6 +125,7 @@
 
   .section-card {
     width: 320px;
+    height: 470px;
   }
 
   .section-card h3 {
@@ -126,6 +134,7 @@
 
   .section-card p {
     font-size: 14px;
+    padding-bottom: 20px;
   }
   .services-container {
     margin-left: 50px;

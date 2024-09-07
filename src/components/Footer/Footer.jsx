@@ -104,16 +104,16 @@ function Footer() {
             </a>
             <form action="#" method="post" className="contact-form">
               <label htmlFor="name">Name:</label>
-              <input type="text" id="name" name="name" required />
+              <input type="text" id="name" name="name" required placeholder="Enter your name"/>
 
               <label htmlFor="email">Email:</label>
-              <input type="email" id="email" name="email" required />
+              <input type="email" id="email" name="email" required placeholder="Enter your email" />
 
               <label htmlFor="subject">Subject:</label>
-              <input type="text" id="subject" name="subject" />
+              <input type="text" id="subject" name="subject" placeholder="Enter the Subject for mail" />
 
               <label htmlFor="message">Message:</label>
-              <textarea id="message" name="message" rows="4"></textarea>
+              <textarea id="message" name="message" rows="4" placeholder="Got any message for me?"></textarea>
 
               <button type="submit">Send Message</button>
             </form>
