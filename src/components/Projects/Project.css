@@ -140,9 +140,9 @@
   margin-bottom: 57px;
 
   .project-image img{
-    width: 330px;
-    height: 330px;
-    transition: 0.5s ease;
+    width: 310px;
+    height: 310px;
+    transition: 0.8s ease;
   }
   
 }
@@ -173,6 +173,37 @@
   color: white;
   transform: translate(0px, 5px);
   box-shadow: 5px 5px 0px 0px white;
+}
+
+.project-links button{
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin-right: 10px;
+}
+
+.project-links button i{
+  margin-right: 7px;
+}
+
+.project-links .project-link{
+  background-color: black;
+  color: white;
+}
+
+.project-links .project-code:hover{
+  background-color: black;
+  color: white;
+  transition: 0.4s ease;
+  transform: translateY(-5px);
+}
+
+.project-links .project-link:hover{
+  background-color: orange;
+  color: white;
+  transition: 0.4s ease;
+  transform: translateY(-5px);
 }
 
 @media screen and (max-width: 1280px) {
@@ -258,5 +289,9 @@
   }
   .project-domain {
     margin-top: 20px;
+  }
+
+  .project-links{
+    margin-bottom: 10px;
   }
 }

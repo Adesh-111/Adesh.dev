@@ -4,7 +4,7 @@ import "./Project.css";
 
 function Project({ project }) {
   return (
-    <div className="project" data-aos = "fade-right">
+    <div className="project" data-aos="fade-right">
       <div className="project-container">
         <div className="project-description">
           <div className="project-domain">
@@ -13,11 +13,24 @@ function Project({ project }) {
           </div>
           <h3>{project.title}</h3>
           <p className="description">{project.description}</p>
-          <a href={`/projects/${project.linktitle}`}>
-          <button>
-            {"More about " + project.title}
-            <span>→</span>
-          </button></a>
+          <div className="project-links">
+            <a
+              href={project.codeLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="project-code">
+                <i class="fa-brands fa-github"></i> Code
+              </button>
+            </a>
+            {project.linkAttached && (
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <button className="project-link">
+                  <i className="fa-solid fa-globe"></i> Link
+                </button>
+              </a>
+            )}
+          </div>
         </div>
         <div className="project-image">
           <img src={project.image} alt={project.imageAlt || "Project Image"} />

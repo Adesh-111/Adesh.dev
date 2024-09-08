@@ -16,7 +16,8 @@ function AllProjects() {
         "Book Notes is a web app for managing book information, integrating Express/Node.js with a PostgreSQL database. It supports CRUD operations and uses public APIs to fetch book covers. Users can add, update, sort, and view book entries with a user-friendly interface, ensuring seamless data management and presentation.",
       image: assets.BookNotes,
       imageAlt: "Book Notes Project",
-      linktitle: "book-notes",
+      codeLink: "https://github.com/Adesh-111/Book-notes",
+      linkAttached: false
     },
     {
       icon: assets.geminiIcon,
@@ -26,7 +27,9 @@ function AllProjects() {
         "This project is a ReactJS-based application designed to replicate the functionality and user experience of Google Gemini AI. The app provides an interactive platform where users can ask questions and receive AI-generated responses in real-time, all within a clean and user-friendly interface.",
       image: assets.Gemini,
       imageAlt: "Gemini AI Project",
-      linktitle: "gemini-clone",
+      link: "https://gemini-clone-beta-ivory.vercel.app/",
+      codeLink: "https://github.com/Adesh-111/gemini-clone",
+      linkAttached: true
     },
     {
       icon: assets.Udemy,
@@ -36,7 +39,9 @@ function AllProjects() {
         "Welcome to my Udemy clone project! This project is a replication of the popular online learning platform Udemy, built entirely from scratch. It has been developed to enhance my proficiency in HTML, CSS, and responsive design, providing me with valuable front-end development skills.",
       image: assets.UdemyClone,
       imageAlt: "Udemy clone Project",
-      linktitle: "udemy-clone",
+      codeLink: "https://github.com/Adesh-111/udemy-clone",
+      link: "https://adesh-111.github.io/Udemy-Clone/",
+      linkAttached: true
     },
     {
       icon: assets.APIIcon,

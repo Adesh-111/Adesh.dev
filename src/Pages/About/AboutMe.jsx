@@ -90,7 +90,7 @@ function AboutMe() {
           </div>
           <div className="story-desc">
             <p>
-              <span>I</span> come from a middle-class family, and ever since my
+              <span>E</span>ver since my
               school days, I had a strong interest in computer science. However,
               due to certain circumstances, I ended up taking biology in 12th
               standard. Even though I followed that path, deep down, I always
