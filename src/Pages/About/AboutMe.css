@@ -94,7 +94,7 @@
 }
 
 .story-head img{
-    width: 80%;
+    width: 60%;
     border-radius: 20px;
     box-shadow: 7px 7px 0 0 grey;
 }
@@ -106,7 +106,7 @@
     width: 600px;
     text-align: justify;
     color: white;
-    padding: 20px;
+    padding-right: 50px;
     padding-top: 150px;
 }
 
@@ -163,7 +163,7 @@
 
 
 
-  
+
   
   @media screen and (max-width: 600px) {
     .title-list li {

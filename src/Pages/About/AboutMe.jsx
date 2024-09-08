@@ -84,7 +84,7 @@ function AboutMe() {
               Let me tell you <span>my story.</span>{" "}
             </h3>
             <img
-              src="https://indoanalytica.com/static/images/data-science-5.gif"
+              src="https://www.careerguide.com/career/wp-content/uploads/2020/03/developer-dribbble.gif"
               alt=""
             />
           </div>
