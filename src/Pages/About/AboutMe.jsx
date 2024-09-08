@@ -7,18 +7,18 @@ import "./AboutMe.css";
 
 function AboutMe() {
   const titles = [
-    "Developer",
-    "Student",
-    "Innovator",
-    "Friend",
-    "React JS",
-    "Node JS",
-    "PostgreSQL",
-    "JavaScript",
-    "Frontend",
-    "Backend",
-    "Programmer",
-    "Coding",
+    "•   Developer",
+    "•   Student",
+    "•   Innovator",
+    "•   Friend",
+    "•   React JS",
+    "•   Node JS",
+    "•   PostgreSQL",
+    "•   JavaScript",
+    "•   Frontend",
+    "•   Backend",
+    "•   Programmer",
+    "•   Coding",
   ];
 
   const Titles = Array(100).fill(titles).flat();
@@ -59,7 +59,7 @@ function AboutMe() {
   return (
     <>
       <Navbar />
-      <div className="AboutMe">
+      <div className="AboutMe" data-aos="fade-up">
         <div className="head">
           <h3>
             Hello World, <span>I'm Adesh</span>
@@ -78,7 +78,7 @@ function AboutMe() {
             </a>
           </div>
         </div>
-        <div className="story">
+        <div className="story" data-aos="zoom-out">
           <div className="story-head">
             <h3>
               Let me tell you <span>my story.</span>{" "}
@@ -146,7 +146,7 @@ function AboutMe() {
             </a>
           </div>
         </div>
-        <div className="titles">
+        <div className="titles" data-aos="fade-down">
           <marquee
             className="title-marquee"
             behavior="scroll"
@@ -161,13 +161,16 @@ function AboutMe() {
             </ul>
           </marquee>
         </div>
-        <div className="core-values">
-          <h3>My core values, personally and professionally</h3>
-          <p>
-            These principles motivate me to strive for excellence, maintain
-            integrity, and foster positive relationships, guiding me to be my
-            best self and achieve success in all my endeavors.
-          </p>
+        <div className="core-values" data-aos ="fade-up">
+          <div className="core-desc">
+            <h3>My core values, personally and professionally</h3>
+            <p>
+              These principles motivate me to strive for excellence, maintain
+              integrity, and foster positive relationships, guiding me to be my
+              best self and achieve success in all my endeavors.
+            </p>
+          </div>
+
           <div className="core-cards">
             {CardDetails.map((card, index) => (
               <CoreCard key={index} card={card} />

@@ -44,7 +44,7 @@ function Navbar() {
                   <a href={assets.resume} download="Adesh Resume.pdf">Resume</a>
                 </li>
                 <li>
-                  <a href="/story">Story</a>
+                  <a href="/story">Services</a>
                 </li>
                 <li>
                   <a href="https://linktr.ee/adesh_d" target="__blank">Links</a>

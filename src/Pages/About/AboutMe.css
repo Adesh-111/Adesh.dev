@@ -67,8 +67,9 @@
 
 .story{
     display: flex;
-    justify-content: center;
+    align-items: flex-start;
     gap: 20px;
+    margin-top: 100px;
 }
 
 .story .story-head{
@@ -107,7 +108,8 @@
     text-align: justify;
     color: white;
     padding-right: 50px;
-    padding-top: 150px;
+    line-height: 20px;
+    margin: 10px;
 }
 
 .story-desc p{
@@ -152,14 +154,84 @@
     padding: 0 40px;
     color: #000000;
     font-size: 20px;
-    list-style: square;
   }
 
+  .core-values{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
+.core-values h3{
+    color: white;
+    font-family: "Poppins";
+    font-weight: 450;
+    font-size: 2.3rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
 
+.core-desc{
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
+.core-desc p{
+    font-family: "Montserrat";
+    font-size: 1rem;
+    color: white;
+    width: 900px;
+}
 
+.core-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 80px;
+}
 
+.core-card{
+    border: 1.5px solid white;
+    display: inline-flex;
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.card-img{
+    width: 1000px;
+    background-color: orange;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.core-card img{
+   width: 150px;
+   padding: 20px;
+}
+
+.core-card h3{
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+.core-card p{
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 300;
+    padding: 15px;
+    font-size: 0.9rem;
+    text-align: justify;
+}
 
 
 
