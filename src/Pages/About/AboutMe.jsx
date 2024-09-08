@@ -65,7 +65,7 @@ function AboutMe() {
             Hello World, <span>I'm Adesh</span>
           </h3>
           <p>Explore my story, works and what are my values are.</p>
-          <div>
+          <div className="core-buttons">
             <a href="/contact">
               <button className="getIn">
                 <i class="fa-solid fa-envelope"></i>Get in touch

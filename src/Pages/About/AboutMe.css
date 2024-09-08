@@ -244,3 +244,181 @@
     }
   }
   
+
+  @media screen and (max-width: 1024px) {
+    .AboutMe .head h3 {
+      font-size: 2.8rem;
+    }
+  
+    .AboutMe .head p {
+      width: 80%;
+      font-size: 1rem;
+    }
+  
+    .story-head h3 {
+      font-size: 2.4rem;
+    }
+  
+    .story-desc {
+      width: 100%;
+      flex-direction: column;
+      font-size: 0.85rem;
+    }
+  
+    .core-values h3 {
+      font-size: 2rem;
+    }
+  
+    .core-desc p {
+      width: 80%;
+      font-size: 0.95rem;
+    }
+  
+    .core-card {
+      width: 80%;
+      height: auto;
+    }
+  
+    .core-card h3 {
+      font-size: 1.2rem;
+    }
+  
+    .core-card p {
+      font-size: 0.85rem;
+    }
+  
+    .card-img {
+      width: 500px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .story {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+  
+    .story-desc {
+      flex-direction: column; 
+      width: 90%;
+      font-size: 0.85rem;
+      padding: 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .AboutMe .head h3 {
+      font-size: 2.0rem;
+    }
+
+    .AboutMe .head .core-buttons{
+        display: inline-flex;
+    }
+  
+    .AboutMe .head p {
+      width: 90%;
+      font-size: 0.9rem;
+    }
+  
+    .story {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+  
+    .story-head h3 {
+      font-size: 2rem;
+    }
+  
+    .story-head img {
+      width: 80%;
+    }
+  
+    .story-desc {
+      width: 90%;
+      font-size: 0.85rem;
+      padding-right: 0;
+      text-align: justify;
+      padding: 30px;
+      padding:0
+    }
+  
+    .core-values h3 {
+      font-size: 1.8rem;
+    }
+  
+    .core-desc p {
+      width: 90%;
+      font-size: 0.9rem;
+    }
+  
+    .core-card {
+      flex-direction: column;
+      margin: 20px 0;
+    }
+
+      .core-card h3 {
+        font-size: 1.1rem;
+      }
+
+      .card-img{
+        width: 400px;
+      }
+      .card-img img{
+        padding-right: 130px;
+      }
+    
+    }
+  
+
+  @media screen and (min-width: 1025px) {
+    .AboutMe .head h3 {
+      font-size: 3.5rem;
+    }
+  
+    .AboutMe .head p {
+      width: 450px;
+      font-size: 1.3rem;
+    }
+  
+    .story-head h3 {
+      font-size: 3rem;
+    }
+  
+    .story-desc {
+      width: 700px;
+      font-size: 1rem;
+    }
+  
+    .core-values h3 {
+      font-size: 2.5rem;
+    }
+  
+    .core-desc p {
+      width: 1000px;
+      font-size: 1.1rem;
+    }
+  
+    .core-card {
+      width: 650px;
+      height: 300px;
+    }
+  
+    .core-card h3 {
+      font-size: 1.5rem;
+    }
+  
+    .core-card p {
+      font-size: 1rem;
+    }
+  
+    .card-img {
+      width: 1200px;
+    }
+  
+    .title-list li {
+      padding: 0 50px;
+      font-size: 22px;
+    }
+  }
