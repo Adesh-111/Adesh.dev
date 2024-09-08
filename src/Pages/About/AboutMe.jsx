@@ -3,9 +3,10 @@ import Experiences from "../../components/Experiences/Experiences";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import CoreCard from "./CoreCard";
+import "./AboutMe.css";
 
 function AboutMe() {
-  const Titles = [
+  const titles = [
     "Developer",
     "Student",
     "Innovator",
@@ -19,6 +20,8 @@ function AboutMe() {
     "Programmer",
     "Coding",
   ];
+
+  const Titles = Array(100).fill(titles).flat();
 
   const CardDetails = [
     {
@@ -58,18 +61,28 @@ function AboutMe() {
       <Navbar />
       <div className="AboutMe">
         <div className="head">
-          <h3>Hi, I am Adesh</h3>
+          <h3>
+            Hello World, <span>I'm Adesh</span>
+          </h3>
           <p>Explore my story, works and what are my values are.</p>
-          <a href="/contact">
-            <button>Get in touch</button>
-          </a>
-          <a href="">
-            <button>My story</button>
-          </a>
+          <div>
+            <a href="/contact">
+              <button className="getIn">
+                <i class="fa-solid fa-envelope"></i>Get in touch
+              </button>
+            </a>
+            <a href="">
+              <button>
+                <i class="fa-solid fa-user"></i>My story
+              </button>
+            </a>
+          </div>
         </div>
         <div className="story">
           <div className="story-head">
-            <h3>Let me tell you my story.</h3>
+            <h3>
+              Let me tell you <span>my story.</span>{" "}
+            </h3>
             <img
               src="https://indoanalytica.com/static/images/data-science-5.gif"
               alt=""
@@ -77,57 +90,71 @@ function AboutMe() {
           </div>
           <div className="story-desc">
             <p>
-              {" "}
-              I come from a middle-class family, and ever since my school days,
-              I had a strong interest in computer science. However, due to
-              certain circumstances, I ended up taking biology in 12th standard.
-              Even though I followed that path, deep down, I always knew I
-              wanted to pursue engineering. When I finally got the chance to
-              enroll in a computer science engineering program, I was excited,
-              but I had no prior experience with coding or any technical
-              knowledge. Everything changed during my second year when my
-              college hosted the Smart India Hackathon. I decided to
-              participate, even though I didn't know much about coding. I worked
-              hard and managed to build a simple project, which I presented to
-              the judges. But to my surprise, instead of encouragement, I was
-              laughed at. The mockery was difficult to handle, and it left me
-              feeling defeated.
-              <br />
+              <span>I</span> come from a middle-class family, and ever since my
+              school days, I had a strong interest in computer science. However,
+              due to certain circumstances, I ended up taking biology in 12th
+              standard. Even though I followed that path, deep down, I always
+              knew I wanted to pursue engineering. When I finally got the chance
+              to enroll in a computer science engineering program, I was
+              excited, but I had no prior experience with coding or any
+              technical knowledge.
+            </p>
+
+            <p>
+              Everything changed during my second year when my college hosted
+              the Smart India Hackathon. I decided to participate, even though I
+              didn't know much about coding. I worked hard and managed to build
+              a simple project, which I presented to the judges. But to my
+              surprise, instead of encouragement, I was laughed at. The mockery
+              was difficult to handle, and it left me feeling defeated.
+            </p>
+
+            <p>
               That experience, though painful, became the turning point in my
               life. I knew I had to do something about it. My mind was racing,
               and I was determined to find a career where I could truly thrive.
               I turned to the internet, researching different paths, and
               eventually stumbled upon Full Stack Development. It felt like a
-              perfect match for me. I didn't rush the process. I enrolled in a
-              Udemy course and took my time learning everything, step by step. I
-              believed that slow and steady progress would lead to good results,
-              and I was right. As I learned, I started building my own projects
-              and mini-projects, and I discovered a deep joy in applying my
+              perfect match for me.
+            </p>
+
+            <p>
+              I didn't rush the process. I enrolled in a Udemy course and took
+              my time learning everything, step by step. I believed that slow
+              and steady progress would lead to good results, and I was right.
+              As I learned, I started building my own projects and
+              mini-projects, and I discovered a deep joy in applying my
               technical skills.
-              <br />
+            </p>
+
+            <p>
               From that moment on, I felt complete in my career as a developer.
               I found fulfillment in every new website I created, every custom
               solution I developed, and every challenge I overcame. I've gone
               from knowing nothing to becoming a full-fledged developer, and
               now, I’m eager to keep growing, learning, and helping others
               through my work. Every new project pushes me to go beyond what I
-              thought was possible. That’s how I went from zero to becoming a
-              developer.
+              thought was possible.
             </p>
+
+            <p>That’s how I went from zero to becoming a developer.</p>
+
             <a href="">
-              <button>Get in Touch</button>
+              <button>
+                <i class="fa-solid fa-envelope"></i>Get in Touch
+              </button>
             </a>
           </div>
         </div>
         <div className="titles">
           <marquee
-            className="skills-marquee"
+            className="title-marquee"
             behavior="scroll"
             direction="left"
             scrollamount="5"
             loop="infinite"
           >
-            <ul>
+            <ul className="title-list">
               {Titles.map((title, index) => (
                 <li key={index}>{title}</li>
               ))}

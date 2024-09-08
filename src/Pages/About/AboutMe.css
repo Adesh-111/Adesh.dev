@@ -1,0 +1,174 @@
+.AboutMe{
+    padding: 0;
+    margin: 0;
+    margin-top: 80px;
+}
+
+.AboutMe .head h3{
+    color: white;
+    font-family: "Nunito sans";
+    font-size: 3.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.AboutMe .head span{
+    background-color: orange;
+    padding: 8px;
+}
+
+.AboutMe .head p{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-top: 30px;
+    padding: 10px;
+    width: 400px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head button, 
+.story-desc button{
+    width: 170px;
+    height: 50px;
+    margin: 15px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 0.8rem;
+}
+
+.AboutMe button i{
+    margin: 10px;
+}
+
+.getIn{
+    background-color: orange;
+}
+
+.head button:hover,
+.story-desc button:hover{
+    transform: translate(0px, -4px);
+    transition: 0.2s ease-out;
+    background-color: orange;
+    color: white;
+    box-shadow: 5px 5px 0 0 white;
+}
+
+.story{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.story .story-head{
+    margin: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.story-head h3{
+    color: white;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 2.8rem;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.story-head span{
+    background-color: rgb(87, 87, 196);
+    padding: 7px;
+}
+
+.story-head img{
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 7px 7px 0 0 grey;
+}
+
+
+.story-desc{
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+    width: 600px;
+    text-align: justify;
+    color: white;
+    padding: 20px;
+    padding-top: 150px;
+}
+
+.story-desc p{
+    margin-bottom: 12px;
+}
+
+.story-desc br{
+    margin-bottom: 10px;
+}
+
+.story-desc span{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.story-desc button{
+    margin-left: 0;
+}
+
+.title-marquee {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    padding: 10px 0;
+    font-family: "Poppins";
+    margin-top: 100px;
+  }
+  
+  .title-list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transform: skewX(-8deg);
+    height: 50px;
+  }
+  
+  .title-list li {
+    display: inline-block;
+    padding: 0 40px;
+    color: #000000;
+    font-size: 20px;
+    list-style: square;
+  }
+
+
+
+
+
+
+
+
+
+  
+  
+  @media screen and (max-width: 600px) {
+    .title-list li {
+      padding: 0 20px;
+      font-size: 16px;
+    }
+  }
+  
