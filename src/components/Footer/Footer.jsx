@@ -14,7 +14,7 @@ function Footer() {
                 className="footer-profile"
               />
               <h3>Adesh D</h3>
-              <p>Student 🖊. Creator 🚀. Developer</p>
+              <p>Student 🖊. Creator 🚀. Developer 💻</p>
             </div>
             <div>
               <ul className="social-links">

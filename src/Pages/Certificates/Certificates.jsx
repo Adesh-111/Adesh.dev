@@ -5,7 +5,6 @@ import Certificates from "./Certificate";
 import React from "react";
 import "./Certificates.css";
 
-
 function AllCertificates() {
   const certData = [
     {
@@ -55,7 +54,7 @@ function AllCertificates() {
       image: assets.googleAnalytics,
       icon: assets.google,
       Date: "Mar 29 2024",
-      link: "https://analytics.google.com/analytics/academy/certificate/8i7kLs42QaKDSdoEFMzuGg",
+      link: "https://drive.google.com/file/d/1Ec-iDes1XE9-nzcYR0JpFnvha6D6Fr94/view?usp=drivesdk",
     },
     {
       name: "FrontEnd Development - HTML",
@@ -118,7 +117,7 @@ function AllCertificates() {
   return (
     <>
       <Navbar />
-      <div className="certificates" data-aos = "fade-up">
+      <div className="certificates" data-aos="fade-up">
         <div className="certificates-container">
           {certData.map((cert, index) => (
             <Certificates key={index} cert={cert} />

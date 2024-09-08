@@ -5,6 +5,7 @@ import TwoProjects from "../Projects/TwoProjects";
 import Certificates from "../../Pages/Certificates/Certificates";
 import AllProjects from "../../Pages/AllProjects/AllProjects";
 import Contact from "../../Pages/Contact/Contact";
+import AboutMe from "../../Pages/About/AboutMe";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
     path: "/contact",
     element: <Contact />,
   },
+  {
+    path :"/about",
+    element: <AboutMe />
+  }
 ]);
 
 export default router;

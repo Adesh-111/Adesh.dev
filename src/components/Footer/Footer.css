@@ -20,6 +20,7 @@
   display: inline-flex;
   flex-direction: column;
   width: 300px;
+  margin-right: 10px;
 }
 
 .footer-description h3 {

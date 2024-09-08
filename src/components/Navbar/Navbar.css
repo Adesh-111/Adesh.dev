@@ -28,7 +28,7 @@
   width: 600px;
   align-items: center;
   display: flex;
-  box-shadow: 6px 6px 2px 0px orange;
+  box-shadow: 7px 7px 0px 0px orange;
   justify-content: space-around;
   background-color: black;
 }
