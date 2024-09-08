@@ -17,7 +17,7 @@ function AllProjects() {
       image: assets.BookNotes,
       imageAlt: "Book Notes Project",
       codeLink: "https://github.com/Adesh-111/Book-notes",
-      linkAttached: false
+      linkAttached: false,
     },
     {
       icon: assets.geminiIcon,
@@ -29,7 +29,7 @@ function AllProjects() {
       imageAlt: "Gemini AI Project",
       link: "https://gemini-clone-beta-ivory.vercel.app/",
       codeLink: "https://github.com/Adesh-111/gemini-clone",
-      linkAttached: true
+      linkAttached: true,
     },
     {
       icon: assets.Udemy,
@@ -41,7 +41,7 @@ function AllProjects() {
       imageAlt: "Udemy clone Project",
       codeLink: "https://github.com/Adesh-111/udemy-clone",
       link: "https://adesh-111.github.io/Udemy-Clone/",
-      linkAttached: true
+      linkAttached: true,
     },
     {
       icon: assets.APIIcon,
@@ -51,7 +51,8 @@ function AllProjects() {
         "This project aims to create a web application named API Explorer using Express/Node.js platform, Axios HTTP client, and a chosen public API from the provided list. The website will interact with the chosen API, retrieve data, and present it in a user-friendly manner.",
       image: assets.APIexplorer,
       imageAlt: "API Explorer",
-      linktitle: "api-explorer",
+      codeLink: "https://github.com/Adesh-111/Api-Explorer",
+      linkAttached: false,
     },
     {
       icon: assets.WordIcon,
@@ -61,7 +62,9 @@ function AllProjects() {
         "The interactive word guessing tool helps novice coders and job seekers improve technical vocabulary and skills. It features Coding tutorials and exercises, and an Aptitude section for problem-solving in job assessments.",
       image: assets.Word,
       imageAlt: "Word guesser",
-      linktitle: "word-guesser",
+      codeLink: "https://github.com/Adesh-111/word-guesser",
+      link: "https://adesh-111.github.io/word-guesser/",
+      linkAttached: true,
     },
     {
       icon: assets.assignmnetIcon,
@@ -71,7 +74,8 @@ function AllProjects() {
         "Assignment Manager is a web application built with Node.js, Express.js, and EJS that allows users to create, view, update, and delete assignments effortlessly. It provides a user-friendly interface for managing assignments and ensures a seamless experience across desktop and mobile devices.",
       image: assets.Assignment,
       imageAlt: "Assignment Manager",
-      linktitle: "assignment-manager",
+      codeLink: "https://github.com/Adesh-111/Assignment-manager",
+      linkAttached: false,
     },
     {
       icon: assets.PersonalWebsiteIcon,
@@ -81,8 +85,10 @@ function AllProjects() {
         "This is the first version of my portfolio, built using HTML and styled with CSS. Here, you'll find information about me, my skills, projects I've worked on, and how to get in touch with me. Feel free to explore and get to know more about my journey and expertise.",
       image: assets.PersonalWebsite,
       imageAlt: "Personal-website",
-      linktitle: "personal-website",
-    }
+      codeLink : "https://github.com/Adesh-111/Personal-site",
+      link: "https://adesh-111.github.io/Personal-site/",
+      linkAttached: true
+    },
   ];
 
   return (
