@@ -6,7 +6,7 @@ import AOS from "aos";
 function Navbar() {
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 1500,
       once: false, 
     });
     AOS.refresh(); 

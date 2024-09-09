@@ -41,7 +41,7 @@ function Hero() {
             continuously learning, and building impactful projects.
           </p>
           <div className="button">
-            <a href="mailto:adeshabinesh25@gmail.com">
+            <a href="/contact">
               <button>
                 <img src={assets.mailIcon} alt="mail" />
                 Get in Touch

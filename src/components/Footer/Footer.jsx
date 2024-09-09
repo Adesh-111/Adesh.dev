@@ -18,7 +18,6 @@ function Footer() {
       .post("http://localhost:3000/sendMail", mail)
       .then((res) => {
         console.log("Email sent successfully: ", res);
-        // Reset form fields after successful submission
         setMail({
           name: "",
           email: "",

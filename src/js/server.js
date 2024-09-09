@@ -8,9 +8,10 @@ import { google } from "googleapis";
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-const port = 3000;
-env.config();
 app.use(cors());
+
+env.config();
+const port = 3000;
 
 const { OAuth2 } = google.auth;
 const oauth2Client = new OAuth2(
@@ -26,18 +27,18 @@ oauth2Client.setCredentials({
 async function getAccessToken() {
   try {
     const { token } = await oauth2Client.getAccessToken();
+    if (!token) throw new Error("No access token returned");
     return token;
   } catch (error) {
-    console.log("Error while fetching access token", error);
+    console.error("Error fetching access token:", error);
     return null;
   }
 }
 
 app.post("/sendMail", async (req, res) => {
-  const result = req.body;
-  const { name, email, subject, body } = result;
-
+  const { name, email, subject, body } = req.body;
   const accessToken = await getAccessToken();
+
   if (!accessToken) {
     return res.status(500).json({
       success: false,
@@ -45,7 +46,7 @@ app.post("/sendMail", async (req, res) => {
     });
   }
 
-  let transporter = nodemailer.createTransport({
+  const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
       type: "OAuth2",
@@ -53,11 +54,11 @@ app.post("/sendMail", async (req, res) => {
       clientId: process.env.CLIENT_ID,
       clientSecret: process.env.CLIENT_SECRET,
       refreshToken: process.env.REFRESH_TOKEN,
-      accessToken: accessToken,
+      accessToken,
     },
   });
 
-  let mailOptions = {
+  const mailOptions = {
     from: email,
     to: process.env.USER,
     subject: subject,
@@ -66,13 +67,13 @@ app.post("/sendMail", async (req, res) => {
 
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      console.log(error);
+      console.error("Error sending email:", error);
       return res.status(500).json({
         success: false,
         message: "Email not sent. Please try again later.",
       });
     } else {
-      console.log("Email sent: " + info.response);
+      console.log("Email sent:", info.response);
       return res.json({ success: true, message: "Email sent successfully!" });
     }
   });
