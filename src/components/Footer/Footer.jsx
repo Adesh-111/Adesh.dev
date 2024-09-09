@@ -13,7 +13,7 @@ function Footer() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    
+
     axios
       .post("http://localhost:3000/sendMail", mail)
       .then((res) => {
@@ -89,9 +89,15 @@ function Footer() {
           <div className="footer-pages">
             <h3>Pages</h3>
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/projects">Projects</a></li>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/about">About</a>
+              </li>
+              <li>
+                <a href="/projects">Projects</a>
+              </li>
               <li>
                 <a
                   href={assets.resume}
@@ -103,6 +109,9 @@ function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/services">Services</a>
+              </li>
+              <li>
                 <a
                   href="https://linktr.ee/adesh_d"
                   target="_blank"
@@ -111,7 +120,9 @@ function Footer() {
                   Links
                 </a>
               </li>
-              <li><a href="/certificates">Certificates</a></li>
+              <li>
+                <a href="/certificates">Certificates</a>
+              </li>
             </ul>
           </div>
 
