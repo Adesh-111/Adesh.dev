@@ -15,7 +15,7 @@ function Footer() {
     event.preventDefault();
 
     axios
-      .post("http://localhost:3000/sendMail", mail)
+      .post("https://adesh-dev.vercel.app/sendMail", mail)
       .then((res) => {
         console.log("Email sent successfully: ", res);
         setMail({
