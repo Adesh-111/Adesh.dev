@@ -9,9 +9,10 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cors({
-  origin : "*"
-}
-));
+  origin: ['https://adesh-dev.vercel.app'], 
+  methods: ['POST'], 
+}));
+
 
 env.config();
 const port = 3000;
