@@ -1,6 +1,10 @@
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'dist', // Change 'dist' to 'build' if you want Vercel to detect the folder as 'build'
+    outDir: 'build', // Ensure Vercel detects the output folder as 'build'
   },
-})
+  // Other Vite options...
+});
