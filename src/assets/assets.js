@@ -28,7 +28,7 @@ import aboutImg from "./About.jpg";
 import Gmail from "./Gmail.svg";
 import linkedIn from "./linkedIn.svg";
 import instagram from "./instagram.svg";
-import githubBlack from "./github-black.svg";
+import githubBlack from "./Github-black.svg";
 import BookNotes from "./BookNotes.svg";
 import Gemini from "./Gemini.svg";
 import bookIcon from "./bookIcon.svg";
