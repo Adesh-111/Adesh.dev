@@ -8,7 +8,10 @@ import { google } from "googleapis";
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors({
+  origin : "*"
+}
+));
 
 env.config();
 const port = 3000;

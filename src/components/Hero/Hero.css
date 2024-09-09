@@ -96,6 +96,7 @@ h1 {
 .button button:hover {
   background-color: orange;
   margin-top: 1px;
+  color: black;
 }
 
 .button img {
