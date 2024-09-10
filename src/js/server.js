@@ -68,6 +68,7 @@ app.post("/sendMail", async (req, res) => {
     const mailOptions = {
       from: email,
       to: process.env.USER, 
+      replyTo: email,
       subject: subject,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage: ${body}`,
     };
