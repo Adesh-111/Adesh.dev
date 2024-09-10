@@ -6,14 +6,14 @@ import nodemailer from "nodemailer";
 import { google } from "googleapis";
 
 const app = express();
-env.config();
+env.config();  
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.use(
   cors({
-    origin: ['https://adesh-dev.vercel.app'],
+    origin: ['https://adesh-dev.vercel.app'],  
     methods: ['POST'], 
   })
 );
@@ -24,7 +24,7 @@ const { OAuth2 } = google.auth;
 const oauth2Client = new OAuth2(
   process.env.CLIENT_ID,
   process.env.CLIENT_SECRET,
-  "https://developers.google.com/oauthplayground"
+  "https://developers.google.com/oauthplayground" 
 );
 
 oauth2Client.setCredentials({
@@ -42,6 +42,7 @@ async function getAccessToken() {
   }
 }
 
+
 app.get("/", (req, res) => {
   res.send("<h1>Welcome to the Express Server on Vercel!</h1>");
 });
@@ -56,7 +57,7 @@ app.post("/sendMail", async (req, res) => {
       service: "gmail",
       auth: {
         type: "OAuth2",
-        user: process.env.USER,
+        user: process.env.USER, 
         clientId: process.env.CLIENT_ID,
         clientSecret: process.env.CLIENT_SECRET,
         refreshToken: process.env.REFRESH_TOKEN,
@@ -65,9 +66,8 @@ app.post("/sendMail", async (req, res) => {
     });
 
     const mailOptions = {
-      from: process.env.USER,
-      to: process.env.USER,
-      replyTo: email,
+      from: email,
+      to: process.env.USER, 
       subject: subject,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage: ${body}`,
     };
@@ -96,3 +96,4 @@ app.post("/sendMail", async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
