@@ -42,12 +42,10 @@ async function getAccessToken() {
   }
 }
 
-// Test route to check if server is running
 app.get("/", (req, res) => {
   res.send("<h1>Welcome to the Express Server on Vercel!</h1>");
 });
 
-// API route to handle email sending
 app.post("/sendMail", async (req, res) => {
   const { name, email, subject, body } = req.body;
 
@@ -58,7 +56,7 @@ app.post("/sendMail", async (req, res) => {
       service: "gmail",
       auth: {
         type: "OAuth2",
-        user: process.env.USER, // Your Gmail address
+        user: process.env.USER, // Your email address
         clientId: process.env.CLIENT_ID,
         clientSecret: process.env.CLIENT_SECRET,
         refreshToken: process.env.REFRESH_TOKEN,
@@ -67,8 +65,9 @@ app.post("/sendMail", async (req, res) => {
     });
 
     const mailOptions = {
-      from: email, // Sender email
-      to: process.env.USER, // Your email (receiver)
+      from: process.env.USER, // Use your email address
+      to: process.env.USER,   // Email to which the message will be sent (your own email)
+      replyTo: email,         // Reply-to address (user's email)
       subject: subject,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage: ${body}`,
     };
@@ -97,4 +96,3 @@ app.post("/sendMail", async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
-
