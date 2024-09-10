@@ -66,12 +66,27 @@ app.post("/sendMail", async (req, res) => {
     });
 
     const mailOptions = {
-      from: email,
-      to: process.env.USER, 
-      replyTo: email,
-      subject: subject,
-      text: `Name: ${name}\nEmail: ${email}\n\nMessage: ${body}`,
+      from: process.env.USER, 
+      to: process.env.USER,   
+      replyTo: email,         
+      subject: subject,       
+      text: `You have received a new message from your website contact form.
+    
+    Details:
+    ---------------------------------------
+    Name:        ${name}
+    Email:       ${email}
+    Subject:     ${subject}
+    ---------------------------------------
+    
+    Message:
+    ---------------------------------------
+    ${body}
+    ---------------------------------------
+    
+    Please respond to the user directly via their provided email: ${email}.`,
     };
+    
 
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
