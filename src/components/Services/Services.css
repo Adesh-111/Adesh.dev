@@ -115,6 +115,11 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  .all-services{
+    margin-bottom: 200px;
+  }
+
   .services h2 {
     font-size: 2.5rem;
   }
