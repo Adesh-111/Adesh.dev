@@ -7,8 +7,16 @@
     "test": "npm test",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adesh-111/Adesh.dev.git"
+  },
   "author": "Adesh",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adesh-111/Adesh.dev/issues"
+  },
+  "homepage": "https://github.com/Adesh-111/Adesh.dev#readme",
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
