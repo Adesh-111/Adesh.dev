@@ -66,7 +66,7 @@ app.post("/sendMail", async (req, res) => {
     });
 
     const mailOptions = {
-      from: process.env.USER, 
+      from: email, 
       to: process.env.USER,   
       replyTo: email,         
       subject: subject,       

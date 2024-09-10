@@ -135,3 +135,18 @@ a:hover {
   }
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: orange;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: orangered;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
