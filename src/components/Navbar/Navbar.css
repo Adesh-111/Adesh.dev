@@ -144,9 +144,14 @@ a:hover {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: orangered;
+  background: rgb(222, 112, 17);
 }
 
 ::-webkit-scrollbar-track {
   background: #000000;
+}
+
+
+::-webkit-scrollbar:horizontal {
+  height: 8px;
 }
