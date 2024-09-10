@@ -13,7 +13,6 @@ app.use(cors({
   methods: ['POST'], 
 }));
 
-
 env.config();
 const port = 3000;
 
@@ -38,6 +37,10 @@ async function getAccessToken() {
     return null;
   }
 }
+
+app.get("/", (req, res) => {
+  res.send("<h1>Welcome to the Express Server on Vercel!</h1>");
+});
 
 app.post("/sendMail", async (req, res) => {
   const { name, email, subject, body } = req.body;
