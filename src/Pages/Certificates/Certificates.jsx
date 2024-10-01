@@ -64,11 +64,18 @@ function AllCertificates() {
       link: "https://verify.mygreatlearning.com/verify/MCITWLLZ",
     },
     {
+      name: "Frontend Developer(React)",
+      image: assets.frontendReact,
+      icon: assets.hackerRank,
+      Date: "Sep 21 2024",
+      link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS43S105350595330378538",
+    },
+    {
       name: "JavaScript (Basic)",
       image: assets.javascriptCert,
       icon: assets.hackerRank,
       Date: "Mar 31 2024",
-      link: "https://www.hackerrank.com/certificates/a174b4980668",
+      link: "https://www.hackerrank.com/certificates/b97b9ce0f38b",
     },
     {
       name: "Node (Basic)",
@@ -104,6 +111,13 @@ function AllCertificates() {
       icon: assets.guvi,
       Date: "Apr 10 2024",
       link: "https://www.guvi.in/share-certificate/71Ub35I2R5z516102f",
+    },
+    {
+      name: "HTML & CSS",
+      image: assets.guviHTMLandCSS,
+      icon: assets.guvi,
+      Date: "Sep 18 2024",
+      link: "https://www.guvi.in/verify-certificate?id=6Ph16G5c4st627m847&course=htmlcssenglish",
     },
     {
       name: "Programming in Java",

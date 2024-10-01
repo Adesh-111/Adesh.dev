@@ -71,6 +71,8 @@ import assignmnetIcon from "./assignmentIcon.svg"
 import Assignment from "./Assignment.svg"
 import PersonalWebsite from "./PersonalWebsite.svg"
 import PersonalWebsiteIcon from "./PersonalWebsiteIcon.svg"
+import frontendReact from "./Certificates-images/frontend react.png"
+import guviHTMLandCSS from "./Certificates-images/GuviHTMLandCSS.png"
 
 const assets = {
   profile: profile,
@@ -145,7 +147,9 @@ const assets = {
   Assignment: Assignment,
   assignmnetIcon: assignmnetIcon,
   PersonalWebsite: PersonalWebsite,
-  PersonalWebsiteIcon: PersonalWebsiteIcon
+  PersonalWebsiteIcon: PersonalWebsiteIcon,
+  frontendReact,
+  guviHTMLandCSS
 };
 
 export default assets;
