@@ -5,15 +5,6 @@ import assets from "../../assets/assets";
 
 const experienceData = [
   {
-    duration: "Sept 2024 - Present",
-    image: assets.zenhook,
-    role: "Full stack Developer",
-    name: "Zenhook",
-    level: "Internship",
-    link: "https://www.linkedin.com/company/zen-hook/",
-    desc: "Lorem ipsum dolor sit amet consectetihic nobis consequatur animi, eum esse sapiente doloribus perferendis consequuntur in voluptatum! Veritatis iste pariatur molestias totam rerum corrupti, explicabo dolorum cum expedita quo sequi fugit, quos soluta alias dignissimos",
-  },
-  {
     duration: "July 2024 - Present",
     image: assets.thinkDigital,
     name: "Think Digital",
@@ -21,6 +12,15 @@ const experienceData = [
     level: "Part time",
     link: "https://think-digital.in/",
     desc: "As a member, I have participated in community activities such as meetups, playouts, and various online meetings to gain knowledge and expand my network. These activities serve as a refreshing boost for my career.",
+  },
+  {
+    duration: "Sept 2024 - Nov 2024",
+    image: assets.zenhook,
+    role: "Full stack Developer",
+    name: "Zenhook",
+    level: "Internship",
+    link: "https://www.linkedin.com/company/zen-hook/",
+    desc: "I developed Fabware, a real-time e-commerce platform, using React, Node.js, and Express.js, collaborating with team members to meet milestones and enhance user experience through improved responsiveness and performance.",
   },
   {
     duration: "May 2024- June 2024",
@@ -48,7 +48,6 @@ function Experiences() {
             </p>
             <a href={assets.resume} download="Adesh Resume.pdf">
               <button>
-
                 <i class="fa-solid fa-bars"></i>View Resume
               </button>
             </a>
