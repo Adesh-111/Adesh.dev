@@ -48,7 +48,7 @@ function Footer() {
               <ul className="social-links">
                 <li>
                   <a
-                    href="https://linkedin.com/in/adesh07"
+                    href="https://linkedin.com/in/adesh-d"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
