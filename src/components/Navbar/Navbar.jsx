@@ -41,7 +41,7 @@ function Navbar() {
                   <a href="/certificates">Certificates</a>
                 </li>
                 <li>
-                  <a href={assets.resume} download="Adesh Resume.pdf">Resume</a>
+                  <a href="https://drive.google.com/file/d/12-qMaB_5hRZCsPg95lHWw1ceDKCkWlpC/view?usp=drive_link">Resume</a>
                 </li>
                 <li>
                   <a href="/services">Services</a>
