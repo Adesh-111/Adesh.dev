@@ -1,5 +1,5 @@
 import { Triangle } from "react-loader-spinner";
-import "./loader.css"
+import "./Loader.css"
 
 function Loader() {
     return (
