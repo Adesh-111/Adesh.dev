@@ -7,6 +7,7 @@ import AllProjects from "../../Pages/AllProjects/AllProjects";
 import Contact from "../../Pages/Contact/Contact";
 import AboutMe from "../../Pages/About/AboutMe";
 import ServicePage from "../../Pages/Services/ServicePage";
+import NotFound from "../NotFound/NotFound";
 
 const router = createBrowserRouter([
   {
@@ -32,7 +33,11 @@ const router = createBrowserRouter([
   {
     path : "/services",
     element : <ServicePage />
-  }
+  },
+  {
+    path: "*", 
+    element: <NotFound />,
+  },
 ]);
 
 export default router;
