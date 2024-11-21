@@ -34,9 +34,9 @@ import Gemini from "./Gemini.svg";
 import bookIcon from "./bookIcon.svg";
 import geminiIcon from "./shine.svg";
 import afame from "./Afame.jpeg";
-import thinkDigital from "./thinkdigital.png"
-import zenhook from "./Zenhook.jpeg"
-import cursaCert from "./Certificates-images/cursa certificate.png"
+import thinkDigital from "./thinkdigital.png";
+import zenhook from "./Zenhook.jpeg";
+import cursaCert from "./Certificates-images/cursa certificate.png";
 import emc from "./Certificates-images/EMC.png";
 import freeCodeCamp from "./Certificates-images/FreeCodeCamp.png";
 import googleAnalytics from "./Certificates-images/Google Analytics.png";
@@ -50,29 +50,34 @@ import nodeCert from "./Certificates-images/Node.png";
 import postmanCert from "./Certificates-images/Postman certificate.png";
 import sqlCert from "./Certificates-images/SQL.png";
 import udemyCert from "./Certificates-images/Udemy certificate.jpg";
-import emcIcon from "./emc.png"
-import cursa from "./cursa.png"
-import fccIcon from "./freecodecamp.jpg"
-import guvi from "./guvi.png"
-import google from "./google.png"
-import hackerRank from "./hackerrank.png"
-import nptel from "./nptel.png"
-import Udemy from "./Udemy.jpeg"
-import greatLearningIcon from "./glIcon.jpg"
-import reactCert from "./Certificates-images/reactCert.png"
-import ibm from "./IBM.jpeg"
-import resume from "./Adesh_Resume.pdf"
-import UdemyClone from "./UdemyClone.svg"
-import APIIcon from "./apiIcon.svg"
-import APIexplorer from "./APIexplorer.svg"
-import WordIcon from "./wordIcon.svg"
-import Word from "./Word.svg"
-import assignmnetIcon from "./assignmentIcon.svg"
-import Assignment from "./Assignment.svg"
-import PersonalWebsite from "./PersonalWebsite.svg"
-import PersonalWebsiteIcon from "./PersonalWebsiteIcon.svg"
-import frontendReact from "./Certificates-images/frontend react.png"
-import guviHTMLandCSS from "./Certificates-images/GuviHTMLandCSS.png"
+import emcIcon from "./emc.png";
+import cursa from "./cursa.png";
+import fccIcon from "./freecodecamp.jpg";
+import guvi from "./guvi.png";
+import google from "./google.png";
+import hackerRank from "./hackerrank.png";
+import nptel from "./nptel.png";
+import Udemy from "./Udemy.jpeg";
+import greatLearningIcon from "./glIcon.jpg";
+import reactCert from "./Certificates-images/reactCert.png";
+import ibm from "./IBM.jpeg";
+import resume from "./Adesh_Resume.pdf";
+import UdemyClone from "./UdemyClone.svg";
+import APIIcon from "./apiIcon.svg";
+import APIexplorer from "./APIexplorer.svg";
+import WordIcon from "./wordIcon.svg";
+import Word from "./Word.svg";
+import assignmnetIcon from "./assignmentIcon.svg";
+import Assignment from "./Assignment.svg";
+import PersonalWebsite from "./PersonalWebsite.svg";
+import PersonalWebsiteIcon from "./PersonalWebsiteIcon.svg";
+import frontendReact from "./Certificates-images/frontend react.png";
+import guviHTMLandCSS from "./Certificates-images/GuviHTMLandCSS.png";
+import c1 from "./Clouds/1.png";
+import c2 from "./Clouds/2.png";
+import c3 from "./Clouds/3.png";
+import c4 from "./Clouds/4.png";
+import c5 from "./Clouds/5.png";
 
 const assets = {
   profile: profile,
@@ -110,7 +115,7 @@ const assets = {
   BookNotes: BookNotes,
   geminiIcon: geminiIcon,
   bookIcon: bookIcon,
-  afame : afame,
+  afame: afame,
   thinkDigital: thinkDigital,
   zenhook: zenhook,
   emc: emc,
@@ -134,8 +139,8 @@ const assets = {
   guvi: guvi,
   cursa: cursa,
   Udemy: Udemy,
-  cursaCert : cursaCert,
-  greatLearningIcon : greatLearningIcon,
+  cursaCert: cursaCert,
+  greatLearningIcon: greatLearningIcon,
   reactCert: reactCert,
   ibm: ibm,
   resume: resume,
@@ -149,7 +154,12 @@ const assets = {
   PersonalWebsite: PersonalWebsite,
   PersonalWebsiteIcon: PersonalWebsiteIcon,
   frontendReact,
-  guviHTMLandCSS
+  guviHTMLandCSS,
+  c1,
+  c2,
+  c3,
+  c4,
+  c5,
 };
 
 export default assets;

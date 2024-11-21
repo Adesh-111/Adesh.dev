@@ -3,22 +3,38 @@ import { createRoot } from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
 import router from "./components/AppRouter/AppRouter";
 import Loader from "./components/Loader/Loader";
-
+import NotFound from "./components/NotFound/NotFound";
+import NoNetwork from "./components/NoNetwork/NoNetwork";
 
 function Main() {
-    const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
+  const [isOnline, setIsOnline] = useState(navigator.onLine); 
 
-    useEffect(() => {
-        setTimeout(() => {
-            setLoading(false);
-        }, 3000); 
-    }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
 
-    return loading ? <Loader /> : <RouterProvider router={router} />;
+    const handleOnline = () => setIsOnline(true);
+    const handleOffline = () => setIsOnline(false);
+
+    window.addEventListener("online", handleOnline);
+    window.addEventListener("offline", handleOffline);
+
+    return () => {
+      window.removeEventListener("online", handleOnline);
+      window.removeEventListener("offline", handleOffline);
+    };
+  }, []);
+
+  if (loading) return <Loader />;
+  if (!isOnline) return <NoNetwork />;
+
+  return <RouterProvider router={router} />;
 }
 
 createRoot(document.getElementById("root")).render(
-    <React.StrictMode>
-        <Main />
-    </React.StrictMode>
+  <React.StrictMode>
+    <Main />
+  </React.StrictMode>
 );
