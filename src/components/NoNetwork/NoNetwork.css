@@ -62,7 +62,7 @@
     animation: fly 5s linear infinite;
 }
 
-.no-network .X {
+.no-network h1 {
     margin: 0 2rem;
 }
 

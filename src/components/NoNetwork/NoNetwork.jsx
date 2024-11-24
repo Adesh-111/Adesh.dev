@@ -102,8 +102,7 @@ const NoNetwork = () => {
       </section>
       <section className="T404">
         <h1>Network</h1>
-        <h1 className="X">Un</h1>
-        <h1>available</h1>
+        <h1>Unavailable</h1>
       </section>
     </div>
   );
