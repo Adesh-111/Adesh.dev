@@ -120,6 +120,13 @@ function AllCertificates() {
       link: "https://www.guvi.in/verify-certificate?id=6Ph16G5c4st627m847&course=htmlcssenglish",
     },
     {
+      name: "Future-Proof Your Full Stack Development Skills with AI",
+      image: assets.guviFullStackAICert,
+      icon: assets.guvi,
+      Date: "Nov 27 2024",
+      link: "https://www.guvi.in/verify-certificate?id=W278L2V21ue30zT547",
+    },
+    {
       name: "Programming in Java",
       image: assets.javaCert,
       icon: assets.nptel,

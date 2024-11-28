@@ -50,6 +50,7 @@ import nodeCert from "./Certificates-images/Node.png";
 import postmanCert from "./Certificates-images/Postman certificate.png";
 import sqlCert from "./Certificates-images/SQL.png";
 import udemyCert from "./Certificates-images/Udemy certificate.jpg";
+import guviFullStackAICert from "./Certificates-images/FullStackAI.png";
 import emcIcon from "./emc.png";
 import cursa from "./cursa.png";
 import fccIcon from "./freecodecamp.jpg";
@@ -155,6 +156,7 @@ const assets = {
   PersonalWebsiteIcon: PersonalWebsiteIcon,
   frontendReact,
   guviHTMLandCSS,
+  guviFullStackAICert,
   c1,
   c2,
   c3,
