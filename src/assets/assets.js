@@ -79,6 +79,8 @@ import c2 from "./Clouds/2.png";
 import c3 from "./Clouds/3.png";
 import c4 from "./Clouds/4.png";
 import c5 from "./Clouds/5.png";
+import fabware from "./fabware.svg";
+import fabwareMain from "./fabwareMain.svg"
 
 const assets = {
   profile: profile,
@@ -162,6 +164,8 @@ const assets = {
   c3,
   c4,
   c5,
+  fabware,
+  fabwareMain
 };
 
 export default assets;

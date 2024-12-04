@@ -20,6 +20,18 @@ function AllProjects() {
       linkAttached: false,
     },
     {
+      icon: assets.fabware,
+      title: "Fabware",
+      domain: "FullStack Development",
+      description:
+        "I developed Fabware related to intern at zenhook, a dynamic real-time e-commerce platform using React, Node.js, and Express.js. The platform features a responsive design, an engaging and visually appealing theme, and showcases products seamlessly. ",
+      image: assets.fabwareMain,
+      imageAlt: "Fabware Project",
+      link: "https://fabware-zenhook-main-test.vercel.app/",
+      codeLink: "https://github.com/Adesh-111/fabware_zenhook-main-test",
+      linkAttached: true,
+    },
+    {
       icon: assets.geminiIcon,
       title: "Gemini AI Clone",
       domain: "Web Development",
