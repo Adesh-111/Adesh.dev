@@ -80,7 +80,9 @@ import c3 from "./Clouds/3.png";
 import c4 from "./Clouds/4.png";
 import c5 from "./Clouds/5.png";
 import fabware from "./fabware.svg";
-import fabwareMain from "./fabwareMain.svg"
+import fabwareMain from "./fabwareMain.svg";
+import portfolioIcon from "./PortfolioIcon.svg"
+import portfolio from "./Portfolio.svg"
 
 const assets = {
   profile: profile,
@@ -165,7 +167,9 @@ const assets = {
   c4,
   c5,
   fabware,
-  fabwareMain
+  fabwareMain,
+  portfolioIcon,
+  portfolio
 };
 
 export default assets;

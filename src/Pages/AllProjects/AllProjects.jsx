@@ -9,17 +9,6 @@ import Project from "../../components/Projects/Project.jsx";
 function AllProjects() {
   const projectsData = [
     {
-      icon: assets.bookIcon,
-      title: "Book Notes",
-      domain: "Backend Development",
-      description:
-        "Book Notes is a web app for managing book information, integrating Express/Node.js with a PostgreSQL database. It supports CRUD operations and uses public APIs to fetch book covers. Users can add, update, sort, and view book entries with a user-friendly interface, ensuring seamless data management and presentation.",
-      image: assets.BookNotes,
-      imageAlt: "Book Notes Project",
-      codeLink: "https://github.com/Adesh-111/Book-notes",
-      linkAttached: false,
-    },
-    {
       icon: assets.fabware,
       title: "Fabware",
       domain: "FullStack Development",
@@ -30,6 +19,29 @@ function AllProjects() {
       link: "https://fabware-zenhook-main-test.vercel.app/",
       codeLink: "https://github.com/Adesh-111/fabware_zenhook-main-test",
       linkAttached: true,
+    },
+    {
+      icon: assets.portfolioIcon,
+      title: "Portfolio Giveaway",
+      domain: "Frontend Development",
+      description:
+        "I created a responsive portfolio for Gokul Krishna JN using React and EmailJS, turning his Figma design into a professional showcase. Overcoming challenges like device responsiveness and domain deployment, the platform highlights his achievements and supports his journey to success.",
+      image: assets.portfolio,
+      imageAlt: "Portfolio Giveaway",
+      codeLink: "https://github.com/Adesh-111/Gokul-portfolio",
+      linkAttached: true,
+      link: "https://gokul2x.me"
+    },
+    {
+      icon: assets.bookIcon,
+      title: "Book Notes",
+      domain: "Backend Development",
+      description:
+        "Book Notes is a web app for managing book information, integrating Express/Node.js with a PostgreSQL database. It supports CRUD operations and uses public APIs to fetch book covers. Users can add, update, sort, and view book entries with a user-friendly interface, ensuring seamless data management and presentation.",
+      image: assets.BookNotes,
+      imageAlt: "Book Notes Project",
+      codeLink: "https://github.com/Adesh-111/Book-notes",
+      linkAttached: false,
     },
     {
       icon: assets.geminiIcon,
