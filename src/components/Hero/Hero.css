@@ -219,8 +219,8 @@ h1 {
   }
 
   .Hero{
-    margin-bottom: -120px;
     overflow-x: hidden;
+    height: 830px;
   }
 
   h1 {
@@ -230,6 +230,7 @@ h1 {
   .Hero .hero-top {
     margin-left: 320px;
     padding-left: 10px;
+    padding-bottom:100px;
   }
 
   .Hero p {
