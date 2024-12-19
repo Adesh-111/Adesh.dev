@@ -31,7 +31,7 @@ h1 {
   font-style: normal;
   font-size: 3.7rem;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   display: flex;
   width: 750px;
 }
@@ -46,7 +46,6 @@ h1 {
 .Typewriter,
 .from {
   margin: 10px;
-  margin-bottom: 15px;
 }
 
 .Hero p {
@@ -229,6 +228,7 @@ h1 {
 
   .Hero .hero-top {
     margin-left: 320px;
+    padding-left: 10px;
   }
 
   .Hero p {
