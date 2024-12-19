@@ -82,7 +82,6 @@
 @media screen and (max-width: 1170px) {
   .about-image img {
     width: 400px;
-    height: 400px;
     margin-top: 20px;
   }
 
@@ -104,7 +103,6 @@
 @media screen and (max-width: 600px) {
   .about-image img {
     width: 300px;
-    height: 300px;
   }
   .about-details {
     margin: 0px;
