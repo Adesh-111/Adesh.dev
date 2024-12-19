@@ -5,7 +5,10 @@
 * {
   padding: 0;
   margin: 0;
+}
 
+body {
+  overflow-x: hidden;
 }
 
 .Hero {
@@ -13,11 +16,15 @@
   justify-content: space-between;
   background-color: black;
   padding-top: 30px;
+  height: 100vh;
+  align-items: center;
+  margin-top: -150px;
 }
 
 h1 {
   padding: 10px;
   margin: 50px;
+  margin-right: 0px;
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -25,6 +32,8 @@ h1 {
   font-size: 3.7rem;
   color: white;
   margin-bottom: 20px;
+  display: flex;
+  width: 750px;
 }
 
 .hero-title {
@@ -40,13 +49,6 @@ h1 {
   margin-bottom: 15px;
 }
 
-.from span {
-  margin-left: 10px;
-  background-color: white;
-  color: black;
-  padding: 10px;
-}
-
 .Hero p {
   color: orange;
   margin-left: 60px;
@@ -55,7 +57,7 @@ h1 {
   font-optical-sizing: auto;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 24px;
   margin-right: 30px;
 }
 
@@ -91,10 +93,12 @@ h1 {
   justify-content: center;
   border: none;
   cursor: pointer;
+  background: linear-gradient(90deg, #ffffff 0%, orange 100%);
+  transition: 0.3s ease;
 }
 
 .button button:hover {
-  background-color: orange;
+  background: orange;
   margin-top: 1px;
   color: black;
 }
@@ -115,7 +119,7 @@ h1 {
   background-color: orange;
 }
 
-.Image {
+/* .Image {
   display: inline-flex;
   justify-content: center;
   margin: 30px;
@@ -135,18 +139,27 @@ h1 {
   box-shadow: 8px 8px #8b4f12;
   margin-top: 2px;
   margin-left: 2px;
-}
+} */
 
 /* Media Queries */
 
 @media screen and (max-width: 1170px) {
   .Image img {
-    width: 430px;
-    height: 430px;
+    margin-left: -500px;
   }
 
   h1 {
-    font-size: 3.3rem;
+    font-size: 2.5rem;
+  }
+
+  .Hero p {
+    width: 500px;
+  }
+
+  .button {
+    flex-direction: column;
+    width: 500px;
+    gap: 0;
   }
 }
 
@@ -162,13 +175,14 @@ h1 {
   }
 
   .Image img {
-    width: 350px;
-    height: 320px;
-    margin-top: 0px;
+    width: 600px;
+    margin-top: 200px;
+    margin-left: -550px;
   }
 
-  .Image img:hover {
-    margin-top: 0px;
+  .Hero .hero-top {
+    margin-bottom: -500px;
+    z-index: 1;
   }
 }
 
@@ -178,36 +192,49 @@ h1 {
   }
 
   .Image img {
-    width: 450px;
-    height: 450px;
     margin-top: 0px;
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+
+  .Hero .hero-top {
+    margin-top: -800px;
+    margin-bottom: 10px;
   }
 
   .button {
     margin-top: 10px;
-    margin-left: 0px;
+    margin-left: 50px;
   }
 
   .button button {
-    width: 80%;
+    width: 300px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .Image img {
-    width: 280px;
-    height: 280px;
     margin-top: 0px;
     margin-left: 35px;
+    margin-top: 80px;
+  }
+
+  .Hero{
+    margin-bottom: -120px;
   }
 
   h1 {
     font-size: 2rem;
-    margin-left: 35px;
+  }
+
+  .Hero .hero-top {
+    margin-left: 320px;
   }
 
   .Hero p {
-    margin-left: 40px;
+    margin-left: 60px;
+    margin-top: -20px;
+    width: 300px;
     font-size: 15px;
     text-align: left;
   }

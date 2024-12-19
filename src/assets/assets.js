@@ -1,4 +1,5 @@
-import profile from "./Profile.png";
+import profile from "./Profile.svg";
+import profileIcon from "./Profile.png"
 import mailIcon from "./mail.png";
 import projectIcon from "./projects.png";
 import html from "./html.svg";
@@ -85,6 +86,7 @@ import portfolioIcon from "./PortfolioIcon.svg"
 import portfolio from "./Portfolio.svg"
 
 const assets = {
+  profileIcon,
   profile: profile,
   mailIcon: mailIcon,
   project: projectIcon,

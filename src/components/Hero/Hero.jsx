@@ -7,7 +7,7 @@ function Hero() {
   return (
     <>
       <div className="Hero" id="Home" data-aos="zoom">
-        <div>
+        <div className="hero-top">
           <h1 className="title">
             <span className="intro">I'm</span>
             <span className="hero-title">Adesh</span>,
@@ -19,7 +19,7 @@ function Hero() {
                     "Creator",
                     "Developer",
                     "Innovator",
-                    "Full stack Developer",
+                    "Engineer",
                     "Student",
                   ]}
                   loop={80}
@@ -31,30 +31,11 @@ function Hero() {
                 />
               </div>
             </div>
-            <div className="from">
-              from
-              <span>One of you</span>
-            </div>
           </h1>
           <p>
             Creative web developer, passionate about pushing boundaries,
             continuously learning, and building impactful projects.
           </p>
-          <div className="button">
-            <a href="/contact">
-              <button>
-                <img src={assets.mailIcon} alt="mail" />
-                Get in Touch
-              </button>
-            </a>
-           <a href="/projects">
-              <button>
-                <img src={assets.project} alt="projects" />
-            
-                View projects
-              </button></a>
-            
-          </div>
         </div>
         <div className="Image">
           <img src={assets.profile} alt="profile-picture" />

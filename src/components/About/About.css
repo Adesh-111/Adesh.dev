@@ -8,6 +8,7 @@
   flex-direction: row-reverse;
   margin-left: 50px;
   margin-right: 50px;
+  align-items: center;
 }
 
 .about-image {
@@ -19,7 +20,6 @@
 
 .about-image img {
   width: 500px;
-  height: 600px;
   border-radius: 50%;
   box-shadow: 8px 8px 0px 0px grey;
 }
@@ -118,6 +118,5 @@
   }
 }
 
-.about-details button a{
-
+.about-details button a {
 }
