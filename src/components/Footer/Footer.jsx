@@ -37,7 +37,7 @@ function Footer() {
           <div className="footer-description">
             <div>
               <img
-                src={assets.profile}
+                src={assets.profileIcon}
                 alt="Profile"
                 className="footer-profile"
               />

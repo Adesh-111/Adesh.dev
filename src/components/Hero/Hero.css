@@ -220,10 +220,11 @@ h1 {
 
   .Hero{
     margin-bottom: -120px;
+    overflow-x: hidden;
   }
 
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.85rem;
   }
 
   .Hero .hero-top {
