@@ -34,7 +34,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a href="#" className="more">
-                More🔻
+                More <span style={{paddingTop: "2px"}}>▾</span>
               </a>
               <ul className="dropdown">
                 <li>
@@ -47,7 +47,7 @@ function Navbar() {
                   <a href="/services">Services</a>
                 </li>
                 <li>
-                  <a href="https://linktr.ee/adesh_d" target="__blank">Links</a>
+                  <a href="https://scrollme.today/adesh" target="__blank">Links</a>
                 </li>
               </ul>
             </li>
