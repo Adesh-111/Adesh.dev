@@ -33,8 +33,8 @@ function Navbar() {
               <a href="/contact">Contact</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="more">
-                More <span style={{paddingTop: "2px"}}>▾</span>
+              <a href="#" className="more" style={{display: "flex", paddingTop:"4px"}}>
+                More <span>▾</span>
               </a>
               <ul className="dropdown">
                 <li>
