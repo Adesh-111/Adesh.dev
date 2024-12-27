@@ -99,12 +99,7 @@ function Footer() {
                 <a href="/projects">Projects</a>
               </li>
               <li>
-                <a
-                  href={assets.resume}
-                  download="Adesh Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="https://drive.google.com/file/d/12-qMaB_5hRZCsPg95lHWw1ceDKCkWlpC/view?usp=drive_link">
                   Resume
                 </a>
               </li>

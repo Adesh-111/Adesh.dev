@@ -18,7 +18,6 @@ function Navbar() {
       <div className="nav-container" >
         <div className="navbar">
           <img src={assets.profileIcon} alt="" />
-          {/* <a href="#"><img src={assets.profile} alt="" /></a> */}
           <ul className="nav-list">
             <li className="nav-item">
               <a href="/">Home</a>
