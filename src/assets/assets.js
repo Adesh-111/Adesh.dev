@@ -25,7 +25,7 @@ import vite from "./vite.svg";
 import web from "./webdev.svg";
 import backend from "./backend.svg";
 import frontend from "./frontend.svg";
-import aboutImg from "./About.jpg";
+import aboutImg from "./About.png";
 import Gmail from "./Gmail.svg";
 import linkedIn from "./linkedIn.svg";
 import instagram from "./instagram.svg";
