@@ -51,7 +51,7 @@
 }
 
 .service-image{
-  background-color: rgb(88, 96, 186);
+  background-color: #22a7f5;
   display: flex;
   justify-content: center;
 }
@@ -85,7 +85,7 @@
   width: 300px;
   padding: 10px 0px;
   height: 240px;
-  background: rgb(88, 96, 186);
+  background: #22a7f5;
 }
 
 .section-card h3 {
