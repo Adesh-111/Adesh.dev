@@ -11,7 +11,7 @@ function AllProjects() {
     {
       icon: assets.fabware,
       title: "Fabware",
-      domain: "FullStack Development",
+      domain: "Full stack Development",
       description:
         "I developed Fabware related to intern at zenhook, a dynamic real-time e-commerce platform using React, Node.js, and Express.js. The platform features a responsive design, an engaging and visually appealing theme, and showcases products seamlessly. ",
       image: assets.fabwareMain,
@@ -19,6 +19,7 @@ function AllProjects() {
       link: "https://fabware-zenhook-main-test.vercel.app/",
       codeLink: "https://github.com/Adesh-111/fabware_zenhook-main-test",
       linkAttached: true,
+      codeLinkAttached: true
     },
     {
       icon: assets.portfolioIcon,
@@ -30,6 +31,20 @@ function AllProjects() {
       imageAlt: "Portfolio Giveaway",
       codeLink: "https://github.com/Adesh-111/Gokul-portfolio",
       linkAttached: true,
+      link: "https://gokul2x.me",
+      codeLinkAttached: true
+    },
+    {
+      icon: assets.SRY,
+      title: "SRY Wedding decorations",
+      domain: "Frontend Development",
+      description:
+        "I developed a responsive website for SRY Wedding Decorations, transforming a Figma design and logo by Bhagya B into a fully functional site using ReactJS. This project, completed during college, taught me the value of stepping out of my comfort zone, embracing challenges, and turning visions into reality.",
+      image: assets.wedding,
+      imageAlt: "Wedding image",
+      codeLink: "https://github.com/Adesh-111/",
+      linkAttached: true,
+      codeLinkAttached: false,
       link: "https://gokul2x.me"
     },
     {
@@ -42,6 +57,7 @@ function AllProjects() {
       imageAlt: "Book Notes Project",
       codeLink: "https://github.com/Adesh-111/Book-notes",
       linkAttached: false,
+      codeLinkAttached: true
     },
     {
       icon: assets.geminiIcon,
@@ -54,6 +70,7 @@ function AllProjects() {
       link: "https://gemini-clone-beta-ivory.vercel.app/",
       codeLink: "https://github.com/Adesh-111/gemini-clone",
       linkAttached: true,
+      codeLinkAttached: true
     },
     {
       icon: assets.Udemy,
@@ -66,6 +83,7 @@ function AllProjects() {
       codeLink: "https://github.com/Adesh-111/udemy-clone",
       link: "https://adesh-111.github.io/Udemy-Clone/",
       linkAttached: true,
+      codeLinkAttached: true
     },
     {
       icon: assets.APIIcon,
@@ -77,6 +95,7 @@ function AllProjects() {
       imageAlt: "API Explorer",
       codeLink: "https://github.com/Adesh-111/Api-Explorer",
       linkAttached: false,
+      codeLinkAttached: true
     },
     {
       icon: assets.WordIcon,
@@ -89,6 +108,7 @@ function AllProjects() {
       codeLink: "https://github.com/Adesh-111/word-guesser",
       link: "https://adesh-111.github.io/word-guesser/",
       linkAttached: true,
+      codeLinkAttached: true
     },
     {
       icon: assets.assignmnetIcon,
@@ -100,6 +120,7 @@ function AllProjects() {
       imageAlt: "Assignment Manager",
       codeLink: "https://github.com/Adesh-111/Assignment-manager",
       linkAttached: false,
+      codeLinkAttached: true
     },
     {
       icon: assets.PersonalWebsiteIcon,
@@ -111,7 +132,8 @@ function AllProjects() {
       imageAlt: "Personal-website",
       codeLink : "https://github.com/Adesh-111/Personal-site",
       link: "https://adesh-111.github.io/Personal-site/",
-      linkAttached: true
+      linkAttached: true,
+      codeLinkAttached: true
     },
   ];
 

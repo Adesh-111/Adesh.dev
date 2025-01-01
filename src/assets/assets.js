@@ -83,7 +83,9 @@ import c5 from "./Clouds/5.png";
 import fabware from "./fabware.svg";
 import fabwareMain from "./fabwareMain.svg";
 import portfolioIcon from "./PortfolioIcon.svg"
-import portfolio from "./Portfolio.svg"
+import portfolio from "./Portfolio.svg";
+import SRY from "./SRYLogo.svg";
+import wedding from "./wedding.svg"
 
 const assets = {
   profileIcon,
@@ -171,7 +173,9 @@ const assets = {
   fabware,
   fabwareMain,
   portfolioIcon,
-  portfolio
+  portfolio,
+  SRY,
+  wedding
 };
 
 export default assets;

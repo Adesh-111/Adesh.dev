@@ -14,7 +14,7 @@ function Project({ project }) {
           <h3>{project.title}</h3>
           <p className="description">{project.description}</p>
           <div className="project-links">
-            <a
+            {project.codeLinkAttached &&<a
               href={project.codeLink}
               target="_blank"
               rel="noopener noreferrer"
@@ -22,7 +22,8 @@ function Project({ project }) {
               <button className="project-code">
                 <i class="fa-brands fa-github"></i> Code
               </button>
-            </a>
+            </a>}
+            
             {project.linkAttached && (
               <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <button className="project-link">
