@@ -40,7 +40,7 @@ function Navbar() {
                   <a href="/certificates">Certificates</a>
                 </li>
                 <li>
-                  <a href="https://drive.google.com/file/d/12-qMaB_5hRZCsPg95lHWw1ceDKCkWlpC/view?usp=drive_link">Resume</a>
+                  <a href="https://drive.google.com/file/d/1sPsfL6jVGy4Kg8RXN94AGmZT2kwFkM1A/view?usp=sharing">Resume</a>
                 </li>
                 <li>
                   <a href="/services">Services</a>
