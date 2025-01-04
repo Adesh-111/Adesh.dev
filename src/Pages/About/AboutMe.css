@@ -90,7 +90,8 @@
 }
 
 .story-head span {
-  background-color: rgb(87, 87, 196);
+  background-color: white;
+  color: #000000;
   padding: 7px;
 }
 
