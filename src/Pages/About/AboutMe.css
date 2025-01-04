@@ -1,424 +1,416 @@
-.AboutMe{
-    padding: 0;
-    margin: 0;
-    margin-top: 80px;
+.AboutMe {
+  padding: 0;
+  margin: 0;
+  margin-top: 80px;
 }
 
-.AboutMe .head h3{
-    color: white;
-    font-family: "Nunito sans";
-    font-size: 3.2rem;
-    font-weight: 500;
-    text-align: center;
+.AboutMe .head h3 {
+  color: white;
+  font-family: "Nunito sans";
+  font-size: 3.2rem;
+  font-weight: 500;
+  text-align: center;
 }
 
-.AboutMe .head span{
-    background-color: orange;
-    padding: 8px;
+.AboutMe .head span {
+  background-color: orange;
+  padding: 8px;
 }
 
-.AboutMe .head p{
-    color: white;
-    text-align: center;
-    font-size: 1.2rem;
-    font-family: "Montserrat";
-    font-weight: 400;
-    margin-top: 30px;
-    padding: 10px;
-    width: 400px;
+.AboutMe .head p {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+  margin-top: 30px;
+  padding: 10px;
+  width: 400px;
 }
 
-.head{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.head button, 
-.story-desc button{
-    width: 170px;
-    height: 50px;
-    margin: 15px;
-    border: none;
-    outline: none;
-    border-radius: 8px;
-    text-align: center;
-    font-family: "Poppins";
-    font-size: 0.8rem;
+.head button,
+.story-desc button {
+  width: 170px;
+  height: 50px;
+  margin: 15px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 0.8rem;
 }
 
-.AboutMe button i{
-    margin: 10px;
+.AboutMe button i {
+  margin: 10px;
 }
 
-.getIn{
-    background-color: orange;
+.getIn {
+  background-color: orange;
 }
 
 .head button:hover,
-.story-desc button:hover{
-    transform: translate(0px, -4px);
-    transition: 0.2s ease-out;
-    background-color: orange;
-    color: white;
-    box-shadow: 5px 5px 0 0 white;
+.story-desc button:hover {
+  transform: translate(0px, -4px);
+  transition: 0.2s ease-out;
+  background-color: orange;
+  color: white;
+  box-shadow: 5px 5px 0 0 white;
 }
 
-.story{
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    margin-top: 100px;
+.story {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 100px;
 }
 
-.story .story-head{
-    margin: 20px;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.story .story-head {
+  margin: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.story-head h3{
-    color: white;
-    font-family: "Poppins";
-    font-weight: 400;
-    font-size: 2.8rem;
-    padding-right: 20px;
-    margin-bottom: 40px;
+.story-head h3 {
+  color: white;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 2.8rem;
+  padding-right: 20px;
+  margin-bottom: 40px;
 }
 
-.story-head span{
-    background-color: #22a7f5;
-    padding: 7px;
+.story-head span {
+  background-color: rgb(87, 87, 196);
+  padding: 7px;
 }
 
-.story-head img{
-    width: 60%;
-    border-radius: 20px;
-    box-shadow: 7px 7px 0 0 grey;
+.story-head img {
+  width: 60%;
+  border-radius: 20px;
+  box-shadow: 7px 7px 0 0 grey;
 }
 
-
-.story-desc{
-    font-family: "Montserrat";
-    font-size: 0.9rem;
-    width: 600px;
-    text-align: justify;
-    color: white;
-    padding-right: 50px;
-    line-height: 20px;
-    margin: 10px;
+.story-desc {
+  font-family: "Montserrat";
+  font-size: 0.9rem;
+  width: 600px;
+  text-align: justify;
+  color: white;
+  padding-right: 50px;
+  line-height: 20px;
+  margin: 10px;
 }
 
-.story-desc p{
-    margin-bottom: 12px;
+.story-desc p {
+  margin-bottom: 12px;
 }
 
-.story-desc br{
-    margin-bottom: 10px;
+.story-desc br {
+  margin-bottom: 10px;
 }
 
-.story-desc span{
-    font-size: 1.8rem;
-    font-weight: bold;
+.story-desc span {
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
-.story-desc button{
-    margin-left: 0;
+.story-desc button {
+  margin-left: 0;
 }
 
 .title-marquee {
-    display: block;
-    width: 100%;
-    overflow: hidden;
-    background-color: white;
-    padding: 10px 0;
-    font-family: "Poppins";
-    margin-top: 100px;
-  }
-  
-  .title-list {
-    display: flex;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    transform: skewX(-8deg);
-    height: 50px;
-  }
-  
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  padding: 10px 0;
+  font-family: "Poppins";
+  margin-top: 100px;
+}
+
+.title-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  transform: skewX(-8deg);
+  height: 50px;
+}
+
+.title-list li {
+  display: inline-block;
+  padding: 0 40px;
+  color: #000000;
+  font-size: 20px;
+}
+
+.core-values {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.core-values h3 {
+  color: white;
+  font-family: "Poppins";
+  font-weight: 450;
+  font-size: 2.3rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.core-desc {
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.core-desc p {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  color: white;
+  width: 900px;
+}
+
+.core-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 80px;
+}
+
+.core-card {
+  border: 1.5px solid white;
+  display: inline-flex;
+  width: 600px;
+  height: 250px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 1000px;
+  background-color: orange;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.core-card img {
+  width: 150px;
+  padding: 20px;
+}
+
+.core-card h3 {
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+.core-card p {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 300;
+  padding: 15px;
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
   .title-list li {
-    display: inline-block;
-    padding: 0 40px;
-    color: #000000;
-    font-size: 20px;
+    padding: 0 20px;
+    font-size: 16px;
   }
-
-  .core-values{
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-.core-values h3{
-    color: white;
-    font-family: "Poppins";
-    font-weight: 450;
-    font-size: 2.3rem;
-    text-align: center;
-    margin-bottom: 10px;
 }
 
-.core-desc{
-    text-align: center;
-    display: inline-flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
+@media screen and (max-width: 1024px) {
+  .AboutMe .head h3 {
+    font-size: 2.8rem;
+  }
 
-.core-desc p{
-    font-family: "Montserrat";
+  .AboutMe .head p {
+    width: 80%;
     font-size: 1rem;
-    color: white;
-    width: 900px;
+  }
+
+  .story-head h3 {
+    font-size: 2.4rem;
+  }
+
+  .story-desc {
+    width: 100%;
+    flex-direction: column;
+    font-size: 0.85rem;
+  }
+
+  .core-values h3 {
+    font-size: 2rem;
+  }
+
+  .core-desc p {
+    width: 80%;
+    font-size: 0.95rem;
+  }
+
+  .core-card {
+    width: 80%;
+    height: auto;
+  }
+
+  .core-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .core-card p {
+    font-size: 0.85rem;
+  }
+
+  .card-img {
+    width: 500px;
+  }
 }
 
-.core-cards{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 80px;
-}
-
-.core-card{
-    border: 1.5px solid white;
-    display: inline-flex;
-    width: 600px;
-    height: 250px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-
-.card-img{
-    width: 1000px;
-    background-color: orange;
-    display: inline-flex;
-    justify-content: center;
+@media screen and (max-width: 900px) {
+  .story {
+    flex-direction: column;
     align-items: center;
+    margin-top: 50px;
+  }
+
+  .story-desc {
+    flex-direction: column;
+    width: 90%;
+    font-size: 0.85rem;
+    padding: 0;
+  }
 }
 
-.core-card img{
-   width: 150px;
-   padding: 20px;
-}
+@media screen and (max-width: 600px) {
+  .AboutMe .head h3 {
+    font-size: 2rem;
+  }
 
-.core-card h3{
-    font-size: 1.3rem;
-    margin-top: 20px;
-}
+  .AboutMe .head .core-buttons {
+    display: inline-flex;
+  }
 
-.core-card p{
-    color: white;
-    font-family: "Montserrat";
-    font-weight: 300;
-    padding: 15px;
+  .AboutMe .head p {
+    width: 90%;
     font-size: 0.9rem;
+  }
+
+  .story {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .story-head h3 {
+    font-size: 2rem;
+  }
+
+  .story-head img {
+    width: 80%;
+  }
+
+  .story-desc {
+    width: 90%;
+    font-size: 0.85rem;
+    padding-right: 0;
     text-align: justify;
+    padding: 30px;
+    padding: 0;
+  }
+
+  .core-values h3 {
+    font-size: 1.8rem;
+  }
+
+  .core-desc p {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+
+  .core-card {
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  .core-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .card-img {
+    width: 400px;
+  }
+  .card-img img {
+    padding-right: 130px;
+  }
 }
 
-
-
-
-  
-  @media screen and (max-width: 600px) {
-    .title-list li {
-      padding: 0 20px;
-      font-size: 16px;
-    }
+@media screen and (min-width: 1025px) {
+  .AboutMe .head h3 {
+    font-size: 3.5rem;
   }
-  
 
-  @media screen and (max-width: 1024px) {
-    .AboutMe .head h3 {
-      font-size: 2.8rem;
-    }
-  
-    .AboutMe .head p {
-      width: 80%;
-      font-size: 1rem;
-    }
-  
-    .story-head h3 {
-      font-size: 2.4rem;
-    }
-  
-    .story-desc {
-      width: 100%;
-      flex-direction: column;
-      font-size: 0.85rem;
-    }
-  
-    .core-values h3 {
-      font-size: 2rem;
-    }
-  
-    .core-desc p {
-      width: 80%;
-      font-size: 0.95rem;
-    }
-  
-    .core-card {
-      width: 80%;
-      height: auto;
-    }
-  
-    .core-card h3 {
-      font-size: 1.2rem;
-    }
-  
-    .core-card p {
-      font-size: 0.85rem;
-    }
-  
-    .card-img {
-      width: 500px;
-    }
+  .AboutMe .head p {
+    width: 450px;
+    font-size: 1.3rem;
   }
-  
-  @media screen and (max-width: 900px) {
-    .story {
-      flex-direction: column;
-      align-items: center;
-      margin-top: 50px;
-    }
-  
-    .story-desc {
-      flex-direction: column; 
-      width: 90%;
-      font-size: 0.85rem;
-      padding: 0;
-    }
+
+  .story-head h3 {
+    font-size: 3rem;
   }
-  
-  @media screen and (max-width: 600px) {
-    .AboutMe .head h3 {
-      font-size: 2.0rem;
-    }
 
-    .AboutMe .head .core-buttons{
-        display: inline-flex;
-    }
-  
-    .AboutMe .head p {
-      width: 90%;
-      font-size: 0.9rem;
-    }
-  
-    .story {
-      flex-direction: column;
-      align-items: center;
-      margin-top: 50px;
-    }
-  
-    .story-head h3 {
-      font-size: 2rem;
-    }
-  
-    .story-head img {
-      width: 80%;
-    }
-  
-    .story-desc {
-      width: 90%;
-      font-size: 0.85rem;
-      padding-right: 0;
-      text-align: justify;
-      padding: 30px;
-      padding:0
-    }
-  
-    .core-values h3 {
-      font-size: 1.8rem;
-    }
-  
-    .core-desc p {
-      width: 90%;
-      font-size: 0.9rem;
-    }
-  
-    .core-card {
-      flex-direction: column;
-      margin: 20px 0;
-    }
-
-      .core-card h3 {
-        font-size: 1.1rem;
-      }
-
-      .card-img{
-        width: 400px;
-      }
-      .card-img img{
-        padding-right: 130px;
-      }
-    
-    }
-  
-
-  @media screen and (min-width: 1025px) {
-    .AboutMe .head h3 {
-      font-size: 3.5rem;
-    }
-  
-    .AboutMe .head p {
-      width: 450px;
-      font-size: 1.3rem;
-    }
-  
-    .story-head h3 {
-      font-size: 3rem;
-    }
-  
-    .story-desc {
-      width: 700px;
-      font-size: 1rem;
-    }
-  
-    .core-values h3 {
-      font-size: 2.5rem;
-    }
-  
-    .core-desc p {
-      width: 1000px;
-      font-size: 1.1rem;
-    }
-  
-    .core-card {
-      width: 650px;
-      height: 300px;
-    }
-  
-    .core-card h3 {
-      font-size: 1.5rem;
-    }
-  
-    .core-card p {
-      font-size: 1rem;
-    }
-  
-    .card-img {
-      width: 1200px;
-    }
-  
-    .title-list li {
-      padding: 0 50px;
-      font-size: 22px;
-    }
+  .story-desc {
+    width: 700px;
+    font-size: 1rem;
   }
+
+  .core-values h3 {
+    font-size: 2.5rem;
+  }
+
+  .core-desc p {
+    width: 1000px;
+    font-size: 1.1rem;
+  }
+
+  .core-card {
+    width: 650px;
+    height: 300px;
+  }
+
+  .core-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .core-card p {
+    font-size: 1rem;
+  }
+
+  .card-img {
+    width: 1200px;
+  }
+
+  .title-list li {
+    padding: 0 50px;
+    font-size: 22px;
+  }
+}

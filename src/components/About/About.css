@@ -42,7 +42,7 @@
 }
 
 .about span {
-  background-color: #22a7f5;
+  background-color: rgb(87, 87, 196);
   padding: 10px;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .about button:hover {
-  background-color: #22a7f5;
+  background-color: rgb(87, 87, 196);
   color: white;
   box-shadow: 5px 5px 0px 0px white;
   margin-bottom: 10px;

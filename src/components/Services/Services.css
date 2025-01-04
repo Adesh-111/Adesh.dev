@@ -50,8 +50,8 @@
   flex-wrap: wrap;
 }
 
-.service-image{
-  background-color: #22a7f5;
+.service-image {
+  background-color: rgb(87, 87, 196);
   display: flex;
   justify-content: center;
 }
@@ -78,14 +78,13 @@
   box-shadow: 7px 7px 0px 0px white;
   margin-bottom: 7px;
   margin-right: 7px;
-
 }
 
 .section-card img {
   width: 300px;
   padding: 10px 0px;
   height: 240px;
-  background: #22a7f5;
+  background: rgb(87, 87, 196);
 }
 
 .section-card h3 {
@@ -115,8 +114,7 @@
 }
 
 @media screen and (max-width: 600px) {
-
-  .all-services{
+  .all-services {
     margin-bottom: 200px;
   }
 
