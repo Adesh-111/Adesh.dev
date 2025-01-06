@@ -39,13 +39,12 @@ function AllProjects() {
       title: "SRY Wedding decorations",
       domain: "Frontend Development",
       description:
-        "I developed a responsive website for SRY Wedding Decorations, transforming a Figma design and logo by Bhagya B into a fully functional site using ReactJS. This project, completed during college, taught me the value of stepping out of my comfort zone, embracing challenges, and turning visions into reality.",
+        "I developed my first freelance website for SRY Wedding Decorations, transforming a Figma design and logo by Bhagya B into a fully functional site using ReactJS. This project, completed during college, taught me the value of stepping out of my comfort zone, embracing challenges, and turning visions into reality.",
       image: assets.wedding,
       imageAlt: "Wedding image",
-      codeLink: "https://github.com/Adesh-111/",
       linkAttached: true,
       codeLinkAttached: false,
-      link: "https://gokul2x.me"
+      link: "https://www.sryaarthiplates.com"
     },
     {
       icon: assets.bookIcon,
@@ -69,6 +68,19 @@ function AllProjects() {
       imageAlt: "Gemini AI Project",
       link: "https://gemini-clone-beta-ivory.vercel.app/",
       codeLink: "https://github.com/Adesh-111/gemini-clone",
+      linkAttached: true,
+      codeLinkAttached: true
+    },
+    {
+      icon: assets.gameIcon,
+      title: "2D Game Portfolio",
+      domain: "Web Development",
+      description:
+        "Built a fun and interactive 2D game portfolio using Kaboom.js and Tiler, combining coding and gaming to showcase creativity and stand out.",
+      image: assets.game,
+      imageAlt: "2D Game Portfolio",
+      link: "https://2-d-portfolio-zeta.vercel.app/",
+      codeLink: "https://github.com/Adesh-111/2D-Portfolio",
       linkAttached: true,
       codeLinkAttached: true
     },

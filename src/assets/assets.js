@@ -85,7 +85,9 @@ import fabwareMain from "./fabwareMain.svg";
 import portfolioIcon from "./PortfolioIcon.svg"
 import portfolio from "./Portfolio.svg";
 import SRY from "./SRYLogo.svg";
-import wedding from "./wedding.svg"
+import wedding from "./wedding.svg";
+import game from "./game.svg";
+import gameIcon from "./gameIcon.png";
 
 const assets = {
   profileIcon,
@@ -175,7 +177,9 @@ const assets = {
   portfolioIcon,
   portfolio,
   SRY,
-  wedding
+  wedding,
+  game,
+  gameIcon
 };
 
 export default assets;
