@@ -75,6 +75,7 @@ import PersonalWebsite from "./PersonalWebsite.svg";
 import PersonalWebsiteIcon from "./PersonalWebsiteIcon.svg";
 import frontendReact from "./Certificates-images/frontend react.png";
 import guviHTMLandCSS from "./Certificates-images/GuviHTMLandCSS.png";
+import GitHubFoundations from "./Certificates-images/GitHubFoundations.png";
 import c1 from "./Clouds/1.png";
 import c2 from "./Clouds/2.png";
 import c3 from "./Clouds/3.png";
@@ -88,6 +89,8 @@ import SRY from "./SRYLogo.svg";
 import wedding from "./wedding.svg";
 import game from "./game.svg";
 import gameIcon from "./gameIcon.png";
+import JavaPrepInsta from "./Certificates-images/JavaPrepInsta.png";
+import PrepInstaIcon from "./PrepInstaIcon.png";
 
 const assets = {
   profileIcon,
@@ -179,7 +182,10 @@ const assets = {
   SRY,
   wedding,
   game,
-  gameIcon
+  gameIcon,
+  GitHubFoundations,
+  JavaPrepInsta,
+  PrepInstaIcon
 };
 
 export default assets;

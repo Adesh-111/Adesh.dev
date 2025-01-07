@@ -15,6 +15,13 @@ function AllCertificates() {
       link: "https://www.udemy.com/certificate/UC-208ea9ef-8fe8-4230-abc2-bb5484a4c55c/",
     },
     {
+      name : "GitHub Foundations",
+      image : assets.GitHubFoundations,
+      icon : assets.githubBlack,
+      Date : "Jan 7 2025",
+      link : "https://www.credly.com/badges/25a492f6-af26-43be-a9c4-745f66223812/public_url"
+    },
+    {
       name: "Postman API Fundamentals Student Expert",
       image: assets.postmanCert,
       icon: assets.postman,
@@ -132,6 +139,13 @@ function AllCertificates() {
       icon: assets.nptel,
       Date: "Apr 29 2024",
       link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS43S105350595330378538",
+    },
+    {
+      name: "Java",
+      image: assets.JavaPrepInsta,
+      icon: assets.PrepInstaIcon,
+      Date: "Jan 02 2025",
+      link: "https://drive.google.com/file/d/1n50VZP1KMJw7l9luE7b6441Uymhx7no4/view?usp=sharing",
     },
   ];
 
