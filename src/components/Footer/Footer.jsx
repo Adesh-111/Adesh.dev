@@ -108,7 +108,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://linktr.ee/adesh_d"
+                  href="https://scrollme.today/adesh"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
