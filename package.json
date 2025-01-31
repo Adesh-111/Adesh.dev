@@ -12,6 +12,7 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "@react-spring/web": "^9.7.5",
     "aos": "^2.3.4",
     "axios": "^1.7.7",
     "axois": "^0.0.1-security",

@@ -3,12 +3,12 @@ import { createRoot } from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
 import router from "./components/AppRouter/AppRouter";
 import Loader from "./components/Loader/Loader";
-import NotFound from "./components/NotFound/NotFound";
 import NoNetwork from "./components/NoNetwork/NoNetwork";
+import BlobCursor from "./components/Other/BlobCursor";
 
 function Main() {
   const [loading, setLoading] = useState(true);
-  const [isOnline, setIsOnline] = useState(navigator.onLine); 
+  const [isOnline, setIsOnline] = useState(navigator.onLine);
 
   useEffect(() => {
     setTimeout(() => {
@@ -30,11 +30,17 @@ function Main() {
   if (loading) return <Loader />;
   if (!isOnline) return <NoNetwork />;
 
-  return <RouterProvider router={router} />;
+  return (
+    <>
+      <RouterProvider router={router} />
+    </>
+  );
 }
 
-createRoot(document.getElementById("root")).render(
+createRoot(document.getElementById("root")).render(<>
+  <BlobCursor />
   <React.StrictMode>
     <Main />
   </React.StrictMode>
+  </>
 );

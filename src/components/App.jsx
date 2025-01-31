@@ -8,6 +8,7 @@ import TwoProjects from "./Projects/TwoProjects";
 import Experiences from "./Experiences/Experiences";
 import Footer from "./Footer/Footer";
 import "aos/dist/aos.css";
+import BlobCursor from "./Other/BlobCursor.jsx";
 
 function App() {
   return (
