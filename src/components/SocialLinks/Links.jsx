@@ -42,7 +42,7 @@ function Links() {
             <li className="Mail">
               <a href="mailto: adeshabinesh25@gmail.com">
                 <i className="fa-solid fa-envelope"></i>
-                <span> Gmail</span>
+                <span> Google</span>
               </a>
             </li>
             <li className="instagram">

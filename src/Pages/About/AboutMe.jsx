@@ -4,6 +4,9 @@ import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import CoreCard from "./CoreCard";
 import "./AboutMe.css";
+import ImageTrail from "../../components/Other/ImageTrail/ImageTrail";
+
+const imageTrailImages = Array.from({ length: 28 }, (_, i) => assets[`Image${i}`] || "");
 
 function AboutMe() {
   const titles = [
@@ -47,7 +50,7 @@ function AboutMe() {
     {
       image: assets.Gemini,
       title: "Discipline",
-      desc: "Discipline is the foundation of my success. By maintaining self-control and sticking to a set of principles, I am able to prioritize my goals and stay on track, no matter what challenges come my way. Whether in my personal or professional life, discipline allows me to make the most of my time and resources, achieve my ambitions, and live a fulfilling life.",
+      desc: "Discipline is the foundation of my success. By maintaining self-control and sticking to a set of principles, I am able to prioritize my goals and stay on track, no matter what challenges come my way.",
     },
     {
       image: assets.PersonalWebsite,
@@ -64,16 +67,16 @@ function AboutMe() {
           <h3>
             Hello World, <span>I'm Adesh</span>
           </h3>
-          <p>Explore my story, works and what are my values are.</p>
+          <p>Explore my story, works, and what my values are.</p>
           <div className="core-buttons">
             <a href="/contact">
               <button className="getIn">
-                <i class="fa-solid fa-envelope"></i>Get in touch
+                <i className="fa-solid fa-envelope"></i> Get in touch
               </button>
             </a>
-            <a href="">
+            <a href="#">
               <button>
-                <i class="fa-solid fa-user"></i>My story
+                <i className="fa-solid fa-user"></i> My story
               </button>
             </a>
           </div>
@@ -81,79 +84,39 @@ function AboutMe() {
         <div className="story" data-aos="zoom-out">
           <div className="story-head">
             <h3>
-              Let me tell you <span>my story.</span>{" "}
+              Let me tell you <span>my story.</span>
             </h3>
             <img
               src="https://www.careerguide.com/career/wp-content/uploads/2020/03/developer-dribbble.gif"
-              alt=""
+              alt="Developer Animation"
             />
           </div>
           <div className="story-desc">
             <p>
-              <span>E</span>ver since my
-              school days, I had a strong interest in computer science. However,
-              due to certain circumstances, I ended up taking biology in 12th
-              standard. Even though I followed that path, deep down, I always
-              knew I wanted to pursue engineering. When I finally got the chance
-              to enroll in a computer science engineering program, I was
-              excited, but I had no prior experience with coding or any
-              technical knowledge.
+              <span>E</span>ver since my school days, I had a strong interest in computer science. However, due to certain circumstances, I ended up taking biology in 12th standard. Even though I followed that path, deep down, I always knew I wanted to pursue engineering.
             </p>
-
             <p>
-              Everything changed during my second year when my college hosted
-              the Smart India Hackathon. I decided to participate, even though I
-              didn't know much about coding. I worked hard and managed to build
-              a simple project, which I presented to the judges. But to my
-              surprise, instead of encouragement, I was laughed at. The mockery
-              was difficult to handle, and it left me feeling defeated.
+              Everything changed during my second year when my college hosted the Smart India Hackathon. I decided to participate, even though I didn't know much about coding. I worked hard and managed to build a simple project, which I presented to the judges. But to my surprise, instead of encouragement, I was laughed at. The mockery was difficult to handle, and it left me feeling defeated.
             </p>
-
             <p>
-              That experience, though painful, became the turning point in my
-              life. I knew I had to do something about it. My mind was racing,
-              and I was determined to find a career where I could truly thrive.
-              I turned to the internet, researching different paths, and
-              eventually stumbled upon Full Stack Development. It felt like a
-              perfect match for me.
+              That experience, though painful, became the turning point in my life. I turned to the internet, researched different paths, and eventually stumbled upon Full Stack Development. It felt like a perfect match for me.
             </p>
-
             <p>
-              I didn't rush the process. I enrolled in a Udemy course and took
-              my time learning everything, step by step. I believed that slow
-              and steady progress would lead to good results, and I was right.
-              As I learned, I started building my own projects and
-              mini-projects, and I discovered a deep joy in applying my
-              technical skills.
+              I didn't rush the process. I enrolled in a Udemy course and took my time learning step by step. I built projects and mini-projects and discovered a deep joy in applying my technical skills.
             </p>
-
             <p>
-              From that moment on, I felt complete in my career as a developer.
-              I found fulfillment in every new website I created, every custom
-              solution I developed, and every challenge I overcame. I've gone
-              from knowing nothing to becoming a full-fledged developer, and
-              now, I’m eager to keep growing, learning, and helping others
-              through my work. Every new project pushes me to go beyond what I
-              thought was possible.
+              From that moment on, I felt complete in my career as a developer. I've gone from knowing nothing to becoming a full-fledged developer, eager to keep growing, learning, and helping others through my work.
             </p>
-
             <p>That’s how I went from zero to becoming a developer.</p>
-
-            <a href="">
+            <a href="/contact">
               <button>
-                <i class="fa-solid fa-envelope"></i>Get in Touch
+                <i className="fa-solid fa-envelope"></i> Get in Touch
               </button>
             </a>
           </div>
         </div>
         <div className="titles" data-aos="fade-down">
-          <marquee
-            className="title-marquee"
-            behavior="scroll"
-            direction="left"
-            scrollamount="5"
-            loop="infinite"
-          >
+          <marquee className="title-marquee" behavior="scroll" direction="left" scrollamount="5">
             <ul className="title-list">
               {Titles.map((title, index) => (
                 <li key={index}>{title}</li>
@@ -161,25 +124,25 @@ function AboutMe() {
             </ul>
           </marquee>
         </div>
-        <div className="core-values" data-aos ="fade-up">
+        <div className="core-values" data-aos="fade-up">
           <div className="core-desc">
             <h3>My core values, personally and professionally</h3>
             <p>
-              These principles motivate me to strive for excellence, maintain
-              integrity, and foster positive relationships, guiding me to be my
-              best self and achieve success in all my endeavors.
+              These principles guide me to strive for excellence, maintain integrity, and foster positive relationships.
             </p>
           </div>
-
           <div className="core-cards">
             {CardDetails.map((card, index) => (
               <CoreCard key={index} card={card} />
             ))}
           </div>
         </div>
+        <h3 className="image-trail-title">Visionary Vault</h3>
+        <div className="image-trail" style={{ height: "800px", position: "relative", overflow: "hidden", border: "2px solid white", borderRadius: "20px", margin: "auto 30px", marginBottom: "-250px" }}>
+          <ImageTrail items={imageTrailImages} variant={7} />
+        </div>
         <Experiences />
       </div>
-
       <Footer />
     </>
   );

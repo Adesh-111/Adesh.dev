@@ -4,7 +4,7 @@ import { RouterProvider } from "react-router-dom";
 import router from "./components/AppRouter/AppRouter";
 import Loader from "./components/Loader/Loader";
 import NoNetwork from "./components/NoNetwork/NoNetwork";
-import BlobCursor from "./components/Other/BlobCursor";
+import BlobCursor from "./components/Other/BlobCursor/BlobCursor";
 
 function Main() {
   const [loading, setLoading] = useState(true);

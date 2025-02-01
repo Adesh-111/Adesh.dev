@@ -91,6 +91,33 @@ import game from "./game.svg";
 import gameIcon from "./gameIcon.png";
 import JavaPrepInsta from "./Certificates-images/JavaPrepInsta.png";
 import PrepInstaIcon from "./PrepInstaIcon.png";
+import Image1 from "./Gallery/Image1.jpeg";
+import Image2 from "./Gallery/Image2.jpg";
+import Image3 from "./Gallery/Image3.jpg";
+import Image4 from "./Gallery/Image4.jpg";
+import Image5 from "./Gallery/Image5.jpg";
+import Image6 from "./Gallery/Image6.jpg";
+import Image7 from "./Gallery/Image7.jpg";
+import Image8 from "./Gallery/Image8.jpg";
+import Image9 from "./Gallery/Image9.jpg";
+import Image10 from "./Gallery/Image10.jpg";
+import Image11 from "./Gallery/Image11.jpg";
+import Image12 from "./Gallery/Image12.jpg";
+import Image13 from "./Gallery/Image13.jpg";
+import Image14 from "./Gallery/Image14.jpg";
+import Image15 from "./Gallery/Image15.jpg";
+import Image16 from "./Gallery/Image16.jpg";
+import Image17 from "./Gallery/Image17.jpg";
+import Image18 from "./Gallery/Image18.jpg";
+import Image19 from "./Gallery/Image19.jpg";
+import Image20 from "./Gallery/Image20.jpg";
+import Image21 from "./Gallery/Image21.jpg";
+import Image22 from "./Gallery/Image22.jpg";
+import Image23 from "./Gallery/Image23.jpg";
+import Image24 from "./Gallery/Image24.jpg";
+import Image25 from "./Gallery/Image25.jpg";
+import Image26 from "./Gallery/Image26.jpg";
+import Image27 from "./Gallery/Image27.jpg";
 
 const assets = {
   profileIcon,
@@ -185,7 +212,34 @@ const assets = {
   gameIcon,
   GitHubFoundations,
   JavaPrepInsta,
-  PrepInstaIcon
+  PrepInstaIcon,
+  Image1,
+  Image2,
+  Image3,
+  Image4,
+  Image5,
+  Image6,
+  Image7,
+  Image8,
+  Image9,
+  Image10,
+  Image11,
+  Image12,
+  Image13,
+  Image14,
+  Image15,
+  Image16,
+  Image17,
+  Image18,
+  Image19,
+  Image20,
+  Image21,
+  Image22,
+  Image23,
+  Image24,
+  Image25,
+  Image26,
+  Image27,
 };
 
 export default assets;
