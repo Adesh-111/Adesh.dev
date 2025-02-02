@@ -54,6 +54,7 @@ While I don’t personally know **Kunal Keshen**, I discovered his portfolio, wh
 ## 🌟 Explore the Portfolio:
 - **Live Portfolio**: [Link to Portfolio](https://adesh-dev.vercel.app/)
 - **GitHub Repository**: [GitHub Repo](https://github.com/Adesh-111/Adesh.dev)
+- **LinkedIn**: [Link to LinkedIn](https://www.linkedin.com/in/adesh-d/)
 
 ---
 
