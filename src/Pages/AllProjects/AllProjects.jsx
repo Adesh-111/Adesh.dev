@@ -19,7 +19,7 @@ function AllProjects() {
       link: "https://fabware-zenhook-main-test.vercel.app/",
       codeLink: "https://github.com/Adesh-111/fabware_zenhook-main-test",
       linkAttached: true,
-      codeLinkAttached: true
+      codeLinkAttached: true,
     },
     {
       icon: assets.portfolioIcon,
@@ -32,7 +32,7 @@ function AllProjects() {
       codeLink: "https://github.com/Adesh-111/Gokul-portfolio",
       linkAttached: true,
       link: "https://gokul2x.me",
-      codeLinkAttached: true
+      codeLinkAttached: true,
     },
     {
       icon: assets.SRY,
@@ -44,7 +44,7 @@ function AllProjects() {
       imageAlt: "Wedding image",
       linkAttached: true,
       codeLinkAttached: false,
-      link: "https://www.sryaarthiplates.com"
+      link: "https://www.sryaarthiplates.com",
     },
     {
       icon: assets.bookIcon,
@@ -56,7 +56,7 @@ function AllProjects() {
       imageAlt: "Book Notes Project",
       codeLink: "https://github.com/Adesh-111/Book-notes",
       linkAttached: false,
-      codeLinkAttached: true
+      codeLinkAttached: true,
     },
     {
       icon: assets.geminiIcon,
@@ -69,7 +69,7 @@ function AllProjects() {
       link: "https://gemini-clone-beta-ivory.vercel.app/",
       codeLink: "https://github.com/Adesh-111/gemini-clone",
       linkAttached: true,
-      codeLinkAttached: true
+      codeLinkAttached: true,
     },
     {
       icon: assets.gameIcon,
@@ -82,7 +82,19 @@ function AllProjects() {
       link: "https://2-d-portfolio-zeta.vercel.app/",
       codeLink: "https://github.com/Adesh-111/2D-Portfolio",
       linkAttached: true,
-      codeLinkAttached: true
+      codeLinkAttached: true,
+    },
+    {
+      icon: assets.technoRealmIcon,
+      title: "Techno Realm 2.0",
+      domain: "Frontend development",
+      description:
+        "I’m creating a website for my department symposium named Techno Realm at my college. I built it using ReactJS, with added features like Particle.js, AOS animations, and React Router. ",
+      image: assets.technoRealm,
+      imageAlt: "Techno realm",
+      link: "https://technorealm.in",
+      linkAttached: true,
+      codeLinkAttached: false,
     },
     {
       icon: assets.Udemy,
@@ -95,7 +107,7 @@ function AllProjects() {
       codeLink: "https://github.com/Adesh-111/udemy-clone",
       link: "https://adesh-111.github.io/Udemy-Clone/",
       linkAttached: true,
-      codeLinkAttached: true
+      codeLinkAttached: true,
     },
     {
       icon: assets.APIIcon,
@@ -107,7 +119,7 @@ function AllProjects() {
       imageAlt: "API Explorer",
       codeLink: "https://github.com/Adesh-111/Api-Explorer",
       linkAttached: false,
-      codeLinkAttached: true
+      codeLinkAttached: true,
     },
     {
       icon: assets.WordIcon,
@@ -120,7 +132,7 @@ function AllProjects() {
       codeLink: "https://github.com/Adesh-111/word-guesser",
       link: "https://adesh-111.github.io/word-guesser/",
       linkAttached: true,
-      codeLinkAttached: true
+      codeLinkAttached: true,
     },
     {
       icon: assets.assignmnetIcon,
@@ -132,7 +144,7 @@ function AllProjects() {
       imageAlt: "Assignment Manager",
       codeLink: "https://github.com/Adesh-111/Assignment-manager",
       linkAttached: false,
-      codeLinkAttached: true
+      codeLinkAttached: true,
     },
     {
       icon: assets.PersonalWebsiteIcon,
@@ -142,10 +154,10 @@ function AllProjects() {
         "This is the first version of my portfolio, built using HTML and styled with CSS. Here, you'll find information about me, my skills, projects I've worked on, and how to get in touch with me. Feel free to explore and get to know more about my journey and expertise.",
       image: assets.PersonalWebsite,
       imageAlt: "Personal-website",
-      codeLink : "https://github.com/Adesh-111/Personal-site",
+      codeLink: "https://github.com/Adesh-111/Personal-site",
       link: "https://adesh-111.github.io/Personal-site/",
       linkAttached: true,
-      codeLinkAttached: true
+      codeLinkAttached: true,
     },
   ];
 

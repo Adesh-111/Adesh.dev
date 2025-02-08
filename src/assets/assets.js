@@ -89,6 +89,8 @@ import SRY from "./SRYLogo.svg";
 import wedding from "./wedding.svg";
 import game from "./game.svg";
 import gameIcon from "./gameIcon.png";
+import technoRealm from "./technoRealm.svg";
+import technoRealmIcon from "./technoRealmIcon.webp";
 import JavaPrepInsta from "./Certificates-images/JavaPrepInsta.png";
 import PrepInstaIcon from "./PrepInstaIcon.png";
 import Image1 from "./Gallery/Image1.jpeg";
@@ -197,6 +199,8 @@ const assets = {
   frontendReact,
   guviHTMLandCSS,
   guviFullStackAICert,
+  technoRealm,
+  technoRealmIcon,
   c1,
   c2,
   c3,
