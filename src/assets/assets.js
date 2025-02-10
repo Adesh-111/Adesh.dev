@@ -133,6 +133,8 @@ import Image36 from "./Gallery/Image36.jpg";
 import Image37 from "./Gallery/Image37.jpg";
 import Image38 from "./Gallery/Image38.jpg";
 
+
+
 const assets = {
   profileIcon,
   profile: profile,
