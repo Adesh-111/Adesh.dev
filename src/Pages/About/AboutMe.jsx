@@ -6,7 +6,7 @@ import CoreCard from "./CoreCard";
 import "./AboutMe.css";
 import ImageTrail from "../../components/Other/ImageTrail/ImageTrail";
 
-const imageTrailImages = Array.from({ length: 28 }, (_, i) => assets[`Image${i}`] || "");
+const imageTrailImages = Array.from({ length: 39 }, (_, i) => assets[`Image${i}`] || "");
 
 function AboutMe() {
   const titles = [
@@ -22,6 +22,7 @@ function AboutMe() {
     "•   Backend",
     "•   Programmer",
     "•   Coding",
+    "•   Mentor",
   ];
 
   const Titles = Array(100).fill(titles).flat();

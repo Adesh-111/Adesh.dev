@@ -121,6 +121,17 @@ import Image24 from "./Gallery/Image24.jpg";
 import Image25 from "./Gallery/Image25.jpg";
 import Image26 from "./Gallery/Image26.jpg";
 import Image27 from "./Gallery/Image27.jpg";
+import Image28 from "./Gallery/Image28.jpg";
+import Image29 from "./Gallery/Image29.jpg";
+import Image30 from "./Gallery/Image30.jpg";
+import Image31 from "./Gallery/Image31.jpg";
+import Image32 from "./Gallery/Image32.jpg";
+import Image33 from "./Gallery/Image33.jpg";
+import Image34 from "./Gallery/Image34.jpg";
+import Image35 from "./Gallery/Image35.jpg";
+import Image36 from "./Gallery/Image36.jpg";
+import Image37 from "./Gallery/Image37.jpg";
+import Image38 from "./Gallery/Image38.jpg";
 
 const assets = {
   profileIcon,
@@ -246,6 +257,17 @@ const assets = {
   Image25,
   Image26,
   Image27,
+  Image28,
+  Image29,
+  Image30,
+  Image31,
+  Image32,
+  Image33,
+  Image34,
+  Image35,
+  Image36,
+  Image37,
+  Image38
 };
 
 export default assets;
