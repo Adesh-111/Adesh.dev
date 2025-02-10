@@ -37,6 +37,7 @@ import geminiIcon from "./shine.svg";
 import afame from "./Afame.jpeg";
 import thinkDigital from "./thinkdigital.png";
 import zenhook from "./Zenhook.jpeg";
+import fellowFounder from "./FellowFounder.avif";
 import cursaCert from "./Certificates-images/cursa certificate.png";
 import emc from "./Certificates-images/EMC.png";
 import freeCodeCamp from "./Certificates-images/FreeCodeCamp.png";
@@ -200,6 +201,7 @@ const assets = {
   guviHTMLandCSS,
   guviFullStackAICert,
   technoRealm,
+  fellowFounder,
   technoRealmIcon,
   c1,
   c2,

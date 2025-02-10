@@ -5,13 +5,22 @@ import assets from "../../assets/assets";
 
 const experienceData = [
   {
+    duration: "Feb 2025 - Present",
+    image: assets.fellowFounder,
+    role: "Web Developer",
+    name: "Fellow Founder",
+    level: "Internship",
+    link: "https://www.linkedin.com/company/fellow-founder/",
+    desc: "Lorem ipsum dolor sit, ameluptates officia ipsum error veniam neque! Assumenda laudantium consequuntur, iste, repellat dolorum eaque quidem inventore asperiores saepe itaque reprehenderit corporis labore dolorem incidunt quam.",
+  },
+  {
     duration: "July 2024 - Present",
     image: assets.thinkDigital,
     name: "Think Digital",
-    role: "Community member",
+    role: "Community Builder",
     level: "Part time",
     link: "https://think-digital.in/",
-    desc: "As a member, I have participated in community activities such as meetups, playouts, and various online meetings to gain knowledge and expand my network. These activities serve as a refreshing boost for my career.",
+    desc: "As a builder, I have participated and conducted the community activities such as meetups, playouts, and various online meetings to gain knowledge and expand my network. These activities serve as a refreshing boost for my career.",
   },
   {
     duration: "Sept 2024 - Nov 2024",
@@ -48,7 +57,7 @@ function Experiences() {
             </p>
             <a href={assets.resume} download="Adesh Resume.pdf">
               <button>
-                <i class="fa-solid fa-bars"></i>View Resume
+                <i className="fa-solid fa-bars"></i>View Resume
               </button>
             </a>
           </div>
