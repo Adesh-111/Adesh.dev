@@ -5,27 +5,30 @@ import assets from "../../assets/assets";
 function TwoProjects() {
   const projectsData = [
     {
-      icon: assets.bookIcon,
-      title: "Book Notes",
-      domain: "Backend Development",
+      icon: assets.sleepIcon,
+      title: "DIVI Sleep Tracker",
+      domain: "Full Stack Development",
       description:
-        "Book Notes is a web app for managing book information, integrating Express/Node.js with a PostgreSQL database. It supports CRUD operations and uses public APIs to fetch book covers. Users can add, update, sort, and view book entries with a user-friendly interface, ensuring seamless data management and presentation.",
-      image: assets.BookNotes,
-      imageAlt: "Book Notes Project",
-      codeLink: "https://github.com/Adesh-111/Book-notes",
-      linkAttached: false
-    },
+        "DIVI Sleep Tracker is a full-stack web app that helps users monitor and analyze their sleep patterns. With real-time tracking, sleep history insights, secure login, and an intelligent dashboard, it ensures better sleep management. Built using React, Node.js, Express, and PostgreSQL.",
+      image: assets.diviSleepTracker,
+      imageAlt: "DIVI Sleep Tracker Project",
+      link: "https://divisleep.live",
+      codeLink: "https://github.com/Adesh-111/divi-sleep",
+      linkAttached: true,
+      codeLinkAttached: true,
+    },    
     {
-      icon: assets.geminiIcon,
-      title: "Gemini AI Clone",
-      domain: "Web Development",
+      icon: assets.fabware,
+      title: "Fabware",
+      domain: "Full stack Development",
       description:
-        "This project is a ReactJS-based application designed to replicate the functionality and user experience of Google Gemini AI. The app provides an interactive platform where users can ask questions and receive AI-generated responses in real-time, all within a clean and user-friendly interface.",
-      image: assets.Gemini,
-      imageAlt: "Gemini AI Project",
-      link: "https://gemini-clone-beta-ivory.vercel.app/",
-      codeLink: "https://github.com/Adesh-111/gemini-clone",
-      linkAttached: true
+        "I developed Fabware related to intern at zenhook, a dynamic real-time e-commerce platform using React, Node.js, and Express.js. The platform features a responsive design, an engaging and visually appealing theme, and showcases products seamlessly. ",
+      image: assets.fabwareMain,
+      imageAlt: "Fabware Project",
+      link: "https://fabware.in",
+      codeLink: "https://github.com/Adesh-111/fabware_zenhook-main-test",
+      linkAttached: true,
+      codeLinkAttached: true,
     },
   ];
 

@@ -68,6 +68,8 @@ import resume from "./Adesh_Resume.pdf";
 import UdemyClone from "./UdemyClone.svg";
 import APIIcon from "./apiIcon.svg";
 import APIexplorer from "./APIexplorer.svg";
+import diviSleepTracker from "./diviSleepTracker.svg";
+import sleepIcon from "./sleepIcon.png";
 import WordIcon from "./wordIcon.svg";
 import Word from "./Word.svg";
 import assignmnetIcon from "./assignmentIcon.svg";
@@ -204,10 +206,12 @@ const assets = {
   UdemyClone: UdemyClone,
   APIIcon: APIIcon,
   APIexplorer: APIexplorer,
+  diviSleepTracker,
   Word: Word,
   WordIcon: WordIcon,
   Assignment: Assignment,
   assignmnetIcon: assignmnetIcon,
+  sleepIcon,
   PersonalWebsite: PersonalWebsite,
   PersonalWebsiteIcon: PersonalWebsiteIcon,
   frontendReact,

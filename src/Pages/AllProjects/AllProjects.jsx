@@ -9,6 +9,19 @@ import Project from "../../components/Projects/Project.jsx";
 function AllProjects() {
   const projectsData = [
     {
+      icon: assets.sleepIcon,
+      title: "DIVI Sleep Tracker",
+      domain: "Full Stack Development",
+      description:
+        "DIVI Sleep Tracker is a full-stack web app that helps users monitor and analyze their sleep patterns. With real-time tracking, sleep history insights, secure login, and an intelligent dashboard, it ensures better sleep management. Built using React, Node.js, Express, and PostgreSQL",
+      image: assets.diviSleepTracker,
+      imageAlt: "DIVI Sleep Tracker Project",
+      link: "https://divisleep.live",
+      codeLink: "https://github.com/Adesh-111/divi-sleep",
+      linkAttached: true,
+      codeLinkAttached: true,
+    },  
+    {
       icon: assets.fabware,
       title: "Fabware",
       domain: "Full stack Development",
