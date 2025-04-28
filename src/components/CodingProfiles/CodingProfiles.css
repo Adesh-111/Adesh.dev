@@ -1,0 +1,75 @@
+.coding-profiles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -200px;
+    margin-top: 150px;
+}
+
+.coding-profiles h2{
+    font-family: "Poppins";
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 500;
+  margin: 50px;
+  text-align: center;
+  margin-bottom: 150px;
+  z-index: 500;
+}
+
+.coding-profiles span{
+  background-color: #fff;
+  color: black;
+  padding: 5px 10px;
+}
+
+.coding-profile-cards{
+    display: flex;
+    gap: 100px;
+}
+
+.coding-profile-card{
+    border: 3px solid white;
+    border-radius: 20px;
+    object-fit: contain;
+    overflow: hidden;
+    height: 320px;
+    transition: 0.5s ease-in;
+}
+
+.coding-profile-card:hover{
+  box-shadow: 8px 8px 0px -1px #fff;
+  margin-top: -5px;
+
+}
+
+
+.coding-profile-card:nth-child(2) {
+    transform: rotate(10deg) !important;
+  }
+
+  .coding-profile-card:nth-child(1) {
+    transform: rotate(-10deg); 
+  }
+
+
+  @media screen and (max-width: 1000px) {
+    .coding-profile-cards{
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .coding-profile-card{
+      scale: 0.6;
+    }
+
+    .coding-profile-cards{
+      gap: 30px;
+    }
+
+    .coding-profiles h2{
+      margin-bottom: 50px;
+    }
+  }

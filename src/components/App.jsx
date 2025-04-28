@@ -9,6 +9,7 @@ import Experiences from "./Experiences/Experiences";
 import Footer from "./Footer/Footer";
 import "aos/dist/aos.css";
 import BlobCursor from "./Other/BlobCursor/BlobCursor.jsx";
+import CodingProfiles from "./CodingProfiles/CodingProfiles.jsx";
 
 function App() {
   return (
@@ -19,9 +20,11 @@ function App() {
       <AllServices />
       <About />
       <Links />
+      <CodingProfiles />
       <TwoProjects />
       <Experiences />
-      <Footer />
+      <Footer /> 
+    
     </>
   );
 }
