@@ -46,7 +46,7 @@
 
 
 .coding-profile-card:nth-child(2) {
-    transform: rotate(10deg) !important;
+    transform: rotate(10deg);
   }
 
   .coding-profile-card:nth-child(1) {
@@ -63,10 +63,19 @@
   @media screen and (max-width: 600px) {
     .coding-profile-card{
       scale: 0.6;
+      
+    }
+
+    .coding-profile-card:nth-child(1){
+      transform: rotate(0deg);
+    }
+
+    .coding-profile-card:nth-child(2){
+      transform: rotate(0deg) ;
     }
 
     .coding-profile-cards{
-      gap: 30px;
+      gap: 0px;
     }
 
     .coding-profiles h2{
