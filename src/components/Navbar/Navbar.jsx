@@ -7,15 +7,14 @@ function Navbar() {
   useEffect(() => {
     AOS.init({
       duration: 1500,
-      once: false, 
+      once: false,
     });
-    AOS.refresh(); 
+    AOS.refresh();
   }, []);
-  
 
   return (
     <>
-      <div className="nav-container" >
+      <div className="nav-container">
         <div className="navbar">
           <img src={assets.profileIcon} alt="" />
           <ul className="nav-list">
@@ -33,20 +32,27 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a href="#" className="more">
-                More 
+                More
               </a>
               <ul className="dropdown">
                 <li>
                   <a href="/certificates">Certificates</a>
                 </li>
                 <li>
-                  <a href="https://drive.google.com/file/d/1sPsfL6jVGy4Kg8RXN94AGmZT2kwFkM1A/view?usp=sharing">Resume</a>
+                  <a href="/events">Events</a>
+                </li>
+                <li>
+                  <a href="https://drive.google.com/file/d/1sPsfL6jVGy4Kg8RXN94AGmZT2kwFkM1A/view?usp=sharing">
+                    Resume
+                  </a>
                 </li>
                 <li>
                   <a href="/services">Services</a>
                 </li>
                 <li>
-                  <a href="https://scrollme.today/adesh" target="__blank">Links</a>
+                  <a href="https://scrollme.today/adesh" target="__blank">
+                    Links
+                  </a>
                 </li>
               </ul>
             </li>
