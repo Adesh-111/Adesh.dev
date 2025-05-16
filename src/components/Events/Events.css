@@ -1,0 +1,95 @@
+.events-container h2{
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 400;
+    margin: 50px auto;
+    font-size: 2.6rem;
+    z-index: 999 !important;
+}
+
+.events-container span{
+    background-color: orange;
+    padding: 10px 15px;
+}
+
+.event-cards{
+    display: flex;
+    margin: auto 50px;
+}
+
+.event-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+    max-width: 500px;
+    transition: 0.7s ease;
+}
+
+.event-card:hover{
+    box-shadow: 8px 8px 0px 0px white;
+    margin-top: -10px;
+}
+
+.event-card h3{
+    font-family: poppins;
+    margin: 10px auto;
+    font-size: 20px;
+    z-index: 999;
+}
+
+.event-card .event-desc{
+    max-width: 430px;
+    font-family: montserrat;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    z-index: 999;
+}
+
+.event-card img{
+    width: 450px;
+    margin: 10px;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.event-card-links{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 150px;
+    z-index: 999;
+}
+
+.event-card-links h4{
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: poppins;
+    z-index: 999;
+}
+
+.event-card-links h4 img{
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.event-card-links h4 img:hover{
+    box-shadow: 3px 3px 0px 0px black;
+}
+
+.event-card-links h4 img, .event-card-links img{
+    width: 40px;
+    transition: 0.3s ease;
+}
+
+.event-post-link:hover{
+    scale: 1.2;
+}

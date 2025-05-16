@@ -96,6 +96,8 @@ import technoRealm from "./technoRealm.svg";
 import technoRealmIcon from "./technoRealmIcon.webp";
 import JavaPrepInsta from "./Certificates-images/JavaPrepInsta.png";
 import PrepInstaIcon from "./PrepInstaIcon.png";
+import GFF25 from "./Events/EventImages/GFF25.jpg";
+import makersTribe from "./Events/Organizers/makersTribe.png";
 import Image1 from "./Gallery/Image1.jpeg";
 import Image2 from "./Gallery/Image2.jpg";
 import Image3 from "./Gallery/Image3.jpg";
@@ -236,6 +238,8 @@ const assets = {
   GitHubFoundations,
   JavaPrepInsta,
   PrepInstaIcon,
+  GFF25,
+  makersTribe,
   Image1,
   Image2,
   Image3,
