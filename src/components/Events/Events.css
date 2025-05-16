@@ -16,6 +16,7 @@
 .event-cards{
     display: flex;
     margin: auto 50px;
+    flex-wrap: wrap;
 }
 
 .event-card{
@@ -92,4 +93,31 @@
 
 .event-post-link:hover{
     scale: 1.2;
+}
+
+@media screen and (max-width: 600px){
+    .event-card{
+        margin: 0px;
+        scale: 0.8;width: 400px;
+    }
+
+    .event-cards{
+        margin: 0;
+    }
+
+    .event-card img{
+        width: 360px;
+    }
+
+    .event-desc{
+        width: 350px;
+    }
+
+    .event-card-links{
+        gap: 50px;
+    }
+
+    .event-post-link{
+        width: 40px !important;
+    }
 }
