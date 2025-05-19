@@ -98,6 +98,15 @@ import JavaPrepInsta from "./Certificates-images/JavaPrepInsta.png";
 import PrepInstaIcon from "./PrepInstaIcon.png";
 import GFF25 from "./Events/EventImages/GFF25.jpg";
 import makersTribe from "./Events/Organizers/makersTribe.png";
+import StartupAttiLogo from "./Events/Organizers/StartupAtti.png";
+import StartupAttiEvent1 from "./Events/EventImages/Startupatti1.png";
+import StartupAttiEvent2 from "./Events/EventImages/Startupatti2.jpg";
+import DNAdocumentary from "./Events/EventImages/DNAdocumentary.png";
+import DNA from "./Events/Organizers/DNA.png";
+import communityGatheringMar2025 from "./Events/EventImages/CGMar25.jpg";
+import movieScreeningDec24 from "./Events/EventImages/MovieScreening1.png";
+import brandingWorkshop from "./Events/EventImages/BrandingWorkshop.png";
+import Stupidpreneur from "./Events/Organizers/Stupidpreneur.png";
 import Image1 from "./Gallery/Image1.jpeg";
 import Image2 from "./Gallery/Image2.jpg";
 import Image3 from "./Gallery/Image3.jpg";
@@ -240,6 +249,15 @@ const assets = {
   PrepInstaIcon,
   GFF25,
   makersTribe,
+  StartupAttiLogo,
+  StartupAttiEvent1,
+  StartupAttiEvent2,
+  DNAdocumentary,
+  DNA,
+  brandingWorkshop,
+  Stupidpreneur,
+  communityGatheringMar2025,
+  movieScreeningDec24,
   Image1,
   Image2,
   Image3,

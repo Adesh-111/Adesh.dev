@@ -1,10 +1,10 @@
 .events-container h2{
     color: white;
-    font-family: Poppins;
+    font-family: poppins;
     text-align: center;
-    font-size: 400;
+    font-weight: 500;
     margin: 50px auto;
-    font-size: 2.6rem;
+    font-size: 40px;
     z-index: 999 !important;
 }
 
@@ -17,6 +17,8 @@
     display: flex;
     margin: auto 50px;
     flex-wrap: wrap;
+    margin-bottom: 50px;
+    gap: 60px;
 }
 
 .event-card{
@@ -27,7 +29,7 @@
     border: 2px solid black;
     background-color: white;
     border-radius: 20px;
-    max-width: 500px;
+    max-width: 450px;
     transition: 0.7s ease;
 }
 
@@ -44,7 +46,7 @@
 }
 
 .event-card .event-desc{
-    max-width: 430px;
+    max-width: 380px;
     font-family: montserrat;
     text-align: justify;
     font-size: 15px;
@@ -54,7 +56,7 @@
 }
 
 .event-card img{
-    width: 450px;
+    width: 400px;
     margin: 10px;
     border-radius: 10px;
     z-index: 999;
