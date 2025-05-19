@@ -44,7 +44,7 @@ const eventData = [
     link : "https://www.linkedin.com/feed/update/urn:li:activity:7294419353733672960/",
     desc : "Skipped Interstellar for the DNA School Documentary, and it was worth it met inspiring people, shed my hesitation, and gained deep insights on content, growth, and mindset. Takeaway: Start small, stay consistent, and the right ones will listen.",
     organizedBy : assets.DNA,
-    organizerLink: "https://think-digital.in/"
+    organizerLink: "https://www.linkedin.com/company/dna-community/posts/?feedView=all"
   },
   {
     name : "Movie Screening - DEC 2024",
@@ -69,7 +69,7 @@ function Events() {
       <Navbar />
       <div className="events-container">
         <h2>
-          Moments That <span>Mattered</span>
+          Moments That <span>Matters</span>
         </h2>
         <div className="event-cards">
           {eventData.map((data, index) => (
@@ -80,7 +80,7 @@ function Events() {
               <div className="event-card-links">
                 <h4>
                   Organized by{" "}
-                  <a href={data.link}>
+                  <a href={data.organizerLink}>
                     <img src={data.organizedBy} alt="organizer" />
                   </a>
                 </h4>
