@@ -99,7 +99,7 @@ function Footer() {
                 <a href="/projects">Projects</a>
               </li>
               <li>
-                <a href="https://drive.google.com/file/d/1sPsfL6jVGy4Kg8RXN94AGmZT2kwFkM1A/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1iN0yXL_RhA7fhhRsQUt1fCv_yDHie7oe/view?usp=sharing">
                   Resume
                 </a>
               </li>
