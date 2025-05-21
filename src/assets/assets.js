@@ -100,13 +100,17 @@ import GFF25 from "./Events/EventImages/GFF25.jpg";
 import makersTribe from "./Events/Organizers/makersTribe.png";
 import StartupAttiLogo from "./Events/Organizers/StartupAtti.png";
 import StartupAttiEvent1 from "./Events/EventImages/Startupatti1.png";
-import StartupAttiEvent2 from "./Events/EventImages/Startupatti2.jpg";
+import StartupAttiEvent2 from "./Events/EventImages/Startupatti2.png";
+import StartupAttiEvent3 from "./Events/EventImages/Startupatti3.jpg";
 import DNAdocumentary from "./Events/EventImages/DNAdocumentary.png";
 import DNA from "./Events/Organizers/DNA.png";
 import communityGatheringMar2025 from "./Events/EventImages/CGMar25.jpg";
 import movieScreeningDec24 from "./Events/EventImages/MovieScreening1.png";
+import movieScreeningFeb25 from "./Events/EventImages/MovieScreening2.jpg";
+import ineaWorkshop from "./Events/EventImages/IneaWorkshop2.png"
 import brandingWorkshop from "./Events/EventImages/BrandingWorkshop.png";
 import Stupidpreneur from "./Events/Organizers/Stupidpreneur.png";
+import playOut from "./Events/EventImages/playOut.png";
 import Image1 from "./Gallery/Image1.jpeg";
 import Image2 from "./Gallery/Image2.jpg";
 import Image3 from "./Gallery/Image3.jpg";
@@ -145,8 +149,6 @@ import Image35 from "./Gallery/Image35.jpg";
 import Image36 from "./Gallery/Image36.jpg";
 import Image37 from "./Gallery/Image37.jpg";
 import Image38 from "./Gallery/Image38.jpg";
-
-
 
 const assets = {
   profileIcon,
@@ -252,12 +254,15 @@ const assets = {
   StartupAttiLogo,
   StartupAttiEvent1,
   StartupAttiEvent2,
+  StartupAttiEvent3,
   DNAdocumentary,
   DNA,
   brandingWorkshop,
   Stupidpreneur,
   communityGatheringMar2025,
   movieScreeningDec24,
+  movieScreeningFeb25,
+  playOut,
   Image1,
   Image2,
   Image3,
