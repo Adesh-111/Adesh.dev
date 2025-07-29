@@ -70,7 +70,7 @@ app.post("/sendMail", async (req, res) => {
       replyTo: email,
       subject: subject,
       html: `
-      <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+       <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
         <h2 style="color: #007bff;">New Message from Website Contact Form</h2>
         
         <p>You have received a new message from your website contact form. Below are the details:</p>
@@ -104,18 +104,14 @@ app.post("/sendMail", async (req, res) => {
     `,
     };
 
-    transporter.sendMail(mailOptions, (error, info) => {
-      if (error) {
-        console.error("Error sending email:", error);
-        return res.status(500).json({
-          success: false,
-          message: "Email not sent. Please try again later.",
-        });
-      }
-      console.log("Email sent:", info.response);
-      return res.json({ success: true, message: "Email sent successfully!" });
-    });
+    // AWAIT the sendMail function instead of using a callback
+    const info = await transporter.sendMail(mailOptions);
+    
+    console.log("Email sent:", info.response);
+    return res.json({ success: true, message: "Email sent successfully!" });
+
   } catch (error) {
+    // This will now correctly catch errors from getAccessToken AND transporter.sendMail
     console.error("Error in sendMail function:", error);
     return res.status(500).json({
       success: false,
