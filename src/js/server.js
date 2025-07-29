@@ -104,14 +104,12 @@ app.post("/sendMail", async (req, res) => {
     `,
     };
 
-    // AWAIT the sendMail function instead of using a callback
     const info = await transporter.sendMail(mailOptions);
     
     console.log("Email sent:", info.response);
     return res.json({ success: true, message: "Email sent successfully!" });
 
   } catch (error) {
-    // This will now correctly catch errors from getAccessToken AND transporter.sendMail
     console.error("Error in sendMail function:", error);
     return res.status(500).json({
       success: false,
