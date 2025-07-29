@@ -5,13 +5,13 @@ import assets from "../../assets/assets";
 
 const experienceData = [
   {
-    duration: "Feb 2025 - Present",
+    duration: "Feb 2025 - Jun 2025",
     image: assets.fellowFounder,
     role: "Web Developer",
     name: "Fellow Founder",
     level: "Internship",
     link: "https://www.linkedin.com/company/fellow-founder/",
-    desc: "Lorem ipsum dolor sit, ameluptates officia ipsum error veniam neque! Assumenda laudantium consequuntur, iste, repellat dolorum eaque quidem inventore asperiores saepe itaque reprehenderit corporis labore dolorem incidunt quam.",
+    desc: "Developed a responsive React frontend with clean layouts and reusable components for profiles (Founder, Freelancer, Investor). Integrated APIs for dynamic data, media assets, and user actions like connect, share, and edit.",
   },
   {
     duration: "July 2024 - Present",
