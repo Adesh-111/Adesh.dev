@@ -22,6 +22,19 @@ function AllProjects() {
       codeLinkAttached: true,
     },  
     {
+      icon: assets.movieMoodIcon,
+      title: "MovieMood",
+      domain: "Frontend Development",
+      description:
+        "Built a responsive movie discovery app using ReactJS with infinite scroll and advanced filters for mood, genre, and language. Integrated TMDb API for movie data and YouTube for trailer playback with sound toggle. Included an emoji-based genre picker and detailed views with cast, reviews, and similar titles for an engaging user experience.",
+      image: assets.movieMoodMain,
+      imageAlt: "Movie Mood Project",
+      link: "https://movie-mood-web.vercel.app/",
+      codeLink: "https://github.com/Adesh-111/Movie-mood",
+      linkAttached: true,
+      codeLinkAttached: true,
+    },  
+    {
       icon: assets.fabware,
       title: "Fabware",
       domain: "Full stack Development",
@@ -34,6 +47,7 @@ function AllProjects() {
       linkAttached: true,
       codeLinkAttached: true,
     },
+    
     {
       icon: assets.portfolioIcon,
       title: "Portfolio Giveaway",

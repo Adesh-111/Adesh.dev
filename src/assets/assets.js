@@ -86,6 +86,8 @@ import c4 from "./Clouds/4.png";
 import c5 from "./Clouds/5.png";
 import fabware from "./fabware.svg";
 import fabwareMain from "./fabwareMain.svg";
+import movieMoodIcon from "./moviemood.png";
+import movieMoodMain from "./movieMoodMain.svg";
 import portfolioIcon from "./PortfolioIcon.svg"
 import portfolio from "./Portfolio.svg";
 import SRY from "./SRYLogo.svg";
@@ -240,6 +242,8 @@ const assets = {
   c5,
   fabware,
   fabwareMain,
+  movieMoodIcon,
+  movieMoodMain,
   portfolioIcon,
   portfolio,
   SRY,
